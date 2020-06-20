@@ -1,6 +1,6 @@
 <template>
   <mdb-container fluid>
-    <div class="text-justify border border-success p-4 mt-4">
+    <div class="text-justify border border-primary p-4 mt-4">
       <hr class="new5"/>
       <h1 class="overview">Welcome to Law204-Law of Contract II </h1>
       <p>
