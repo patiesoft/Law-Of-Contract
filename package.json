@@ -1,5 +1,5 @@
 {
-  "name": "vue-demo",
+  "name": "law-of-contract",
   "version": "6.7.1",
   "description": "MDB Vue Demo App",
   "author": "MDBootstrap <support@mdbootstrap.com>",
@@ -34,7 +34,7 @@
     "del-cli": "^3.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "register-service-worker": "^1.6.2",
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.11"

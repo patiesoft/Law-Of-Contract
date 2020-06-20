@@ -55,8 +55,17 @@
       mdbContainer,
       mdbRow,
       mdbCol
-    }
+    },
+   data() {
+    return {};
+  },
+    mounted () {
+    this.activePage = this.$route.name
+  },
+  updated () {
+    this.activePage = this.$route.name
   }
+  }; 
 </script>
 <style  scoped>
 

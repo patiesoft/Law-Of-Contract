@@ -6,13 +6,12 @@
         dark
         scrolling
         >
-        <mdb-navbar-brand href="#/"><strong>LAW204</strong></mdb-navbar-brand>
         <mdb-navbar-toggler>
             <mdb-navbar-nav>
                 <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-                <mdb-nav-item href="#/About" waves-fixed>Overview</mdb-nav-item>
-                <mdb-dropdown>
-                    <mdb-dropdown-toggle color="red" slot="toggle">Units</mdb-dropdown-toggle>
+                <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
+                <mdb-dropdown tag="li" class="nav-item">
+                    <mdb-dropdown-toggle slot="toggle" tag="a" waves-fixe>Units</mdb-dropdown-toggle>
                     <mdb-dropdown-menu color="red">
                         <mdb-dropdown-item href="#/Unit1">Unit1</mdb-dropdown-item>
                         <mdb-dropdown-item href="#/Unit2">Unit2</mdb-dropdown-item>
@@ -35,7 +34,6 @@ import {
   mdbNavItem,
   mdbNavbarNav,
   mdbNavbarToggler,
-  mdbNavbarBrand,
   mdbDropdown, 
   mdbDropdownItem, 
   mdbDropdownMenu, 
@@ -54,7 +52,6 @@ export default {
     mdbNavItem,
     mdbNavbarNav,
     mdbNavbarToggler,
-    mdbNavbarBrand,
   },
   data() {
     return {};
