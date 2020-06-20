@@ -1,3 +1,4 @@
+<!--Template-->
 <template>
   <div id="app">
     <!-- Header -->
