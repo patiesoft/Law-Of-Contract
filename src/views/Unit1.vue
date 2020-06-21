@@ -12,7 +12,7 @@
                 <!-- Body -->
     <div class="row  text-left" >
             
-        <!-- Side Nav -->
+        <!-- Side Nav
             <div id="topics" class="col-sm-3 col-lg-2 sideNev border border-info flex">
                 <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
                     <li><a class="nav-link active"   href="#introduction">  Introduction</a></li>                
@@ -24,7 +24,7 @@
                     <li><a class="nav-link"          href="#activity2">     Activity2</a></li> 
                     <li><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></li> 
                 </ul>
-            </div>
+            </div> -->
         <!-- Side Nav -->
 
       <!-- Content --> 

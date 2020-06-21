@@ -2,6 +2,7 @@
 <template>
   <div id="app">
     <!-- Header -->
+    <SideNav/>
     <div class="Header container-fluid">
      
      <img id="uneswaLogo" src="./assets/logo-uneswa.png" width="150" href="http://www.uniswa.sz/">     
@@ -21,10 +22,12 @@
 import NavbarPage from '@/components/Navbar.vue'
 //import Footer from '@/components/Footer.vue'
 import Footer from '@/components/Footer2.vue'
+import SideNav from '@/components/SideNav2.vue'
 export default {
   components:{
     NavbarPage,
-    Footer
+    Footer, 
+    SideNav
   }
   
 }
