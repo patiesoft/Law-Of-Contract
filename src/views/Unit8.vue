@@ -1,37 +1,49 @@
 <template>
     
-    <div class="container-fluid text-left " data-spy="scroll" data-target="#topics" >
+    <div class="container-fluid text-left " >
+      <mdb-navbar
+        position="top "
+        transparent
+        color="mdb"
+        dark
+        scrolling
+        class="sticky-top"
+        >
+        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
+        <mdb-navbar-toggler>
+          <mdb-navbar-nav>
+            <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
+            <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
+            <mdb-dropdown tag="li" class="nav-item">
+              <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
+              <mdb-dropdown-menu color="red">
+                <mdb-dropdown-item href="#intro">Introduction</mdb-dropdown-item>
+                <mdb-dropdown-item href="#parties">Parties to Contract</mdb-dropdown-item>
+                <mdb-dropdown-item href="#nature">Nature of a Contract Heading</mdb-dropdown-item>
+                <mdb-dropdown-item href="#recite">Recitals and Preambles</mdb-dropdown-item>
+                <mdb-dropdown-item href="#date">Date of Agreement</mdb-dropdown-item>
+                <mdb-dropdown-item href="#sequence">Sequence of Clauses</mdb-dropdown-item>
+                <mdb-dropdown-item href="#specific">Specific Clauses</mdb-dropdown-item>
+                <mdb-dropdown-item href="#general">General Clauses</mdb-dropdown-item>
+                <mdb-dropdown-item href="#struct">Structure and Language</mdb-dropdown-item>
+                <mdb-dropdown-item href="#sign">Signatures</mdb-dropdown-item>
+                <mdb-dropdown-item href="#unit">Unit Summary</mdb-dropdown-item>
+                <mdb-dropdown-item href="#activity">Activity 1</mdb-dropdown-item>
+              </mdb-dropdown-menu>
+            </mdb-dropdown>
+          </mdb-navbar-nav>
+        </mdb-navbar-toggler>
+      </mdb-navbar>
     <!-- Header -->
-      <div>
+      <div class="Head">
         <h1 class="h1 h1-responsive">UNIT 8</h1>
         <p class="h1-responsive red-text text-center" style="font-family: 'Libre Franklin', sans-serif;">DRAFTING OF CONTRACTS</p>
       </div>
     <!-- Header -->
       <div class="row text-left" >
       
-        <!-- Side Nav -->
-          <div id="topics" class="col-sm-3 col-lg-2 sideNev  border border-info">
-                <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
-                    <a class="nav-link active"   href="#intro">  Introduction</a>               
-                      <li><a class="nav-link"          href="#parties">   Parties to Contract</a></li> 
-                        <li><a class="nav-link"          href="#nature"> Nature of a Contract Heading</a></li> 
-                        <li><a class="nav-link"          href="#recite"> Recitals and Preambles</a></li> 
-                        <li><a class="nav-link"          href="#date">Date of Agreement</a></li> 
-                        <li><a class="nav-link"          href="#sequence">Sequence of Clauses</a></li> 
-                        <li><a class="nav-link"          href="#specific">Specific Clauses</a></li> 
-                        <li><a class="nav-link"          href="#general">General Clauses</a></li> 
-                        <li><a class="nav-link"          href="#struct">Structure and Language</a></li> 
-                        <li><a class="nav-link"          href="#sign">Signatures</a></li> 
-                        <li><a class="nav-link"          href="#unit">Unit summary</a></li> 
-                        <li> <a class="nav-link"          href="#activity">Activity 1</a></li> 
-                </ul>
-            </div>
-          <!-- Side Nav -->
-
-      
         <!-- Content -->
-          <div class="col-sm-9 col-lg-10  content">
-            <div class="scrollspy-example z-depth-1 mt-4 " data-target="#topics"   data-offset="0">
+          <div class="col text-justify">
               <div id="intro" class="note note-primary text-justify">  
                 <h4 class="text-primary h4">Introduction</h4>
                 <p class="text-justify lead">From the information and knowledge covered in both Law203 and Law204, we should be able to appreciate and understand the various components of a contract. In this last unit, we focus on the drafting of contracts. We will focus on the main averments that should be included when drafting a contract. These include being able to identify the parties, describing the parties, nature and heading of a contract, definition and interpretation clauses, essential elements, suspensive conditions and general clauses. Many contracts are concluded informally, but contracts of a commercial nature are generally concluded or reflected in writing. The contractual document is the instrument that reflects the agreement between the parties and it usually the primary evidence relied upon to enforce contractual rights.</p>
@@ -274,16 +286,58 @@
           </div>
         <!-- /Content -->
 
-  </div>
 </div> 
 </template>
 
 <script>
-  import { mdbScrollSpy } from "mdbvue";
+  import { 
+    mdbScrollSpy, 
+    mdbNavbar,
+    mdbNavItem,
+    mdbNavbarNav,
+    mdbNavbarToggler,
+    mdbDropdown, 
+    mdbDropdownItem, 
+    mdbDropdownMenu, 
+    mdbDropdownToggle, 
+    mdbNavbarBrand, 
+    mdbIcon
+  } from "mdbvue";
+  import { mapActions } from 'vuex';
   export default {
-    directives: {
+    components: {
+      mdbNavbar,
+      mdbNavItem,
+      mdbNavbarNav,
+      mdbNavbarToggler,
+      mdbDropdown, 
+      mdbDropdownItem, 
+      mdbDropdownMenu, 
+      mdbDropdownToggle, 
+      mdbNavbarBrand, 
+      mdbIcon
+    },directives: {
       mdbScrollSpy
-    }  
+    } ,
+    data() {
+    return {};
+  },
+  methods: mapActions(['toggleSideNav']),
+  computed: {
+    computedPage () {
+      return {
+        activePage: this.page,
+        toggle: false
+      }
+    }
+  },
+    mounted () {
+    this.activePage = this.$route.name
+  },
+  updated () {
+    this.activePage = this.$route.name
+  }
+
   };
 </script>
 

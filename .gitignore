@@ -2,3 +2,6 @@
 /dist
 /mdb
 /node_modules
+src/components/Navbar2.vue
+src/components/SideNav1.vue
+

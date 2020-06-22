@@ -1,8 +1,8 @@
 <template>
   <div class="white-skin mdb-admin-sidenav">
     <mdb-side-nav
-      logo="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
-      sideNavClass="sn-bg-4"
+      logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/University_of_Swaziland_logo.svg/300px-University_of_Swaziland_logo.svg.png"
+      sideNavClass="sn-bg-9"
       mask="strong"
       :OpenedFromOutside.sync="toggle"
     >
@@ -15,349 +15,49 @@
       </li>
       <li>
         <mdb-side-nav-nav>
-          <mdb-side-nav-cat name="Dashboards" icon="tachometer-alt">
+          <mdb-side-nav-cat name="Units" icon="tachometer-alt">
             <mdb-side-nav-item
-              to="/"
+            href="#/Unit1"
               @click.native="width < 1440 && toggleSideNav(false)"
-              >Version 1</mdb-side-nav-item
+              >Unit 1</mdb-side-nav-item
             >
             <mdb-side-nav-item
-              to="/dashboards/v-2"
+              href="#/Unit2"
               @click.native="width < 1440 && toggleSideNav(false)"
-              >Version 2</mdb-side-nav-item
+              >Unit2</mdb-side-nav-item
             >
             <mdb-side-nav-item
-              to="/dashboards/v-3"
+              href="#/Unit3"
               @click.native="width < 1440 && toggleSideNav(false)"
-              >Version 3</mdb-side-nav-item
+              >Unit3</mdb-side-nav-item
             >
             <mdb-side-nav-item
-              to="/dashboards/v-4"
+              href="#/Unit4"
               @click.native="width < 1440 && toggleSideNav(false)"
-              >Version 4</mdb-side-nav-item
+              >Unit4</mdb-side-nav-item
             >
             <mdb-side-nav-item
-              to="/dashboards/v-5"
+              href="#/Unit5"
               @click.native="width < 1440 && toggleSideNav(false)"
-              >Version 5</mdb-side-nav-item
+              >Unit5</mdb-side-nav-item
             >
             <mdb-side-nav-item
-              to="/dashboards/v-6"
+              href="#/Unit6"
               @click.native="width < 1440 && toggleSideNav(false)"
-              >Version 6</mdb-side-nav-item
-            >
-          </mdb-side-nav-cat>
-          <mdb-side-nav-cat name="Pages" icon="image">
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              target="_blank"
-              to="/pages/login"
-              >Login</mdb-side-nav-item
+              >Unit6</mdb-side-nav-item
             >
             <mdb-side-nav-item
+              href="#/Unit7"
               @click.native="width < 1440 && toggleSideNav(false)"
-              target="_blank"
-              to="/pages/register"
-              >Register</mdb-side-nav-item
+              >Unit7</mdb-side-nav-item
             >
             <mdb-side-nav-item
+              href="#/Unit8"
               @click.native="width < 1440 && toggleSideNav(false)"
-              target="_blank"
-              to="/pages/pricing"
-              >Pricing</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              target="_blank"
-              to="/pages/about"
-              >About us</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              target="_blank"
-              to="/pages/single"
-              >Single post</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              target="_blank"
-              to="/pages/post"
-              >Post listing</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              target="_blank"
-              to="/pages/landing"
-              >Landing Page</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/pages/customers"
-              >Customers</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/pages/invoice"
-              >Invoice</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/pages/page"
-              >Page Creator</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/pages/support"
-              >Support</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/pages/chat"
-              >Chat</mdb-side-nav-item
+              >Unit8</mdb-side-nav-item
             >
           </mdb-side-nav-cat>
-          <mdb-side-nav-cat name="Profile" icon="user">
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/profiles/basic-1"
-              >Basic 1</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/profiles/basic-2"
-              >Basic 2</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/profiles/extended"
-              >Extended</mdb-side-nav-item
-            >
-          </mdb-side-nav-cat>
-          <mdb-side-nav-cat name="CSS" fab icon="css3">
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/grid"
-              >Grid system</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/media"
-              >Media object</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/utilities"
-              >Utilities / helpers</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/code"
-              >Code</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/icons"
-              >Icons</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/images"
-              >Images</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/typo"
-              >Typography</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/colors"
-              >Colors</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/hover"
-              >Hover effects</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/masks"
-              >Masks</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/shadows"
-              >Shadows</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/css/skins"
-              >Skins</mdb-side-nav-item
-            >
-          </mdb-side-nav-cat>
-          <mdb-side-nav-cat name="Components" icon="th">
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/buttons"
-              >Buttons</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/cards"
-              >Cards</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/panels"
-              >Panels</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/list"
-              >List group</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/pagination"
-              >Pagination</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/progress"
-              >Progress bars</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/tabs"
-              >Tabs & pills</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/tags"
-              >Tags, labels & badges</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/collapse"
-              >Collapse</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/datepicker"
-              >Date picker</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/timepicker"
-              >Time picker</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/tooltips"
-              >Tooltips</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/popovers"
-              >Popovers</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/components/stepper"
-              >Stepper</mdb-side-nav-item
-            >
-          </mdb-side-nav-cat>
-          <mdb-side-nav-cat name="Forms" far icon="check-square">
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/forms/basic"
-              >Basic</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/forms/extended"
-              >Extended</mdb-side-nav-item
-            >
-          </mdb-side-nav-cat>
-          <mdb-side-nav-cat name="Tables" icon="table">
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/tables/basic"
-              >Basic</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/tables/extended"
-              >Extended</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/tables/datatables"
-              >DataTables</mdb-side-nav-item
-            >
-          </mdb-side-nav-cat>
-          <mdb-side-nav-cat name="Maps" icon="map">
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/maps/googlemaps"
-              >Google Maps</mdb-side-nav-item
-            >
-            <mdb-side-nav-item
-              class="ripple-parent"
-              @click.native="width < 1440 && toggleSideNav(false)"
-              to="/maps/fullscreen"
-              >Full screen map</mdb-side-nav-item
-            >
-          </mdb-side-nav-cat>
-          <mdb-side-nav-item
-            header
-            @click.native="width < 1440 && toggleSideNav(false)"
-            icon="bolt"
-            to="/modals/modals"
-            >Modals</mdb-side-nav-item
-          >
-          <mdb-side-nav-item
-            header
-            @click.native="width < 1440 && toggleSideNav(false)"
-            icon="chart-pie"
-            to="/charts/charts"
-            >Charts</mdb-side-nav-item
-          >
-          <mdb-side-nav-item
-            header
-            @click.native="width < 1440 && toggleSideNav(false)"
-            far
-            icon="calendar-check"
-            to="/calendar/calendar"
-            >Calendar</mdb-side-nav-item
-          >
-          <mdb-side-nav-item
-            header
-            @click.native="width < 1440 && toggleSideNav(false)"
-            icon="th-large"
-            to="/sections/sections"
-            >Sections</mdb-side-nav-item
-          >
+         
         </mdb-side-nav-nav>
       </li>
     </mdb-side-nav>

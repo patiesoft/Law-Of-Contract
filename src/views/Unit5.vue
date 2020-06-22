@@ -1,35 +1,48 @@
 <!--Template-->
 <template> 
   <!--Container-->
-  <div class="container-fluid text-left " data-spy="scroll" data-target="#topics"  >
+  <div class="container-fluid text-left ">
+     <mdb-navbar
+        position="top "
+        transparent
+        color="mdb"
+        dark
+        scrolling
+        class="sticky-top"
+        >
+        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
+        <mdb-navbar-toggler>
+          <mdb-navbar-nav>
+            <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
+            <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
+            <mdb-dropdown tag="li" class="nav-item">
+              <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
+              <mdb-dropdown-menu color="red">
+                <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
+                <mdb-dropdown-item href="#classificalOfBreach">Classifical Of Breach</mdb-dropdown-item>
+                <mdb-dropdown-item href="#formsOfBreach">#Forms Of Breach</mdb-dropdown-item>
+                <mdb-dropdown-item href="#unitSummary">Unit Summary</mdb-dropdown-item>
+                <mdb-dropdown-item href="#discussion">Discussion</mdb-dropdown-item>
+                <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
+                <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
+              </mdb-dropdown-menu>
+            </mdb-dropdown>
+          </mdb-navbar-nav>
+        </mdb-navbar-toggler>
+      </mdb-navbar>
 
 
     <!-- Header -->
-      <div>
+      <div class="Head">
         <h1 class="h1 h1-responsive">UNIT5</h1> 
         <p class="h1-responsive red-text text-center main-topic">Breach Of Contract</p> 
       </div>
     <!-- Header -->
 
-
     <!--Row-->
     <div class="row text-left" >
-      <!--Scroll spy--> 
-       <div id="topics" class="col-sm-3 col-lg-2 sideNev border border-info ">
-            <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
-              <li><a class="nav-link active"    href="#introduction">Introduction</a></li>
-              <li><a class="nav-link"           href="#classificalOfBreach">Classifical of Breach</a></li>
-              <li><a class="nav-link"           href="#formsOfBreach">Forms of Breach</a></li> 
-              <li><a class="nav-link"           href="#unitSummary">Unit Summary</a></li>
-              <li><a class="nav-link"           href="#discussion">Discussion</a></li>
-              <li><a class="nav-link"           href="#activity1">Activitiy 1</a></li>
-              <li><a class="nav-link"           href="#activity2">Activitiy 2</a></li>
-            </ul>
-        </div>
-      <!--/Scroll spy--> 
 
-      <div class="col-sm-9 col-lg-10 content">
-        <div class="scrollspy-example z-depth-1 mt-4 " data-target="#topics"   data-offset="0">
+      <div class="col text-justify">
             <!--Introduction-->
             <div class="note  note-primary">
               <h1 id="introduction" class="text-center secondary-heading text-primary">Introduction</h1>
@@ -665,8 +678,6 @@
             <!--Unit Summary-->
         </div>    
 
-      </div>
-      <!--Column--> 
 
     </div> 
     <!--Row-->
@@ -677,11 +688,54 @@
 </template>
 <!--Template-->
 <script>
-  import { mdbScrollSpy  } from "mdbvue";
+  import { 
+    mdbScrollSpy, 
+    mdbNavbar,
+    mdbNavItem,
+    mdbNavbarNav,
+    mdbNavbarToggler,
+    mdbDropdown, 
+    mdbDropdownItem, 
+    mdbDropdownMenu, 
+    mdbDropdownToggle, 
+    mdbNavbarBrand, 
+    mdbIcon
+  } from "mdbvue";
+  import { mapActions } from 'vuex';
   export default {
-    directives: {
+    components: {
+      mdbNavbar,
+      mdbNavItem,
+      mdbNavbarNav,
+      mdbNavbarToggler,
+      mdbDropdown, 
+      mdbDropdownItem, 
+      mdbDropdownMenu, 
+      mdbDropdownToggle, 
+      mdbNavbarBrand, 
+      mdbIcon
+    },directives: {
       mdbScrollSpy
-    }  
+    } ,
+    data() {
+    return {};
+  },
+  methods: mapActions(['toggleSideNav']),
+  computed: {
+    computedPage () {
+      return {
+        activePage: this.page,
+        toggle: false
+      }
+    }
+  },
+    mounted () {
+    this.activePage = this.$route.name
+  },
+  updated () {
+    this.activePage = this.$route.name
+  }
+
   };
 </script>
 

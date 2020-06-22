@@ -12,20 +12,17 @@
 
     </div>
     <!-- Header -->
-    <NavbarPage/>
     <router-view/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import NavbarPage from '@/components/Navbar.vue'
 //import Footer from '@/components/Footer.vue'
 import Footer from '@/components/Footer2.vue'
 import SideNav from '@/components/SideNav2.vue'
 export default {
   components:{
-    NavbarPage,
     Footer, 
     SideNav
   }

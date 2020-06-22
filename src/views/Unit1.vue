@@ -1,6 +1,35 @@
 <template>
 
-<div class="container-fluid text-left" data-spy="scroll" data-target="#topics" >
+<div class="container-fluid text-left">
+    <mdb-navbar
+    position="top "
+    transparent
+    color="mdb"
+    dark
+    scrolling
+    class="sticky-top"
+    >
+    <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
+    <mdb-navbar-toggler>
+      <mdb-navbar-nav>
+        <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
+        <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
+        <mdb-dropdown tag="li" class="nav-item">
+          <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
+          <mdb-dropdown-menu color="red">
+            <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
+            <mdb-dropdown-item href="#facts">Facts</mdb-dropdown-item>
+            <mdb-dropdown-item href="#issues">Issues</mdb-dropdown-item>
+            <mdb-dropdown-item href="#held">Held</mdb-dropdown-item>
+            <mdb-dropdown-item href="#unitSammary">Unit Summary</mdb-dropdown-item>
+            <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
+            <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
+            <mdb-dropdown-item href="#selfAssessment">Self-Assessment</mdb-dropdown-item>
+          </mdb-dropdown-menu>
+        </mdb-dropdown>
+      </mdb-navbar-nav>
+    </mdb-navbar-toggler>
+  </mdb-navbar>
        
     <!-- Header -->
         <div class="Head"> 
@@ -10,25 +39,8 @@
     <!--/Header -->        
 
                 <!-- Body -->
-    <div class="row  text-left" >
-            
-        <!-- Side Nav
-            <div id="topics" class="col-sm-3 col-lg-2 sideNev border border-info flex">
-                <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
-                    <li><a class="nav-link active"   href="#introduction">  Introduction</a></li>                
-                    <li><a class="nav-link"          href="#facts">         Facts</a></li> 
-                    <li><a class="nav-link"          href="#issues">        Issues</a></li> 
-                    <li><a class="nav-link"          href="#held">          Held</a></li> 
-                    <li><a class="nav-link"          href="#unitSammary">   Unit Sammary</a></li> 
-                    <li><a class="nav-link"          href="#activity1">     Activity 1</a></li> 
-                    <li><a class="nav-link"          href="#activity2">     Activity2</a></li> 
-                    <li><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></li> 
-                </ul>
-            </div> -->
-        <!-- Side Nav -->
-
-      <!-- Content --> 
-        <div class="col-sm-9 col-lg-10 content text-justified ">
+    <div class="row  text-left" > 
+        <div class="col content text-justified ">
 
             <div  class="scrollspy-example z-depth-1 mt-4 " data-target="#topics"   data-offset="0">    
             
@@ -544,11 +556,55 @@
 </template>
 
 <script>
-  import { mdbScrollSpy} from "mdbvue";
-  export default {
+  import { mdbScrollSpy,
+  mdbNavbar,
+  mdbNavItem,
+  mdbNavbarNav,
+  mdbNavbarToggler,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
+  mdbNavbarBrand, 
+  mdbIcon
+  } from "mdbvue";
+  import { mapActions } from 'vuex'; 
+    export default {
+        components: {
+            mdbNavbar,
+            mdbNavItem,
+            mdbNavbarNav,
+            mdbNavbarToggler,
+            mdbDropdown, 
+            mdbDropdownItem, 
+            mdbDropdownMenu, 
+            mdbDropdownToggle, 
+            mdbNavbarBrand, 
+            mdbIcon
+
+      } , 
     directives: {
       mdbScrollSpy
-    }  
+    } ,
+    data() {
+    return {};
+  },
+  methods: mapActions(['toggleSideNav']),
+  computed: {
+    computedPage () {
+      return {
+        activePage: this.page,
+        toggle: false
+      }
+    }
+  },
+    mounted () {
+    this.activePage = this.$route.name
+  },
+  updated () {
+    this.activePage = this.$route.name
+  }
+
   };
 </script>
 
@@ -578,6 +634,9 @@ overflow-y:inherit;
 }
 .bg2{
   background-color: #bbdefb;  
+}
+.navbar {
+  background: #1e88e5 ;
 }
 
 </style>

@@ -1,30 +1,44 @@
 <template>  
-  <div class="container-fluid text-left" >   
-    <h1 class="h1 h1-responsive">UNIT 7</h1>
-    <p class="h1-responsive red-text text-center">TRANSFER OF RIGHTS AND OBLIGATIONS (CESSION)</p>
+  <div class="container-fluid text-left" > 
+      <mdb-navbar
+        position="top "
+        transparent
+        color="mdb"
+        dark
+        scrolling
+        class="sticky-top"
+        >
+        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
+        <mdb-navbar-toggler>
+          <mdb-navbar-nav>
+            <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
+            <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
+            <mdb-dropdown tag="li" class="nav-item">
+              <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
+              <mdb-dropdown-menu color="red">
+                <mdb-dropdown-item href="#intro">Introduction</mdb-dropdown-item>
+                <mdb-dropdown-item href="#def">Defination of Cession</mdb-dropdown-item>
+                <mdb-dropdown-item href="#nature">The Legal Nature of Cession</mdb-dropdown-item>
+                <mdb-dropdown-item href="#reqmnt">Requirements of a Valid Cession</mdb-dropdown-item>
+                <mdb-dropdown-item href="#consequences">Consequences of Cession</mdb-dropdown-item>
+                <mdb-dropdown-item href="#extinct">Extinction of Obligations</mdb-dropdown-item>
+                <mdb-dropdown-item href="#summary">Unit Summary</mdb-dropdown-item>
+                <mdb-dropdown-item href="#activity">Activity</mdb-dropdown-item>
+              </mdb-dropdown-menu>
+            </mdb-dropdown>
+          </mdb-navbar-nav>
+        </mdb-navbar-toggler>
+      </mdb-navbar>
+
+    <div class="Head">
+      <h1 class="h1 h1-responsive">UNIT 7</h1>
+      <p class="h1-responsive red-text text-center">TRANSFER OF RIGHTS AND OBLIGATIONS (CESSION)</p>
+    </div>
    
   <div class="row" >
 
-
-    <!-- Side Nav -->
-    <!--this is a comment-->
-          <div id="topics" class="col-sm-3 col-lg-2 sideNev border border-info ">
-              <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
-                <li><a class="nav-link active"   href="#intro">  Introduction</a></li>                
-                  <li><a class="nav-link"          href="#def">         Defination of Cession</a></li> 
-                  <li><a class="nav-link"          href="#nature">        The Legal Nature of Cession</a></li> 
-                  <li><a class="nav-link"          href="#reqmnt">          Requirements of a Valid Cession</a></li> 
-                  <li><a class="nav-link"          href="#consequences">   Consequences of Cession</a></li> 
-                  <li><a class="nav-link"          href="#extinct">     Extinction of Obligations</a></li> 
-                  <li><a class="nav-link"          href="#summary">     Unit summary</a></li> 
-                  <li><a class="nav-link"          href="#activity">Activity</a></li> 
-              </ul>
-          </div>
-        <!-- Side Nav -->
-
       <!-- Content -->
-        <div class="col-sm-9 col-lg-10 content">
-            <div class="scrollspy-example z-depth-1 mt-4 " data-target="#topics"   data-offset="0">
+        <div class="col text-justify">
               <div class="note note-primary">  
                 <h2 id="intro" class="text-center  secondary-heading text-primary">Introduction</h2>
                 <p class="text-justify lead">Generally, contractual rights, present and future may be freely transferred by cession. 
@@ -247,15 +261,57 @@
           </div>
         </div>
       <!-- /Content -->
-      </div>
   </div>
 </div>
 </template>
 <script>
-  import { mdbScrollSpy } from "mdbvue";
+  import { 
+    mdbScrollSpy, 
+    mdbNavbar,
+    mdbNavItem,
+    mdbNavbarNav,
+    mdbNavbarToggler,
+    mdbDropdown, 
+    mdbDropdownItem, 
+    mdbDropdownMenu, 
+    mdbDropdownToggle, 
+    mdbNavbarBrand, 
+    mdbIcon
+  } from "mdbvue";
+  import { mapActions } from 'vuex';
   export default {
-    directives: {
+    components: {
+      mdbNavbar,
+      mdbNavItem,
+      mdbNavbarNav,
+      mdbNavbarToggler,
+      mdbDropdown, 
+      mdbDropdownItem, 
+      mdbDropdownMenu, 
+      mdbDropdownToggle, 
+      mdbNavbarBrand, 
+      mdbIcon
+    },directives: {
       mdbScrollSpy
-    }  
+    } ,
+    data() {
+    return {};
+  },
+  methods: mapActions(['toggleSideNav']),
+  computed: {
+    computedPage () {
+      return {
+        activePage: this.page,
+        toggle: false
+      }
+    }
+  },
+    mounted () {
+    this.activePage = this.$route.name
+  },
+  updated () {
+    this.activePage = this.$route.name
+  }
+
   };
 </script>
