@@ -1,25 +1,6 @@
 <template>
   <div class="bg">
-    <section>
-      <div class="container">
-        <div class="row flex justify-content-center text-center pt-4">
-          <!-- First col -->
-          <div class="col d-flex justify-content-center text-center">
-            <!-- First card -->
-            <div class="card post-title-panel special-card">
-              <div class="card-body mslide">
-                  <div class="container-fluid border border-info s py-2 text">
-                    <h2 class="text-center font-weight-bold myCustColor">Welcome to LAW OF CONTRACT II</h2>
-                    <h2 class="text-center font-weight-bold myCustColor">IDE-LAW 204</h2>
-                    <h4 class="text-center font-weight-bold myCustColor">Instructor : T. Hlatshwayo</h4>
-                  </div>  
-              </div>
-            </div>
-            <!-- /.First card -->
-          </div>
-        </div>
-      </div>
-    </section>
+    
   </div>
 </template>
 
