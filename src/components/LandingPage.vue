@@ -1,5 +1,5 @@
 <template>
-  <div class="bg">
+  <div class="bg container-fluid">
     
   </div>
 </template>
@@ -37,7 +37,7 @@ export default {
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
   }
   .special-card {
 /* create a custom class so you 
