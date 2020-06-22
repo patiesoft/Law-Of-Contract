@@ -15,13 +15,13 @@
       </mdb-navbar-nav>
     </mdb-navbar-toggler>
   </mdb-navbar>
-    <LandingPage/>
+      <img src="../assets/lending.png" alt="Loading" class="rounded mx-auto d-block img-fluid">
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import LandingPage from '@/components/LandingPage.vue'
+
 import {
      mdbNavbar, 
     mdbNavItem, 
@@ -33,8 +33,7 @@ import {
 import{ mapActions} from 'vuex'; 
 export default {
   name: 'Home',
-  components: {
-    LandingPage, 
+  components: { 
     mdbNavbar, 
     mdbNavItem, 
     mdbNavbarNav, 
