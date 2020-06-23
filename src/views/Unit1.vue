@@ -256,10 +256,10 @@
                                     These are the suspensive conditions and resolutive conditions. We will briefly unpack them below.
                                     <ol>
                                         <li>
-                                            <strong>Suspensive Condition</strong>
+                                           <h5 class="h5">Suspensive Condition</h5>
 
                                             <ol>
-                                                <li>Nature</li>
+                                                <li class="h6">Nature</li>
                                                 <p>
                                                     According to Sharrock6 by its very nature, the suspensive condition suspends the operation of an obligation arising
                                                     from the contract (or a number of obligations, or the whole contract) until the occurrence or non-occurrence as the 
@@ -274,7 +274,7 @@
                                                 </p>
 
 
-                                                <li>The Position of the Parties prior to fulfillment</li>
+                                                <li class="h6">The Position of the Parties prior to fulfillment</li>
                                                 <p>
                                                     According to Sharrock11, prior to the fulfillment of the condition (occurrence or non-occurrence of the specified event),
                                                     the conditional debtor is not liable to perform the suspended obligation. But the parties are contractually bound to each other 
@@ -290,7 +290,7 @@
                                                     </p>
                                                 </div>
 
-                                                <li>The Effect of Fulfillment or Failure</li>
+                                                <li class="h6">The Effect of Fulfillment or Failure</li>
                                                 <p>
                                                     As it has been alluded to above that a conditional agreement remains valid despite the inclusion of a suspensive condition. Similarly, 
                                                     where a suspensive condition is fulfilled, the debtor must perform the obligation which was suspended12. Where a suspensive condition 

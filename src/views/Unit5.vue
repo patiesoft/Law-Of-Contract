@@ -762,5 +762,8 @@ overflow-y:inherit;
 .bg2{
   background-color: #bbdefb;  
 }
+.navbar{
+  color: blue; 
+}
 
 </style>

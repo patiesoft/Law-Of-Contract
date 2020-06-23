@@ -1,0 +1,26 @@
+//CLOCK
+<i class="far fa-clock"></i>
+
+//Graduate
+<i class="fas fa-user-graduate"></i>
+
+//Outcomes
+<i class="fas fa-graduation-cap">Outcomes</i>
+
+//Case Studies
+ <i class="fas fa-gavel">Case Law</i>
+
+//Terminology
+<i class="fas fa-spell-check">Terminology</i>
+
+//Summary
+<i class="fas fa-book-reader"></i>
+
+//Secction
+<i class="fas fa-puzzle-piece">Section</i>
+
+//Discustion
+<i class="fas fa-comments"></i>
+
+//note
+<mdb-icon far icon="bell" />
