@@ -1,53 +1,41 @@
 <template>
 
-<div class="container-fluid text-left">
-    <mdb-navbar
-    position="top "
-    transparent
-    color="mdb"
-    dark
-    scrolling
-    class="sticky-top"
-    >
-    <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-    <mdb-navbar-toggler>
-      <mdb-navbar-nav>
-        <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-        <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-        <mdb-dropdown tag="li" class="nav-item">
-          <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
-          <mdb-dropdown-menu color="red">
-            <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
-            <mdb-dropdown-item href="#facts">Facts</mdb-dropdown-item>
-            <mdb-dropdown-item href="#issues">Issues</mdb-dropdown-item>
-            <mdb-dropdown-item href="#held">Held</mdb-dropdown-item>
-            <mdb-dropdown-item href="#unitSammary">Unit Summary</mdb-dropdown-item>
-            <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
-            <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
-            <mdb-dropdown-item href="#selfAssessment">Self-Assessment</mdb-dropdown-item>
-          </mdb-dropdown-menu>
-        </mdb-dropdown>
-      </mdb-navbar-nav>
-    </mdb-navbar-toggler>
-  </mdb-navbar>
+<div class="container-fluid text-left" data-spy="scroll" data-target="#topics" >
        
     <!-- Header -->
         <div class="Head"> 
             <h1 class="h1 h1-responsive">UNIT 1</h1>
             <p class="h1-responsive red-text text-center main-topic">CONDITIONS AND WARRANTIES</p>
         </div>
-    <!--/Header -->        
-
+    <!--/Header -->   
+  
                 <!-- Body -->
-    <div class="row  text-left" > 
-        <div class="col content text-justified ">
+    <div class="row  text-left" >
+            
+        <!-- Side Nav -->
+            <div id="topics" class="col-sm-3 col-lg-2 sideNev  flex">
+                <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top  border border-info">
+                    <li><a class="nav-link active"   href="#introduction">  Introduction</a></li>                
+                    <li><a class="nav-link"          href="#facts">         Facts</a></li> 
+                    <li><a class="nav-link"          href="#issues">        Issues</a></li> 
+                    <li><a class="nav-link"          href="#unitSammary">   Unit Sammary</a></li> 
+                    <li><a class="nav-link"          href="#typeOfCondition">Types of Condition</a></li> 
+                    <li><a class="nav-link"          href="#activity1">     Activity 1</a></li> 
+                    <li><a class="nav-link"          href="#activity2">     Activity2</a></li> 
+                    <li><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></li> 
+                </ul>
+            </div>
+        <!-- Side Nav -->
+
+      <!-- Content --> 
+        <div class="col-sm-9 col-lg-10 content text-justified ">
 
             <div  class="scrollspy-example z-depth-1 mt-4 " data-target="#topics"   data-offset="0">    
             
-                <!--Introduction -->
+                <!--Chapter Introduction -->
                 
-                    <div class="note  note-primary p-4" >
-                    <h2 id="introduction" class="text-center  secondary-heading text-primary"> <strong>Introduction</strong></h2> 
+                    <div class="Chapter" >
+                    <h2 id="introduction" class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h2> 
                     <div>   
                         <p class="text-left">
                             The nature of the provisions of a contract will vary from case to case, 
@@ -58,20 +46,20 @@
                             A prudent lawyer ought to know the meaning and legal implications of conditions and warranties in contracts.
                         </p>       
                         <!--Contents -->   
-                        <h4 class="text-left"><strong>Contents</strong></h4>
-                        <p class="text-left">
-                            This Unit is divided into three (3) areas:
-                            <ol id="contentlist" style="list-style-type:decimal;">
-                                <li>Conditions</li>
-                                <li>Types of Conditions</li>
-                                <li>Warranties</li>
-                            </ol>
-                        </p>
+                            <h4 class="text-left"><strong>Contents</strong></h4>
+                            <p class="text-left">
+                                This Unit is divided into three (3) areas:
+                                <ol id="contentlist" style="list-style-type:decimal;">
+                                    <li>Conditions</li>
+                                    <li>Types of Conditions</li>
+                                    <li>Warranties</li>
+                                </ol>
+                            </p>
                         <!--/Contents -->
 
                         <!--Outcomes -->
-                            <blockquote class="blockquote bq-success">
-                              <i class="fas fa-graduation-cap">Outcomes</i>
+                            <div class="">
+                             <h4> <i class="fas fa-graduation-cap">Outcomes</i></h4>
                                 <h4 class="text-left"> <strong>Upon completion of this unit you will be able to:</strong></h4>
                                 <ul class="text-left">
                                     <li>Demonstrate a reasonable comprehension of conditions and warranties.</li>
@@ -79,12 +67,12 @@
                                     <li>Determine the significance of warranties in contracts.</li>
                                 </ul>
 
-                             </blockquote>
+                             </div>
                         <!--/Outcomes -->
 
                         <!--Terminology -->
                             <div class="text-left">
-                               <i class="fas fa-spell-check">Terminology</i>
+                              <h4> <i class="fas fa-spell-check">Terminology</i></h4>
                                 <h6>Conditions</h6>
                                 <h6> Warranties</h6>
                                 <h6>Suspensive condition</h6>
@@ -98,16 +86,17 @@
                         <br>
 
                         <!--Time-->
-                            <div class="note ">
-                                <i class="far fa-clock"></i> <h3>Time</h3>
-                            <p>You will be expected to have covered this Unit in one week.</p> 
+                            <div class="">
+                                 <h4><i class="far fa-clock"></i> Time</h4>
+                               <p>You will be expected to have covered this Unit in one week.</p> 
                             </div>
                         <!--Time-->
 
                         <br>
 
                         <!--Study Skills-->
-                            <div class="note note-primary">
+                            <div class="">
+                                 <h4>Study Skills</h4>
                                 <strong>The study skills that will be required in this Unit are as follows:</strong> 
                                 <ul>
                                     <li>You will be expected to have basic knowledge on the basic classification of terms covered in LAW203.</li>
@@ -119,8 +108,8 @@
                         <br>
 
                         <!--Case Studies-->
-                            <div class="note note-primary">
-                                <i class="fas fa-gavel">Case Law</i>
+                            <div >
+                               <h4> <i class="fas fa-gavel">Case Law</i></h4>
                                 <ul>
                                     <li>Poussard v Spiers (1876) 1 QBD 410</li>
                                     <li>R. v Katz 1959 (3) S.A. 408</li>
@@ -132,29 +121,32 @@
                                 </ul>
                             </div>
                         <!--Case Studies-->
+                        <br>
+                        <!--Reading--> 
+                            <div id="reading " >
+                                <h4><i class="fas fa-book"></i>Reading</h4>
+                                
+                                <ul>
+                                    <li>Robert Sharrock “Business Transactions Law” 9th Ed, Juta</li>
+                                    <li>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford</li>
+                                    <li>Gibson, “South African Mercantile and Company Law” 8th Ed, Juta</li>
+                                </ul>
+                            </div>
+                        <!--/Reading-->
             
                     </div>
                     </div>
-                <!--/Introduction -->
+                <!--/Chapter Introduction -->
 
-                
+                 
+
+                    <hr>
                     <br>
-
-                <!--Reading--> 
-                    <div id="reading " class="note note-primary ">
-                        <h4><i class="fas fa-book"></i>Reading</h4>
-                        
-                        <ul>
-                            <li>Robert Sharrock “Business Transactions Law” 9th Ed, Juta</li>
-                            <li>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford</li>
-                            <li>Gibson, “South African Mercantile and Company Law” 8th Ed, Juta</li>
-                        </ul>
-                    </div>
-                <!--/Reading-->
-                        <br>
-                <!--Facts-->
-                    <div class="note note-primary">
-                            <h1 id="facts" class="text-center">Facts</h1>
+               
+               
+                <!--Chapter Facts-->
+                    <div class="Chapter" >
+                            <h1 id="facts" class="text-center chapter-topic secondary-heading text-primary"><strong>Facts</strong></h1>
                             <p>
                                 You will recall that one of the units in LAW203, we defined terms and the 
                                 classifications according to modern and Roman-Dutch Law. To avoid confusion,
@@ -189,45 +181,50 @@
                                 it had been reasonable to hire her replacement. The Claimant appealed against this.
                             </p>
                     </div>
-                <!--/Facts-->
-                
+                <!--Chapter /Facts-->
+                    
+                    <hr>
+                    <br>
+
+               
                 <!--Issues-->
-                    <div class="Chapter bg my-4 p-4">
-                        <i class="fas fa-puzzle-piece">Section</i>
-                        <h1 id="issues" class="text-center" >Issues</h1>
+                    <div class="Chapter ">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <h1 id="issues" class="text-center chapter-topic secondary-heading text-primary"><strong> Issues</strong></h1>
                         <ol>
                             <p>
                                 The issue in this case was whether failing to turn up to the first day of performance amounted to a breach of a condition of the contract.
                             </p>
-                            <h3>Held</h3>
+                            <h3 id="held">Held</h3>
                             <p>
                                 It was held that failure to turn up did amount to a breach of a condition of the contract 
                                 as this went to its very root and that Spiers were therefore free to rescind the contract.
                             </p>
+
                             <!--Box-1 Example-1--> 
-                            <div class="example z-depth-5 bg2 p-4">
-                                <h6 class="text-left">Example 1</h6>
-                                <em>
-                                <p>
-                                    Nomcebo promises Phindile E500, 00 if she travels to Germany in May. The contract is concluded 
-                                    in January, but Phindile may claim the money only if she fulfils the condition. What is the condition?
-                                    The operation of the contract is suspended and rendered dependent on an uncertain future event. 
-                                    If on the other hand, Nomcebo promises Phindile E500, 00 in February with the stipulation that she 
-                                    must travel to Germany in May, we are not dealing with a condition. Phindile may claim the E500, 
-                                    00 immediately, but Nomcebo will be able to sue her for breach of contract if she does not fulfil
-                                    her obligation. The operation of the contract is not rendered dependent on an uncertain future event 
-                                    in the second scenario: the agreement is unconditional and immediately enforceable. The intention of
-                                    the parties determines whether we are dealing with a condition or term (in the form of a counter-
-                                </p>
-                                </em>
-                            </div>
-                            <br>
-                            <br>
+                                <div class="example z-depth-2 bg2 p-4">
+                                    <h6 class="text-left">Example 1</h6>
+                                    <em>
+                                    <p>
+                                        Nomcebo promises Phindile E500, 00 if she travels to Germany in May. The contract is concluded 
+                                        in January, but Phindile may claim the money only if she fulfils the condition. What is the condition?
+                                        The operation of the contract is suspended and rendered dependent on an uncertain future event. 
+                                        If on the other hand, Nomcebo promises Phindile E500, 00 in February with the stipulation that she 
+                                        must travel to Germany in May, we are not dealing with a condition. Phindile may claim the E500, 
+                                        00 immediately, but Nomcebo will be able to sue her for breach of contract if she does not fulfil
+                                        her obligation. The operation of the contract is not rendered dependent on an uncertain future event 
+                                        in the second scenario: the agreement is unconditional and immediately enforceable. The intention of
+                                        the parties determines whether we are dealing with a condition or term (in the form of a counter-
+                                    </p>
+                                    </em>
+                                </div>
+                                <br>
+                                <br>
 
                             <!--Box-1 Example-1 end-->
 
                             <div>
-                                <h2>Types Of Conditions</h2>
+                                <h2 id="typeOfCondition"  class="text-center  secondary-heading text-primary"> <strong>Types Of Conditions </strong></h2>
                                 <p>
                                     In a unanimous judgment, De Villiers A.J. sitting with Watermeyer J in R. v Katz4 explaining the types
                                     of conditions, it was held as follows:
@@ -471,11 +468,12 @@
 
                     </div>
                 <!--/Issues-->
-
+                    <hr>
+                    <br>
                 <!--Summary-->
-                    <div class="note note-primary"> 
-                         <i class="fas fa-book-reader"></i>
-                        <h1 id="unitSammary" >Summary</h1>
+                    <div > 
+                        
+                        <h1 id="unitSammary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
                         <div >
                             <p>
                                 This brings us to the end of Unit 1 where we unpacked conditions and warranties. We were introduced to these new concepts
@@ -487,22 +485,23 @@
 
                     </div>
                 <!--Summary-->
-                
+                     <hr>
+                    <br>
                 <!--Activity 1-->
                     <div class="Chapter">
-                        <h1 id="activity1">Activity 1</h1>
-                        <i class="fas fa-tools"></i>
+                        <h1 id="activity1" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
+                       
                         <p>
                             With reference to your LAW203 and the current unit, distinguish between terms and conditions of a contract.
                         </p>
 
                     </div>
                 <!--/Activity-->
-
+                    <hr>
+                    <br>
                 <!--Activity 2-->
                         <div class="Chapter">
-                            <h1 id="activity2">Activity 2</h1>
-                            <i class="fas fa-tools"></i>
+                            <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
                             <p>
                                 A bought a car from B at a price of E15,000.00. A was to pay the total amount of E15,000.00 in cash before 
                                 gaining possession of the car. Further to that, B was to deliver the car to A on or before the lapse of three
@@ -515,11 +514,12 @@
 
                         </div>
                 <!--/Activity-->
-
+                    <hr>
+                    <br>
                 <!--Self-Assessment--> 
                     <div class="Chapter">
-                        <h1 id="selfAssessment">Self-Assessment</h1>
-                        <i class="fas fa-question-circle"></i>
+                        <h1 id="selfAssessment" class="text-center  secondary-heading text-primary"><strong><i class="fas fa-question-circle"></i> Self-Assessment</strong></h1>
+                       
                         <ol>
                             <li>
                                 Taylor sees an ad for a 32-inch TV for $100 and goes to the store to buy it. 
@@ -541,7 +541,8 @@
                         </ol>
                     </div>
                 <!--Self-Assessment-->
-
+                    <hr>
+                    <br>
                 
                 </div>
             </div>
@@ -549,6 +550,8 @@
     
         </div>
         <!--/Body -->
+        <br>
+        <br>
 
 </div> 
 
@@ -556,55 +559,13 @@
 </template>
 
 <script>
-  import { mdbScrollSpy,
-  mdbNavbar,
-  mdbNavItem,
-  mdbNavbarNav,
-  mdbNavbarToggler,
-  mdbDropdown, 
-  mdbDropdownItem, 
-  mdbDropdownMenu, 
-  mdbDropdownToggle, 
-  mdbNavbarBrand, 
-  mdbIcon
-  } from "mdbvue";
-  import { mapActions } from 'vuex'; 
-    export default {
-        components: {
-            mdbNavbar,
-            mdbNavItem,
-            mdbNavbarNav,
-            mdbNavbarToggler,
-            mdbDropdown, 
-            mdbDropdownItem, 
-            mdbDropdownMenu, 
-            mdbDropdownToggle, 
-            mdbNavbarBrand, 
-            mdbIcon
-
-      } , 
+  import { mdbScrollSpy,mdbCollapse, mdbContainer } from "mdbvue";
+  export default {
     directives: {
-      mdbScrollSpy
-    } ,
-    data() {
-    return {};
-  },
-  methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
-
+      mdbScrollSpy,
+       mdbCollapse,
+      mdbContainer
+    }  
   };
 </script>
 
@@ -634,9 +595,6 @@ overflow-y:inherit;
 }
 .bg2{
   background-color: #bbdefb;  
-}
-.navbar {
-  background: #1e88e5 ;
 }
 
 </style>
