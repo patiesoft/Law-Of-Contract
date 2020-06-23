@@ -2,6 +2,8 @@
 <template> 
   <!--Container-->
   <div class="container-fluid text-left">
+  
+    <!--Nevigation  -->
      <mdb-navbar
         position="top "
         transparent
@@ -34,6 +36,8 @@
           </mdb-navbar-nav>
         </mdb-navbar-toggler>
       </mdb-navbar>
+    <!--Nevigation  -->
+    
 
       <!--Header-->
       <div class="Head">
@@ -42,14 +46,15 @@
       </div>
       <!--/Header-->
 
+  
     <!--Row-->
     <div class="row text-left" > 
 
       <div class="col text-justify">
          
           <!--Introduction-->
-            <div class="note note-primary">
-              <h1 id="introduction" class="text-center secondary-heading text-primary">Introduction</h1>
+            <div class="Chapter">
+              <h1 id="introduction" class="text-center chapter-topic secondary-heading text-primary"><strong> Introduction</strong></h1>
               <p class="text-left">
                 As a legal practitioner, you may find yourself seized of a matter in which your client has failed to honour his/her contractual 
                 obligation(s), or where your client wishes to enforce a contractual right, or where one or both parties is/are in breach of the 
@@ -59,7 +64,7 @@
               
               <p class="text-left">
                 There are basically five (5) remedies available to an aggrieved party for breach of contract, and these are the following: 
-                <ul id="contentlist" style="list-style-type:disk;">
+                <ul class="contentlist" style="list-style-type:disk;">
                   <li>An order for specific performance </li>
                   <li>A prohibitory interdict</li>
                   <li>A declaration of rights</li>
@@ -74,12 +79,12 @@
               </p>
             </div>
           <!--Introduction-->
-          
+        
           <br>
 
           <!--Expected Outcomes -->
-            <div class="note note-primary">
-              <i class="fas fa-graduation-cap">Outcomes</i>
+            <div >
+              <h4> <i class="fas fa-graduation-cap"> Outcomes</i></h4>
               <h4 class="text-left">Upon completion of this unit you will be able to:</h4>
               <ul class="text-left">
                 <li>
@@ -92,12 +97,12 @@
               </ul> 
             </div>
           <!--Expected Outcomes -->
-
+        
           <br>
 
           <!--Terminology --> 
-            <div class="note note-primary">
-              <i class="fas fa-spell-check">Terminology</i>
+            <div>
+              <h4> <i class="fas fa-spell-check"> Terminology</i></h4>                       
               <h4 class="text-left">In this Unit, you will be introduced to the following concepts</h4>
               <p class="light-blue-text">
                 <em>
@@ -107,12 +112,12 @@
               </p> 
             </div>
           <!--Terminology-->
-
+       
           <br> 
 
           <!--Case law -->
-            <div class="note note-primary">
-              <i class="fas fa-gavel">Case Law</i>
+            <div>
+              <h4 class="h4"> <i class="fas fa-gavel"> Case Law</i></h4>                      
               <ul class="text-left">
                 <li> <strong><em>Lavery & Co. Ltd v Jungheinrich</em></strong> 1931 AD 156; </li>
                 <li> <strong><em>Shatz Investments v kalovyrnas</em></strong>1976 (2) SA 545 (A);</li>
@@ -125,51 +130,39 @@
           <br> 
 
           <!--Chapter/Section-->
-            <div class="Chapter border border-primary my-4 p-4 bg">
-              <i class="fas fa-puzzle-piece">Section</i>
+            <div class="Chapter">
               <ol type="1"> 
-                <h1 id="specificPerfomance" class="text-center text bold">Specific Perfomance</h1>
+                <h1 id="specificPerfomance" class="text-center chapter-topic  secondary-heading text-primary"><strong> Specific Perfomance</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   In Roman Dutch Law an order for specific performance is the primary remedy for breach of contract. The classic statement of this rule was 
-                  made by Innes J A in <em><strong>Farmers Cooperative Society v Berry</strong></em>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^3'"></span>
-                  <span v-katex="'^8'"></span> where the Court said the following: 
+                  made by Innes J A in <strong><i>Farmers Cooperative Society v Berry</i></strong><sup>138</sup>
+                   where the Court said the following: 
                 </p>
                 <!--Paragraph 1 end -->
                 <!--Blockquote-->
-                <div class="col-sm-9 col-lg-8">
-                  <p>
-                    <em>
-                      <blockquote class="blockquote text-left">
-                        “Prima facie, every party to a binding agreement who is ready to carry out his own obligation under it has a right to demand from the 
-                        other party, as far as is possible, a performance of his undertaking in terms of the contract.”
-                      </blockquote>
-                    </em> 
-                  </p>
+                <div class="example z-depth-2 bg2 p-3 m-3">                 
+                  <blockquote class="blockquote text-left">
+                    “Prima facie, every party to a binding agreement who is ready to carry out his own obligation under it has a right to demand from the 
+                    other party, as far as is possible, a performance of his undertaking in terms of the contract.”
+                  </blockquote>
                 </div>
                 <!--Blockquote end-->
                 <!--Paragraph 2-->
                 <p>
-                  See also <em><strong>Benson v S A Mutual Life Assurance Society
-                  <span v-katex="`^1`"></span>
-                  <span v-katex="`^3`"></span>
-                  <span v-katex="`^9`"></span></strong></em> which provides another example of the primary application of this remedy. 
+                  See also <strong>Benson v S A Mutual Life Assurance Society <sup>139</sup>
+                  </strong> which provides another example of the primary application of this remedy. 
                 </p> 
                 <!--Paragraph 2 end-->
                 <!--Paragraph 3-->
                 <p>
                   The phrase ‘as far as possible’ excludes a supervening impossibility of performance. What is meant therefore is that 
-                  although the defaulting party remains bound by the contract, specific performance cannot, or can no longer be rendered.
-                  <span v-katex="`^1`"></span>
-                  <span v-katex="`^4`"></span>
-                  <span v-katex="`^0`"></span>
+                  although the defaulting party remains bound by the contract, specific performance cannot, or can no longer be rendered. <sup>140</sup>
                 </p>
                 <!--Paragraph 3 end-->
                 <!--Box-1 Example-1--> 
-                  <div class="example z-depth-5 p-4 bg2">
-                    <h6 class="text-left">Example 1</h6>
+                  <div class="example z-depth-2 bg2 p-3 m-4">
+                    <h6 class="text-left class h6">Example 1</h6>
                     <em>
                       <p>
                         A sells B’s property to C and fails in his subsequent attempt to acquire it from B. C is entitled to have the property 
@@ -230,10 +223,8 @@
                     </li>
                     <li>
                       Another landmark case on the court’s discretion to grant or refuse specific performance is that of Benson <em><strong>v SA 
-                      Life Assurance Company</strong></em>
-                      <span v-katex="'^1'"></span>
-                      <span v-katex="'^4'"></span>
-                      <span v-katex="`^1`"></span>  where the plaintiff was seeking special performance of delivery of company shares when 
+                      Life Assurance Company</strong></em> <sup><a id="141" href="141r">141</a></sup>
+                      where the plaintiff was seeking special performance of delivery of company shares when 
                       some were available at the Johannesburg Stock Exchange. The court determined that the granting of an order of 
                       specific performance is entirely a matter of the discretion of the court. Apart from the rule that such discretion 
                       is to be exercised judicially upon all the relevant facts, no rules should be prescribed to regulate that discretion, 
@@ -249,14 +240,10 @@
                     </li>
                     <li>
                       It is worth mention that a court will not order specific performance where the remedy will require services of a personal nature. 
-                      This principle was discussed in the case of <em><strong>National Union of Textile Workers v Stag Packings (Pty) Ltd 
-                      <span v-katex="'^1'"></span>
-                      <span v-katex="'^4'"></span>
-                      <span v-katex="`^2`"></span></strong></em>, but the reasons why 
-                      the courts have not granted such orders remain as valid as ever, provided it is remembered that in every case the court has a discretion.
-                      <span v-katex="'^1'"></span>
-                      <span v-katex="'^4'"></span>
-                      <span v-katex="`^3`"></span>
+                      This principle was discussed in the case of <strong>National Union of Textile Workers v Stag Packings (Pty) Ltd <sub><a id="142" href="142r">142</a></sub> 
+                      </strong>, but the reasons why 
+                      the courts have not granted such orders remain as valid as ever, provided it is remembered that in every case the court has a discretion. <sup><a id="145" href="143r">143</a></sup>
+                      
                     </li>
                     <li>
                       A court will not order specific performance where such performance will operate unduly harshly over the defendant or where performance is 
@@ -269,12 +256,13 @@
               </ol>
             </div>
           <!--Chapter/Section end-->
+          <hr>
+          <br>
           
           <!--Chapter/Section-->
-            <div class="Chapter border border-primary bg my-4 p-4">
-              <i class="fas fa-puzzle-piece">Section</i>
+            <div class="Chapter">
               <ol type="1"> 
-                <h1 id="prohibitoryInterdict" class="text-center text bold">A Prohibitory Interdict</h1>
+                <h1 id="prohibitoryInterdict" class="text-center chapter-topic secondary-heading text-primary"><strong> A Prohibitory Interdict</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   An interdict is the appropriate remedy to prevent a breach or threatened breach of contract. It is an order of court prohibiting the defendant 
@@ -283,7 +271,7 @@
                 </p>
                 <!--Paragraph 1 end -->
                 <!--Blockquote-->
-                <div class="col-sm-9 col-lg-8">
+                <div class="example z-depth-2 bg2 p-3 m-4">
                   <p>
                     <em>
                       <blockquote class="blockquote text-left">
@@ -302,10 +290,8 @@
                   obligation sought to be enforced is negative in character e.g. a covenant in restraint of trade. 
                   <br>
                   A temporary interdict also known as a interdict pende lite, literally to free a situation pending litigation, that is, where a purchaser wants to stop the 
-                  seller from transferring a disrupted property pending litigation. A good example was in the case of <em><strong>Flamelilly v Zimbabwe Salvage (Pty) Ltd and Another
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^4'"></span> 
-                  <span v-katex="'^3'"></span>,</strong></em> 
+                  seller from transferring a disrupted property pending litigation. A good example was in the case of <em><strong>Flamelilly v Zimbabwe Salvage (Pty) Ltd and Another <sup><a id="143" href="143r">143</a></sup>
+                  ,</strong></em> 
                   where the interdict being sought was to stop the respondent from destroying a mining dump until litigation pertaining therefrom had been finalised.  R H 
                   Christie indicates that the requirements for a final interdict are the same as those for specific performance but are different to those of a final interdict. 
                 </p>
@@ -335,7 +321,7 @@
                   Study the following cases:
                   <ul> 
                     <li>
-                      <em><strong>Gideon v Ngumo</strong></em> 1973 RLR 197
+                      <strong> Gideon v Ngumo</strong> 1973 RLR 197
                     </li>
                     <li>
                       <em><strong>Setlogelo v Setlogelo </strong></em> 1914 AD 221
@@ -356,15 +342,11 @@
                 <!--Paragraph 5 end-->
                 <!--Paragraph 6 end-->
                 <p>
-                  In the case of <strong><em>Yamomoto v Rand Canvas Co.
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^4'"></span> 
-                  <span v-katex="'^5'"></span></em></strong>, the view was expressed that in such cases a higher probability of success in the proposed 
+                  In the case of <strong><em>Yamomoto v Rand Canvas Co. <sup><a id="145" href="145r">145</a></sup>
+                  </em></strong>, the view was expressed that in such cases a higher probability of success in the proposed 
                   action would have to be shown in ordinary cases such as claims on contracts than in vindicatory actions, but the distinction has not 
-                  subsequently been recognised. However, in the case of <strong><em>Stiebel v Horn
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^4'"></span> 
-                  <span v-katex="'^6'"></span></em></strong> 
+                  subsequently been recognised. However, in the case of <strong><em>Stiebel v Horn <sup>146</sup>
+                  </em></strong> 
                   , the Court declined to grant a mandatory interdict to transfer part of the subject matter of a disputed contract of sale to the 
                   plaintiff <em>pendente lite</em>, but indicated that it was not beyond the bounds of possibility that such an order might be granted in a 
                   suitable case 
@@ -373,22 +355,22 @@
                 <!--Paragraph 7-->
                 <!--Paragraph 7 end-->
                 <p>
-                  Lastly, in <em><strong>Addison Bros Ltd v Addison & Co.
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^4'"></span> 
-                  <span v-katex="'^7'"></span></strong></em>, there was added the requirement that the applicant should come to Court with clean hands 
+                  Lastly, in <em><strong>Addison Bros Ltd v Addison & Co. <sup>147</sup>
+                  </strong></em>, there was added the requirement that the applicant should come to Court with clean hands 
                   (the respondent’s breach having there been occasioned by the fraud of the applicant’s servant). 
                 </p>
                 
               </ol>
             </div>
           <!--Chapter/Section end-->
+
+          <hr>
+          <br>
          
           <!--Chapter/Section-->
-            <div class="Chapter border border-primary my-4 p-4 bg">
-              <i class="fas fa-puzzle-piece">Section</i>
+            <div class="Chapter">
               <ol type="1"> 
-                <h1 id="declarationOfRights" class="text-center text bold">A Declaration Of Rights</h1>
+                <h1 id="declarationOfRights" class="text-center chapter-topic secondary-heading text-primary"><strong>A Declaration Of Rights</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   It is worth mention that a declaratory order normally does not form part of the discourse on remedies for breach of contract. 
@@ -402,16 +384,13 @@
                 <!--Paragraph 2--> 
                 <p>
                   In understanding the concept of declaration of rights, it is apposite that one first draws from the case of <em><strong>Government of the 
-                  Self-Governing Territory of Kwazulu Natal v Mhlangu
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^4'"></span> 
-                  <span v-katex="'^8'"></span></strong></em>, where Eloff J pointed out that;
+                  Self-Governing Territory of Kwazulu Natal v Mhlangu <sup><a id="148" href="148">148</a></sup>
+                  </strong></em>, where Eloff J pointed out that;
                 </p>
                 <!--Paragraph 2 end-->
                 <!--Blockquote-->
-                <div class="col-sm-9 col-lg-8">
-                  <p>
-                    <em>
+                <div >
+                  <p>                  
                       <strong>
                         <blockquote class="blockquote text-left">
                           “...The nature and scope of the right might be inquired into, but in the absence of proof of such a right, or at least a contention that 
@@ -419,8 +398,7 @@
                           to rule on abstract  concepts or on any dispute and, as far as declaratory orders are concerned, only on legally recognisable and 
                           enforceable rights.</u>” [My emphasis]
                         </blockquote>
-                      </strong>
-                    </em> 
+                      </strong>                   
                   </p>
                 </div> 
                 <!--Blockquote end-->
@@ -428,62 +406,48 @@
                 <p>
                   It is clear that the Court will only declare a right that is legally recognisable and enforceable. To qualify as an “interested person” the applicant 
                   must have a real not merely an abstract or intellectual interest in the right or obligation, and the right or obligation must similarly not be merely 
-                  <em>in obstracto</em>, but a declaratory order may be made in order to resolve a real and pertinent dispute on liability on the basis of certain assumed facts. 
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^4'"></span> 
-                  <span v-katex="'^9'"></span>
-                </p>
+                  <em>in obstracto</em>, but a declaratory order may be made in order to resolve a real and pertinent dispute on liability on the basis of certain assumed facts. <sup><a id="149" href="149r">149</a></sup> 
+                 </p>
                 <!--Paragraph 3 end-->
                 <!--Paragraph 4-->
                 <p>
                   It is also worth mentioning that one of the factors that will weigh with the Court in deciding whether to exercise its discretion, however, is the undesirability 
                   of hearing disputes piecemeal, so if there has been a breach of contract or some other invasion of rights entitling the plaintiff to claim consequential relief, 
-                  prima facie the case is not one for a declaratory order. 
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^5'"></span> 
-                  <span v-katex="'^0'"></span> But if, for example, a declaratory order would bring the matter to finality more quickly than an action 
+                  prima facie the case is not one for a declaratory order<sup><a id="150" href="150r">150</a></sup>  . 
+                  But if, for example, a declaratory order would bring the matter to finality more quickly than an action 
                   for consequential relief that would require a long period of notice, or if a declaratory order would prevent possibly abortive proceedings, it may be a proper case 
-                  for the exercise of the Court’s discretion to grant such declaratory relief. 
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^5'"></span> 
-                  <span v-katex="'^1'"></span>
+                  for the exercise of the Court’s discretion to grant such declaratory relief. <sup><a id="151" href="151r">151</a></sup>
                 </p>
                 <!--Paragraph 4 end--> 
               </ol>
             </div>
           <!--Chapter/Section end-->
-
+          <hr>
+          <br>
           <!--Chapter/Section-->
-            <div class="Chapter border border-primary my-4 p-4 bg">
-              <i class="fas fa-puzzle-piece">Section</i>
+            <div class="Chapter">
               <ol type="1"> 
-                <h1 id="cancellation" class="text-center text bold">Cancellation</h1>
+                <h1 id="cancellation" class="text-center chapter-topic secondary-heading text-primary"><strong>Cancellation</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   The general purpose of the law of contract is to achieve fulfilment of the contract. If such fulfilment is not achieved, the remedy of cancellation is aimed at the 
                   termination of the consequences of a validly concluded contract. Therefore, cancellation is considered an extraordinary remedy that can only be used in certain 
-                  circumstances.
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^5'"></span> 
-                  <span v-katex="'^2'"></span>
+                  circumstances. <sup>152</sup>
                     As a general rule, cancellation means that the obligations under the contract are extinguished from the date of cancellation. 
                 </p>
                 <!--Paragraph 1 end -->
                 <!--Paragraph 2--> 
                 <p>
-                  This is how AJ Kerr
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^5'"></span> 
-                  <span v-katex="'^3'"></span>
-                    sums it;
+                  This is how AJ Kerr <sup><a id="153" href="153r">153</a></sup>
+                  sums it;
                 </p>
                 <!--Paragraph 2 end-->
                 <!--Blockquote-->
-                <div class="col-sm-9 col-lg-8">
+                <div >
                   <p>
                     <em>
                       <strong>
-                        <blockquote class="blockquote text-left">
+                        <blockquote class="blockquote text-left z-depth-2">
                           “When cancellation takes place the legal position is similar to that when a lease is said to have terminated by effluxion of time or in consequences 
                           of notice duly given:  a major change in the history of the parties’ contractual relationship has taken place but certain adjustments may still have 
                           to be made between them (the parties). In the case of cancellation the major change is that no further performances by either party is due; obligations 
@@ -532,10 +496,7 @@
                       The mere fact that the other party has breached the contract is not sufficient to justify cancellation of the contract by the innocent party. If a party attempts 
                       to cancel a contract without sufficient justification, the cancellation will be ineffective and the contract will still stand. In addition, the party who tried 
                       to cancel will be guilty of repudiation and for this reason, it is very important to determine whether a party has the right to cancel before attempting to 
-                      exercise this remedy.
-                      <span v-katex="'^1'"></span> 
-                      <span v-katex="'^5'"></span> 
-                      <span v-katex="'^4'"></span> 
+                      exercise this remedy. <sup><a id="154" href="154r">154</a></sup>
                     </p>
                   </li> 
                   <li>
@@ -552,10 +513,8 @@
                     <p>
                       The inability of the innocent party to restore any performance received would generally prevent her from cancelling the contract. However, the innocent 
                       party will still be able to cancel if the inability to restore is not due to the fault of the innocent party and she has not benefited by the performance 
-                      made: <em><strong>See Feinstein v Niggli
-                      <span v-katex="'^1'"></span>
-                      <span v-katex="'^5'"></span>
-                      <span v-katex="'^5'"></span></strong></em>. The following are examples of where an inability to restore performance will not prevent cancellation:
+                      made: <em><strong>See Feinstein v Niggli <sup><a id="155" href="155r">155</a></sup>
+                      </strong></em>. The following are examples of where an inability to restore performance will not prevent cancellation:
                       <ul>
                         <li>
                           Where the deterioration of the asset is due to an inherent defect, an example being where X delivers a car with an electrical fault to Y. The 
@@ -582,10 +541,8 @@
                     </p>
                     <p>
                       If the innocent party has benefited from a performance, she is unable to return, she must restore the monetary equivalent of the performance. 
-                      A classical case for this proposition is the case of <em><strong>Sackstein N.O. v Proudfoot SA (Pty) Ltd
-                      <span v-katex="'^1'"></span>
-                      <span v-katex="'^5'"></span>
-                      <span v-katex="'^6'"></span>,</strong></em> where P was employed by the innocent X. X 
+                      A classical case for this proposition is the case of <em><strong>Sackstein N.O. v Proudfoot SA (Pty) Ltd <sup><a id="156" href="156r">156</a></sup>
+                      ,</strong></em> where P was employed by the innocent X. X 
                       cancelled because of P’s breach and claimed back the salary paid to P. Obviously it was impossible for X to return the services rendered 
                       by P. However, the Court held that X had to pay P the monetary equivalent of the services because X had benefitted from P’s performance.
                     </p>
@@ -602,9 +559,7 @@
                     </p>
                   </li> 
                   <!--Blockquote-->
-                  <div class="col-sm-9 col-lg-8">
-                    <p>
-                      <em>
+                  <div class="col-sm-9 z-depth-2 col-lg-8">                    
                         <blockquote class="blockquote text-left">
                           A party may combine the notice of recession with an advance notice of cancellation
                           <br>
@@ -613,9 +568,7 @@
                           <br>
                           If the debtor fails to perform by 1 August, the creditor does not have to do anything further. Since he has already communication 
                           his election to the debtor, the contract is cancelled automatically on 1st August. 
-                        </blockquote>
-                      </em> 
-                    </p>
+                        </blockquote>                    
                   </div> 
                   <!--Blockquote end-->
                   <p>
@@ -629,13 +582,9 @@
                     </u>
                     <p>
                       Cancelation is a unilateral juristic act performed by the innocent party and it does not require the consent of the guilty party: 
-                      See <em><strong>Stuart Wrightson (Pty) Ltd v Thorpe
-                      <span v-katex='"^1"'></span>
-                      <span v-katex='"^5"'></span>
-                      <span v-katex='"^7"'></span>.</strong></em> A J Kerr
-                      <span v-katex="'^1'"></span>
-                      <span v-katex="'^5'"></span>
-                      <span v-katex="'^8'"></span> asserts the foregoing annotation by stating that “if a party aggrieved by a 
+                      See <em><strong>Stuart Wrightson (Pty) Ltd v Thorpe <sup>157</sup>
+                      .</strong></em> A J Kerr <sup>158</sup>
+                      asserts the foregoing annotation by stating that “if a party aggrieved by a 
                       major breach … wishes to take some active steps to show that the contract is being brought to an end, that is, he wishes to do 
                       more than just disregard the contract, he may cancel the contract without asking for any remedies such as restitution or damages”.
                     </p>
@@ -667,17 +616,12 @@
                         <li>
                           There are no prescribed formalities for cancellation. Provided that there is an unambiguous election to cancel, 
                           notification of cancellation can be expressed (in words), implied (by conduct) or may even be contained in a 
-                          summon
-                          <span v-katex="'^1'"></span>
-                          <span v-katex="'^5'"></span>
-                          <span v-katex="'^9'"></span>. The parties can even agree to dispense with the requirement of notice of cancellation.
+                          summon <sup>159</sup>
+                          The parties can even agree to dispense with the requirement of notice of cancellation.
                         </li>
                         <li>
                           The decision to cancel must be conveyed to the guilty party. The only issue is whether the notice of cancellation reached 
-                          the guilty party: See in this regard <strong><em>Datacolour International (Pty) Ltd v Intamarket (Pty) Ltd
-                          <span v-katex="'^1'"></span>
-                          <span v-katex="'^6'"></span>
-                          <span v-katex="'^0'"></span>
+                          the guilty party: See in this regard <strong><em>Datacolour International (Pty) Ltd v Intamarket (Pty) Ltd <sup>160</sup>
                           </em></strong>
                         </li>
                         <li>
@@ -701,25 +645,16 @@
                           When the terms of payment are fixed in the following manner: [payment is to be by instalments, seller has option to 
                           cancel on failure by the purchaser to pay an instalment on due date] - the seller’s right to cancel accrues by 
                           reason of the buyers default on the date of payment, and the seller must then elect whether or not he will avail 
-                          himself of it
-                          <span v-katex="'^1'"></span>
-                          <span v-katex="'^6'"></span>
-                          <span v-katex="'^1'"></span>;
+                          himself of it <sup>161</sup>;
                         </li>
                         <li>
                           If party A commits a breach which, in the language often used, “goes to the root/substance of the contract”, 
-                          party B may elect to hold him to the contract or to cancel it
-                          <span v-katex="'^1'"></span>
-                          <span v-katex="'^6'"></span>
-                          <span v-katex="'^2'"></span>; 
+                          party B may elect to hold him to the contract or to cancel it <sup id="162"><a href="162r">162</a></sup>; 
                         </li>
                         <li>
                           When an event occurs which entitles one party to refuse to carry out his part of the contract that party 
                           has a choice; he can either elect to take advantage of the event or he can elect not to do so. He is entitled 
-                          to a reasonable time in which to make up his mind.
-                          <span v-katex="'^1'"></span>
-                          <span v-katex="'^6'"></span>
-                          <span v-katex="'^3'"></span>; 
+                          to a reasonable time in which to make up his mind. <sup id="163"><a href="163r">163</a></sup>; 
                           <p>
                             It is important to be aware that the election can be done expressly or by conduct. For instance, if the innocent 
                             party conducts himself in a way that clearly indicates that he intends to uphold the contract, that fact will be 
@@ -728,10 +663,7 @@
                             elected to uphold the contract, the right to cancel will be lost. 
                           </p>
                           <p>
-                            A case in point would be that of <em><strong>Mahabeer v Sharma
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^6'"></span>
-                            <span v-katex="'^4'"></span>
+                            A case in point would be that of <em><strong>Mahabeer v Sharma <sup id="164"><a href="164r">164</a></sup>
                             </strong></em> wherein a contract of sale was concluded between M and S. M was to pay the purchase price in 
                             instalments. These payments were not made. S wrote to M and stated that contracted would be cancelled if 
                             payment was not made within 30 days (notice of rescission). M did not pay. 5 months after this letter 
@@ -744,16 +676,14 @@
                             The delay could however indicate an election to uphold the contract. On the facts, the Court held that an inference 
                             could be made, as the guilty party never believed that the innocent party had given up the right to cancel the contract. 
                             As a result, S’s right to cancel was not lost. See also <em><strong>Paradyskloof Golf Estate v Stellenbosch Municipality
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^6'"></span>
-                            <span v-katex="'^5'"></span></strong></em>. 
+                            <sup id="165"><a href="165r">165</a></sup></strong></em>. 
                           </p> 
-                          <div class="note note-primary">
+                          <div class="note note-danger">
                             <i class="fas fa-sticky-note">NB:</i>
                             <p class="text-left">
                               When the innocent party has elected to cancel, the contract is at an end and there is no possibility to uphold it later on. 
                             </p>
-                          </div>
+                          </div>                          
                         </li>
                       </ul>
                     </p>
@@ -768,9 +698,7 @@
                       Cancelation extinguishes all obligations that need to be performed after the date of cancelation, and further creates an obligation to 
                     </p> 
                     <!--Blockquote-->
-                    <div class="col-sm-9 col-lg-8">
-                      <p>
-                        <em>
+                    <div class="example z-depth-2">                      
                           <blockquote class="blockquote text-left">
                             A sells his bull to B for E10, 000.00 to mate with B’s cows. The parties agree that A will deliver the bull to B on payment of a 
                             E5, 000.00 deposit. They agree that B will pay the remainder of the purchase price in monthly instalments of E1, 000.00 over the 
@@ -785,9 +713,7 @@
                                 All future obligations are terminated. B will not have to pay the future monthly instalments.
                               </li>
                             </ul>
-                          </blockquote>
-                        </em> 
-                      </p>
+                          </blockquote>                        
                     </div> 
                     <!--Blockquote end-->
                     <p>
@@ -805,12 +731,8 @@
                       obligations (e.g. rental contracts, employment and service contracts). According to this doctrine, rights that are due and enforceable 
                       before cancelation and are independent of any executory part of the contract are not extinguished by cancelation. By the executory part 
                       of the contract we mean the obligations which still have to be performed after the date of cancelation. Examples of these are
-                      <span v-katex="'^1'"></span> 
-                      <span v-katex="'^6'"></span> 
-                      <span v-katex="'^6'"></span>. You can also see in this regard the case of <em><strong>Crest Enterprises (Pty) Ltd v Rycklof Beleggings (Edms) Bpk
-                      <span v-katex="'^1'"></span> 
-                      <span v-katex="'^6'"></span> 
-                      <span v-katex="'^7'"></span></strong></em>.  
+                      <sup><a id=166 href="166r">166</a></sup>. You can also see in this regard the case of <em><strong>Crest Enterprises (Pty) Ltd v Rycklof Beleggings (Edms) Bpk
+                        <sup><a id=167 href="167r">167</a></sup></strong></em>.  
                     </p>
                     <p>
                       In other words, where the doctrine of accrued rights applies, cancelation only terminates those obligations that have not yet accrued by the time 
@@ -858,20 +780,20 @@
               </ol>
             </div>
           <!--Chapter/Section end-->
-         
+          <hr>
+          <br>
           <!--Chapter/Section-->
-            <div class="Chapter border border-primary my-4 p-4 bg">
-              <i class="fas fa-puzzle-piece">Section</i>
+            <div class="Chapter">
+              
               <ol type="1"> 
-                <h1 id="damages" class="text-center text bold">Damages</h1>
+                <h1 id="damages" class="text-center chapter-topic  secondary-heading text-primary"><strong>Damages</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   Damages may be rewarded to an aggrieved party who shows that he has suffered loss; that the breach of contract is the significant factor 
                   or cause in bringing about the loss; that the amount claimed and proved is either as agreed upon or as provided for in the residual rules; 
                   and that in appropriate cases the rules or notices relating to cancelation have been complied with.
-                  <span v-katex="'^1'"></span> 
-                  <span v-katex="'^6'"></span> 
-                  <span v-katex="'^8'"></span> 
+                  <sup><a id="168" href="168r">168</a></sup>
+                 
                 </p>
                 <!--Paragraph 1 end -->
                 <ol type="i">
@@ -883,22 +805,17 @@
                     </strong>
                     <p>
                       Unlike damages for delict, damages for breach of contract are not intended to recompense the innocent party for his loss, but to put him in the position he would have been if the contract had been properly performed. The difference herein was succinctly stated by Van den Heever JA in <em><strong>Trotman v Edwick
-                        <span v-katex="'^1'"></span>
-                        <span v-katex="'^6'"></span>
-                        <span v-katex="'^9'"></span>
+                      <sup><a id="169" href="169r">169</a></sup> 
+                        
                         </strong></em>: 
                     </p> 
                     <!--Blockquote-->
-                    <div class="col-sm-9 col-lg-8">
-                      <p>
-                        <em>
+                    <div class="example z-depth-2 bg2 p-3 m-4">
                           <blockquote class="blockquote text-left">
                             “A litigant who sues on contract sues to have his bargain or its equivalent in money or in money and kind. The litigant who sues 
                             on delict sues to recover the loss which he has sustained because of the wrongful conduct of another, in other words, that the 
                             amount by which his patrimony has been diminished by such conduct should be restored to him.”
-                          </blockquote>
-                        </em> 
-                      </p>
+                          </blockquote>     
                     </div> 
                     <!--Blockquote end-->
                     <p>
@@ -951,9 +868,7 @@
                     </p>
                     <p>
                       Study the case of <strong><em>Victor Products SA (Pty) Ltd v Lateulere Manufacturing (Pty) Ltd
-                        <span v-katex="'^1'"></span>
-                        <span v-katex="'^7'"></span>
-                        <span v-katex="'^0'"></span>
+                         <sup><a id="170" href="170r">170</a></sup> 
                         </em></strong>  
                     </p>
                     <p>
@@ -978,10 +893,8 @@
                           <p>
                             The law adopts a materialistic approach to loss in the context of contract. Loss must affect 
                             your patrimony, that is, the breach must cause financial loss. In the case of <em><strong>Administrator, 
-                            Natal v Edouard
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^7'"></span>
-                            <span v-katex="'^1'"></span>
+                            Natal v Edouard  <sup><a id="171" href="171r">171</a></sup> 
+                            
                             </strong></em>, it was stated that one cannot claim for non-patrimonial loss such as pain 
                             and suffering, mental anguish, sentimental losses, physical inconvenience, etc in the law of contract. 
                           </p>
@@ -990,10 +903,7 @@
                             means that he must claim not only for present losses but also for prospective (future) losses. It is 
                             however quite difficult to calculate loss, especially in relation to opportunities that the innocent 
                             party has lost as a result of the breach. See in this regard <em><strong>SDR Investment Holdings Co. (Pty) Ltd v 
-                            Nedcor Bank Ltd
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^7'"></span>
-                            <span v-katex="'^2'"></span>
+                            Nedcor Bank Ltd<sup><a id="172" href="172r">172</a></sup>
                             </strong></em>. The courts therefore do not insist that the plaintiff quantify his loss with mathematical 
                             procession. The plaintiff must however, produce the best evidence that he can prove the quantum of his loss. 
                           </p>
@@ -1004,18 +914,14 @@
                             The following example is made:
                           </p> 
                           <!--Blockquote-->
-                          <div class="col-sm-9 col-lg-8">
-                            <p>
-                              <em>
+                          <div class="example z-depth-2">                           
                                 <blockquote class="blockquote text-left">
                                   If, in a contract for the sale of a house, the purchaser is given the right of occupation of the 
                                   house and the seller fails to evict the tenants, the seller commits a breach of contract. The 
                                   tenants, whilst in occupation of the house, must however, pay rent to the purchaser. The 
                                   rental income is a beneficial consequence that must be taken into account in accessing 
                                   the purchaser’s damages
-                                </blockquote>
-                              </em> 
-                            </p>
+                                </blockquote>                             
                           </div>
                           <!--Blockquote end-->
                         </li>
@@ -1031,10 +937,8 @@
                             would not have occurred, the breach caused the damage. It has been stated by previous authorities 
                             the uncertainty whether the innocent party’s claim could fail or be reduced if he caused his own 
                             losses due to contributory negligence. However, this question has been settled by the Supreme 
-                            Court of South Africa in the case of <strong><em>Thoroughbred Breeders Association v Price Waterhouse
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^7'"></span>
-                            <span v-katex="'^3'"></span></em></strong><strong> [Study the judgment]</strong>
+                            Court of South Africa in the case of <strong><em>Thoroughbred Breeders Association v Price Waterhouse<sup><a id="173" href="173r">173</a></sup>
+                            </em></strong><strong> [Study the judgment]</strong>
                           </p>
                         </li>
                         <li>
@@ -1048,30 +952,23 @@
                             breach for which he is to be held liable and damages which, although in the broad sense of the word 
                             caused by his breach, are so remote from it that he ought not to be held liable for them. The starting 
                             point is the judgment of Corbbett JA in <strong><em>Holmdene Brick Works (Pty) Ltd v Roberts Construction Co. Ltd
-                              <span v-katex='"^1"'></span> 
-                              <span v-katex='"^7"'></span> 
-                              <span v-katex='"^4"'></span></em></strong>.
+                             <sup><a id="174" href="174r">174</a></sup>
+                             </em></strong>.
                           </p>
                           <p>
                             Basically, legal causation entails that the harm must be reasonable foreseeable at the time of entering into contract. 
-                            The English case of <strong><em>Hadley v Baxendale
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^7'"></span>
-                            <span v-katex="'^5'"></span></em></strong>, stated as follows: 
+                            The English case of <strong><em>Hadley v Baxendale <sup><a id="175" href="175r">175</a></sup>
+                            </em></strong>, stated as follows: 
                           </p>
                           <!--Blockquote-->
-                          <div class="col-sm-9 col-lg-8">
-                            <p>
-                              <em>
+                          <div class="example z-depth-2 bg2 p-3 m-4">
                                 <blockquote class="blockquote text-left">
                                   “Where two parties have made a contract which one of them has broken, the damages which the other party ought to 
                                   receive in respect of such breach of contract should be such as may fairly and reasonable be considered either 
                                   arising naturally, i.e. according to the usual course of things, from such breach of contract itself, or such 
                                   as may reasonable be supposed to have been in the contemplation of both parties, at the time they made the 
                                   contract, as the probable result of the breach of it.”
-                                </blockquote>
-                              </em> 
-                            </p>
+                                </blockquote>                              
                           </div>
                           <!--Blockquote end-->
                           <p>
@@ -1084,10 +981,8 @@
                                   This is the normal sort of earm that you would expect to flow from such a breach of contract – the natural 
                                   and probable consequences of the breach. The general damages, as thus defined, cause little difficulty. 
                                   They do not have to be specially pleaded, and the question in each case is simply whether they flow naturally 
-                                  and generally from the kind of breach that has been committed. 
-                                  <span v-katex="'^1'"></span>
-                                  <span v-katex="'^7'"></span>
-                                  <span v-katex="'^6'"></span>For example, it is normal and probable that 
+                                  and generally from the kind of breach that has been committed.<sup><a id="176" href="176r">176</a></sup> 
+                                  For example, it is normal and probable that 
                                   the failure to sterilise a woman would result in her having further children which she would have to support. 
                                   The costs of support these children is general damages.
                                 </p>
@@ -1141,22 +1036,17 @@
                     <p>
                       When a contract has been breached the innocent party is not entitled to sit back and allow damages to multiply. It is his duty to mitigate his damages. 
                       The duty was well expressed by Stratford CJ in <em><strong>Hazis v Transvaal and Delagoa Bay Investments Co. Ltd
-                      <span v-katex="'^1'"></span>
-                      <span v-katex="'^7'"></span>
-                      <span v-katex="'^7'"></span></strong></em> as follows:
+                      <sup><a id="177" href="177r">177</a></sup>
+                      </strong></em> as follows:
                     </p> 
                     <!--Blockquote-->
-                    <div class="col-sm-9 col-lg-8">
-                      <p>
-                        <em>
-                          <blockquote class="blockquote text-left">
-                            “This rule about mitigating damages relates not to what the claimant in fact did, but to what he should have done. It is in essence a claim based on 
-                            negligence-neglect to do what a reasonable man would do if placed n the position of the person claiming damages. The defendant in such claim says 
-                            ‘admitting that in fact you suffered those damages, you have only yourself to blame for having suffered so much, or at all because you did not take 
-                            reasonable steps to protect yourself and, therefore, me’.”
-                          </blockquote>
-                        </em> 
-                      </p>
+                    <div class="example z-depth-2 bg2 p-3 m-4">
+                      <blockquote class="blockquote text-left">
+                        “This rule about mitigating damages relates not to what the claimant in fact did, but to what he should have done. It is in essence a claim based on 
+                        negligence-neglect to do what a reasonable man would do if placed n the position of the person claiming damages. The defendant in such claim says 
+                        ‘admitting that in fact you suffered those damages, you have only yourself to blame for having suffered so much, or at all because you did not take 
+                        reasonable steps to protect yourself and, therefore, me’.”
+                      </blockquote>                        
                     </div>
                     <!--Blockquote end-->
                     <p>
@@ -1166,17 +1056,13 @@
                       Construction</em></strong> supra, Corbett JA said:
                     </p>
                     <!--Blockquote-->
-                    <div class="col-sm-9 col-lg-8">
-                      <p>
-                        <em>
-                          <blockquote class="blockquote text-left">
-                            “Being a question of mitigation, the onus of establishing that there were other less costly remedies which the respondent ought to have adopted rested upon the appellant. 
-                            In a case such as the present one, where the breach of contract creates something of an emergency and the sufferer finds himself in a position of embarrassment as a 
-                            consequence of the breach, the measures which he may be forced to adopt to extricate himself ought not to be weighed in nice scales and the Court should not be 
-                            astute to hold that this onus has been discharged. The law is satisfied if the sufferer from the breach has acted reasonable in the adoption of remedial measures.”
-                          </blockquote>
-                        </em> 
-                      </p>
+                    <div class="example z-depth-2 bg2 p-3 m-4">
+                      <blockquote class="blockquote text-left">
+                        “Being a question of mitigation, the onus of establishing that there were other less costly remedies which the respondent ought to have adopted rested upon the appellant. 
+                        In a case such as the present one, where the breach of contract creates something of an emergency and the sufferer finds himself in a position of embarrassment as a 
+                        consequence of the breach, the measures which he may be forced to adopt to extricate himself ought not to be weighed in nice scales and the Court should not be 
+                        astute to hold that this onus has been discharged. The law is satisfied if the sufferer from the breach has acted reasonable in the adoption of remedial measures.”
+                      </blockquote>                        
                     </div>
                     <!--Blockquote end-->
                   </li>
@@ -1184,13 +1070,12 @@
               </ol>
             </div>
           <!--Chapter/Section end-->
-         
+          <hr>
           <br>
          
           <!--Unit Summary-->
-            <div class="note note-primary">
-              <i class="fas fa-book-reader"></i>
-              <h5 id="unitSummary" class="text-left">Unit Summary</h5>
+            <div class="Chapter">
+                <h1 id="unitSammary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
               <p class="text-left">
                 In summary, it is evident that there are five (5) remedies available for breach or threatened breach of contract. These are generally, specific performance, interdict, declaration of rights, 
                 cancellation and damages. The first three (3) may be regarded as methods of enforcements and the last two methods of claiming compensation for non- performance. As was demonstrated in our discussion 
@@ -1201,11 +1086,11 @@
 
             </div>
           <!--Unit Summary-->
-        
+          <hr>
           <br> 
         
           <!--Discussion-->
-            <div class="note note-primary">
+            <div>
               <i class="fas fa-comments"></i>
               <h5 id="discussion" class="text-left">Discussion</h5>
               <p class="text-left">
@@ -1214,13 +1099,12 @@
 
             </div>
           <!--Discussion-->
-         
+          <hr>
           <br> 
          
           <!--Activity 1-->
-            <div class="note note-primary">
-              <i class="fas fa-tools"></i>
-              <h5 id="activity1" class="text-left">Activity 1</h5>
+            <div class="Chapter">
+              <h1 id="activity1" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
               <p class="text-left">
                 A enters into a contract with B for the installation an alarm system at B’s private property. B pays a deposit of E3,000.00 with a balance of E2,000.00. Upon payment of the deposit, A disappears. 
                 B looks for A and locates his whereabouts after 2 weeks. A is given another opportunity to install the system but he says he has other ongoing projects which are a priority. B comes to you for advice
@@ -1228,18 +1112,19 @@
 
             </div>
           <!--Activity 1-->
-         
+          <hr>
           <br> 
           
           <!--Activity 2-->
-            <div class="note note-primary">
-              <i class="fas fa-tools"></i>
-              <h5 id="activity2" class="text-left">Activity 2</h5>
+            <div class="Chapter">
+               <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
               <p class="text-left">
                 Discuss the legal principles of cancellation as a remedy for breach of contract, referring to case law. 
               </p> 
             </div>
-          <!--Unit Summary-->
+          <!--Activity 2-->
+          <hr>
+          <br>  
 
 
       </div>

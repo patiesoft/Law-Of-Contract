@@ -43,9 +43,9 @@
     <div class="row text-left" >
 
       <div class="col text-justify">
-            <!--Introduction-->
-            <div class="note  note-primary">
-              <h1 id="introduction" class="text-center secondary-heading text-primary">Introduction</h1>
+        <!--Introduction-->
+          <div class="Chapter">
+             <h1 id="introduction" class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
               <p class="text-left">
                 In the previous Unit, we discussed breach as means of 
                 terminating a contract. In this unit, we will unpack the 
@@ -60,7 +60,7 @@
                 In this unit we will discuss the types of breach and the consequences of same. 
               </p>
 
-              <h4 class="text-center secondary-heading text-primary">Contents</h4>
+              <h4 class="text-left"><strong>Contents</strong></h4>
               <p class="text-left">
                 In this Unit, we will cover the following aspects: 
                 <ol id="contentlist" style="list-style-type:decimal;">
@@ -72,34 +72,34 @@
                   <li>Repudiation</li>
                   <li>Prevention of Performance</li>
                 </ol>
-              </p> 
-            </div>
-            <!--Introduction-->
+              </p>
+
+
+            <br>
+
+            <!--Expected Outcomes -->
+              <div>
+                <h4> <i class="fas fa-graduation-cap"> Outcomes</i></h4>                       
+                <h6 class="text-center secondary-heading text-primary">Upon completion of this unit you will be able to:</h6>
+                <ul class="text-left">
+                  <li>State what constitutes a breach in a contract.</li>
+                  <li>Outline the three (3) categories of a breach.</li>
+                  <li>Differentiate between minor breach, major breach and anticipatory breach.</li>
+                  <li>Discuss the five (5) forms of breach.</li>
+                  <li>Give the difference between mora creditoris and more debitoris.</li>
+                  <li>Justify the remedies and consequences of breach flowing from mora creditoris and mora debitoris.</li>
+                  <li>Explain positive malperformance and repudiation. </li>
+                  <li>Appreciate the link between an anticipatory</li>
+                  <li>Appreciate the difference between termination and breach</li>
+                </ul> 
+              </div>
+            <!--Expected Outcomes -->
+
             
             <br>
-
-            <!--Expected Outcomes -->
-            <div class="note note-primary">
-              <i class="fas fa-graduation-cap">Outcomes</i>
-              <h4 class="text-center secondary-heading text-primary">Upon completion of this unit you will be able to:</h4>
-              <ul class="text-left">
-                <li>State what constitutes a breach in a contract.</li>
-                <li>Outline the three (3) categories of a breach.</li>
-                <li>Differentiate between minor breach, major breach and anticipatory breach.</li>
-                <li>Discuss the five (5) forms of breach.</li>
-                <li>Give the difference between mora creditoris and more debitoris.</li>
-                <li>Justify the remedies and consequences of breach flowing from mora creditoris and mora debitoris.</li>
-                <li>Explain positive malperformance and repudiation. </li>
-                <li>Appreciate the link between an anticipatory</li>
-                <li>Appreciate the difference between termination and breach</li>
-              </ul> 
-            </div>
-            <!--Expected Outcomes -->
-
-            <br>
             <!--New Concepts --> 
-              <div class="note note-primary">
-                <i class="fas fa-spell-check">Terminology</i>
+              <div >
+                <h4> <i class="fas fa-spell-check"> Terminology</i></h4>                        
                 <p>In this Unit, you will be introduced to the following concepts</p>
                 <p class="light-blue-text"><em>Termination, breach, repudiation, mora creditoris, 
                   mora debitoris, positive malperformance, minor breach, 
@@ -108,13 +108,14 @@
                 </p> 
               </div>
             <!--New Concepts-->
-
+          </div>
+        <!--Introduction-->
+            
             <br>
 
           <!--Chapter/Section-->
-            <div class="Chapter border border-primary my-4 p-4 bg">
-              <i class="fas fa-puzzle-piece">Section</i>
-              <h1 id="classificalOfBreach" class="text-center">Classification Of Breach</h1>
+            <div class="Chapter">
+              <h1 id="classificalOfBreach" class="text-center chapter-topic secondary-heading text-primary"><strong>Classification Of Breach</strong></h1>
               <ol type="i">
                 <br>
                 <em><li>Ordinary Breach</li></em>
@@ -122,27 +123,27 @@
                   If without lawful excuse a party fails to do what he 
                   has contracted to do, or does what  he has contracted 
                   not to do, an ordinary breach of contract is said have 
-                  taken place<span v-katex="'^1'"></span><span v-katex="'^0'"></span><span v-katex="'^5'"></span>. It is to be noted, however that if a provision 
+                  taken place<sup><a id="105" href="105r">105</a></sup>. It is to be noted, however that if a provision 
                   is inserted in a contract for the benefit of one of the parties 
                   only and that party disregards it (i.e. waives the benefit of it) 
                   the other party cannot claim that non-fulfilment of the provision is  
-                  breach of contract.  This was clearly illustrated in the case of <em><strong>Lastky v Burger</strong></em><span v-katex="'^1'"></span><span v-katex="'^0'"></span><span v-katex="'^6'"></span>.  
-                  It is worth noting that a breach of contract does not in itself bring the contract to an end<span v-katex="'^1'"></span><span v-katex="'^0'"></span><span v-katex="'^7'"></span>. 
+                  breach of contract.  This was clearly illustrated in the case of <em><strong>Lastky v Burger</strong></em><sup><a id="106" href="106r">106</a></sup>.  
+                  It is worth noting that a breach of contract does not in itself bring the contract to an end<sup><a id="107" href="107r">107</a></sup>. 
                   It gives the aggrieved party a choice of remedies, the options varying with the nature of the breach. 
                   In the case of a major breach, the aggrieved party may terminate the contract by cancelling it. in the case 
                   of minor breach, the aggrieved party may not cancel, his choice, normally, being between on the one hand, 
                   specific performance and on the other hand damages.
                 </p>
                 <p>
-                  In the case of <em><strong>Culverwell and Another v Brown</strong></em><span v-katex="'^1'"></span><span v-katex="'^0'"></span><span v-katex="'^8'"></span>  it was held that the onus of proving that the breach is major lies on the party asserting it. A party who asks for specific performance asks for of the original contract, not performance of a new obligation created by the breach. If a party aggrieved by a major breach, whether anticipatory or ordinary cancels the contract it comes to an end and when the cancellation takes effect, a claim for damages being competent thereafter. 
+                  In the case of <em><strong>Culverwell and Another v Brown</strong></em><sup><a id="108" href="108r">108</a></sup>  it was held that the onus of proving that the breach is major lies on the party asserting it. A party who asks for specific performance asks for of the original contract, not performance of a new obligation created by the breach. If a party aggrieved by a major breach, whether anticipatory or ordinary cancels the contract it comes to an end and when the cancellation takes effect, a claim for damages being competent thereafter. 
                 </p>
                 <em><li>Minor Breach</li></em>
                 <p>
-                  Parties to a contract are bound together in a legal relationship. Termination of the legal relationship is clearly an important step. Because it is so important, it may not be taken if the breach is a minor one only<span v-katex="'^1'"></span><span v-katex="'^0'"></span><span v-katex="'^9'"></span>.  If there is a statutory provision to the contrary, cancellation is not competent even if the breach is a major one.   
+                  Parties to a contract are bound together in a legal relationship. Termination of the legal relationship is clearly an important step. Because it is so important, it may not be taken if the breach is a minor one only<sup><a id="109" href="109r">109</a></sup>.  If there is a statutory provision to the contrary, cancellation is not competent even if the breach is a major one.   
                 </p>
                 <em> <li>Major Breach</li></em>
                 <p>
-                  A breach is a major one if it goes to the root of the contract or affects a vital part of the obligations or means that there is no substantial performance. It amounts to saying that the breach must be so serious that it cannot reasonably be expected of the other party that he should continue with the contract and content himself with an eventual claim for damages<span v-katex="'^1'"></span><span v-katex="'^1'"></span><span v-katex="'^0'"></span>.<strong><em>Stracham v Prinsloo</em></strong><span v-katex="'^1'"></span><span v-katex="'^1'"></span><span v-katex="'^1'"></span>  it was stated that “ as far as I can judge a breach going to the root of the contract  In the local case of  <strong><em>New Mall (Pty) Ltd v Tricor International (Pty) Ltd</em></strong><span v-katex="'^1'"></span><span v-katex="'^1'"></span><span v-katex="'^2'"></span> it was held that  it was incumbent upon the applicant to show to the respondent that the remedy so demanded was as a result of a <em>“material breach”</em> and therefore the statements <em>“the foundation of the contract has been completely destroyed”</em> and <em>“irretrievable breakdown of trust and confidence”</em> was nothing else by information tautologous to the fact that the breach complained of was material.
+                  A breach is a major one if it goes to the root of the contract or affects a vital part of the obligations or means that there is no substantial performance. It amounts to saying that the breach must be so serious that it cannot reasonably be expected of the other party that he should continue with the contract and content himself with an eventual claim for damages<sup><a id="110" href="110r">110</a></sup>.<strong><em>Stracham v Prinsloo</em></strong><sup><a id="111" href="111r">111</a></sup>  it was stated that “ as far as I can judge a breach going to the root of the contract  In the local case of  <strong><em>New Mall (Pty) Ltd v Tricor International (Pty) Ltd</em></strong><sup><a id="112" href="112r">112</a></sup> it was held that  it was incumbent upon the applicant to show to the respondent that the remedy so demanded was as a result of a <em>“material breach”</em> and therefore the statements <em>“the foundation of the contract has been completely destroyed”</em> and <em>“irretrievable breakdown of trust and confidence”</em> was nothing else by information tautologous to the fact that the breach complained of was material.
                 </p>
                 <em> <li>Anticipatory Breach</li></em>
                 <p>
@@ -155,9 +156,8 @@
                       De Wet v Kuhn
                     </strong>
                   </em>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^3'"></span>  
+                  <sup><a id="113" href="113r">113</a></sup>
+                    
                 <!-- <em> 
                       <blockquote class="blockquote text-right">
                         “The principle is now established that a refusal by one party to a contract to perform it before the date of performance 
@@ -166,9 +166,9 @@
                       </blockquote>
                   </em>-->
                 </p>
-                  <div class="col-sm-3 col-lg-4 border-primary">
+                  <div >
                   </div>
-                  <div class="col-sm-9 col-lg-8">
+                  <div >
                     <p>
                       <em>
                         <blockquote class="blockquote text-left">
@@ -217,28 +217,22 @@
           <!--Chapter/Section end-->
 
           <!--Chapter/Section-->
-            <div class="Chapter border border-primary bg my-4 p-4 bg">
-              <i class="fas fa-puzzle-piece">Section</i>
-              <h1 id="formsOfBreach" class="text-center">Forms Of Breach</h1>
+            <div class="Chapter">
+              <h1 id="formsOfBreach" class="text-center chapter-topic  secondary-heading text-primary"><strong>Forms Of Breach</strong></h1>
               <ol type="i">
                 <p>
                   In modern law, the generic concept of breach has been fractured into a number of distinct types or forms of breach, creating the 
                   impression that the conduct in question must first be slotted into one of these specific doctrinal pigeonholes before it can 
-                  attract consequences of breach of contract
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^7'"></span>. Before we discuss the various types of breach, it is imperative that we understand the meaning of 
+                  attract consequences of breach of contract <sup><a id="117" href="117r">117</a></sup>
+                  . Before we discuss the various types of breach, it is imperative that we understand the meaning of 
                   the term 
                   <em>“mora”</em> 
-                  in the context of contracts. GA Mulligan
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^8'"></span> 
+                  in the context of contracts. GA Mulligan <sup><a id="118" href="118r">118</a></sup>
                   defined mora as follows:
                 </p>
-                <div class="col-sm-3 col-lg-4 border-primary">
+                <div >
                 </div>
-                <div class="col-sm-9 col-lg-8">
+                <div >
                   <p>
                     <em>
                       <blockquote class="blockquote text-left">
@@ -617,9 +611,8 @@
             <br>
           
           <!--Unit Summary-->
-            <div class="note note-primary">
-              <i class="fas fa-book-reader"></i>
-              <h5 id="unitSummary" class="text-left">Unit Summary</h5>
+            <div class="Chapter">
+              <h1 id="unitSammary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
               <p class="text-left">
                 In this unit, we have understood that failure to honour a contract 
                 amounts to vreach of contract. Although our law recognizes a general
@@ -634,7 +627,7 @@
             <br> 
             
             <!--Discussion-->
-              <div class="note note-primary">
+              <div >
                 <i class="fas fa-comments"></i>
                 <h5 id="discussion" class="text-left">Discussion</h5>
                 <p class="text-left">
@@ -647,7 +640,7 @@
             <br> 
           
             <!--Activity 1-->
-              <div class="note note-primary">
+              <div class="Chapter">
                 <i class="fas fa-tools"></i>
                 <h5 id="activity1" class="text-left">Activity 1</h5>
                 <p class="text-left">
@@ -660,7 +653,7 @@
             <br> 
           
             <!--Activity 2-->
-              <div class="note note-primary">
+              <div class="Chapter">
                 <i class="fas fa-tools"></i>
                 <h5 id="activity2" class="text-left">Activity 2</h5>
                 <p class="text-left">
