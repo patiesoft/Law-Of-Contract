@@ -44,7 +44,7 @@
         <br> 
         <!--Introduction-->
         <div class="Chapter">
-          <h1  class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
+          <h1 class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
           <div>
             <p>
               After successfully completing our discussion on conditions and warranties in a contract, our next mandate is to look at a variation of a contract and the circumstances wherein a valid contract can be varied or in simpler terms can be deviated from. The unit will further cover the issue of a waiver in a contract and context within which waiver occurs.
