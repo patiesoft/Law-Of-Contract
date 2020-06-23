@@ -2,7 +2,7 @@
 <!--Navbar-->
 <div class="container-fluid text-left">
     <mdb-navbar
-        position="top "
+        position="top-fixed"
         transparent
         color="mdb"
         dark
@@ -42,13 +42,14 @@
     <!-- Body rom -->
     <div class="row  text-left m-2" > 
         <!--Body col-->
-        <div class="col content text-justified "> 
-
+        <div class="col content text-justify"> 
             <!--Chapter Introduction --> 
+            <hr id="introduction">
+            <br>
             <div class="Chapter" >
-                <h1 id="introduction" class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
+                <h1 class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
                 <div>   
-                    <p class="text-left">
+                    <p> 
                         The nature of the provisions of a contract will vary from case to case, 
                         depending on legal requirements, as well as the objectives and intentions of the parties. 
                         Contracts often come with conditions and warranties. For instance if, 
@@ -59,9 +60,9 @@
 
                     <!--Contents -->   
                     <h4 class="text-left"><strong>Contents</strong></h4>
+                    <h6 class="h6"><strong>This Unit is divided into three (3) areas:</strong></h6> 
                     <p class="text-left">
-                        This Unit is divided into three (3) areas:
-                        <ol id="contentlist" style="list-style-type:decimal;">
+                        <ol id="contentlist" style="list-style-type:decimal">
                             <li>Conditions</li>
                             <li>Types of Conditions</li>
                             <li>Warranties</li>
@@ -73,8 +74,8 @@
                     <div class="">
                         <h4> <i class="fas fa-graduation-cap"> Outcomes</i></h4>
                         <h6 class="h6"> <strong>Upon completion of this unit you will be able to:</strong></h6>
-                        <ul class="text-left">
-                            <li>Demonstrate a reasonable comprehension of conditions and warranties.</li>
+                    <ul class="text-left">
+                        <li>Demonstrate a reasonable comprehension of conditions and warranties.</li>
                             <li>Draw the fundamental differences between conditions and warranties</li>
                             <li>Determine the significance of warranties in contracts.</li>
                         </ul>
@@ -207,7 +208,9 @@
                     <p>
                         The issue in this case was whether failing to turn up to the first day of performance amounted to a breach of a condition of the contract.
                     </p>
-                    <h4 class="h4" id="held">Held</h4>
+                    <hr id="held">
+                    <br>
+                    <h1 class="text-center chapter-topic secondary-heading text-primary"><strong>Held</strong></h1>
                     <p>
                         It was held that failure to turn up did amount to a breach of a condition of the contract 
                         as this went to its very root and that Spiers were therefore free to rescind the contract.
@@ -230,14 +233,13 @@
                         </p>
                         </em>
                     </div>
-                    
-                    <br>
-                    <br> 
-
                     <!--Box-1 Example-1 end-->
 
+                    <hr id="typeOfCondition">
+                    <br>
+
                     <div>
-                        <h2 id="typeOfCondition"  class="text-center  secondary-heading text-primary"> <strong>Types Of Conditions </strong></h2>
+                        <h1   class="text-center  secondary-heading text-primary chapter-topics"> <strong>Types Of Conditions </strong></h1>
                         <p>
                             In a unanimous judgment, De Villiers A.J. sitting with Watermeyer J in R. v Katz4 explaining the types
                             of conditions, it was held as follows:
@@ -486,13 +488,12 @@
             </div>
             <!--/Issues-->
             
-            <hr>
+            <hr id="unitSammary">
             <br>
 
             <!--Summary-->
             <div > 
-                
-                <h1 id="unitSammary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
+                <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
                 <div >
                     <p>
                         This brings us to the end of Unit 1 where we unpacked conditions and warranties. We were introduced to these new concepts
@@ -500,12 +501,11 @@
                         the different types of warranties. In the discussion on warranties we highlighted the common law warranty which is similar
                         to an implied term of a contract. We will now proceed to Unit 2 to discuss variations and waiver. Enjoy!
                     </p>
-                </div>
-
+                </div> 
             </div>
             <!--Summary-->
             
-            <hr>
+            <hr id="activity1">
             <br>
 
             <!--Activity 1-->
@@ -519,12 +519,12 @@
             </div>
             <!--/Activity-->
 
-                <hr>
+                <hr id="activity2">
                 <br>
 
             <!--Activity 2-->
             <div class="Chapter">
-                <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
+                <h1  class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
                 <p>
                     A bought a car from B at a price of E15,000.00. A was to pay the total amount of E15,000.00 in cash before 
                     gaining possession of the car. Further to that, B was to deliver the car to A on or before the lapse of three
@@ -538,12 +538,12 @@
             </div>
             <!--/Activity-->
             
-            <hr>
+            <hr id="unitSammary" >
             <br>
             
             <!--Self-Assessment--> 
             <div class="Chapter">
-                <h1 id="selfAssessment" class="text-center  secondary-heading text-primary"><strong><i class="fas fa-question-circle"></i> Self-Assessment</strong></h1>
+                <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i>Self-Assessment</strong></h1>
                 
                 <ol>
                     <li>

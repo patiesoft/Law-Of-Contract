@@ -16,9 +16,9 @@
         </mdb-navbar-nav>
       </mdb-navbar-toggler>
     </mdb-navbar>
-      <div class="text-justify border border-primary p-4 mt-4">
+      <div class="text-justify p-4 mx-2">
         <hr class="new5"/>
-        <h1 class="overview">Welcome to Law204-Law of Contract II </h1>
+        <h1 class="text-center chapter-topic secondary-heading text-primary"><strong>Welcome to Law204-Law of Contract II</strong></h1>
         <p>
           LAW203 is a pre-requisite for this course. After having completed the LAW203 Module, 
           you are expected to appreciate and understand the fundamental principles of the law 
@@ -28,7 +28,7 @@
           the legal effect of various vitiating factors, and the discharge of a contract.
         </p> 
         <hr class="new5"/>
-        <h1 class="overview">Module Overview</h1>
+        <h1 class="text-center chapter-topic secondary-heading text-primary"><strong>Module Overview</strong></h1>
         <p> 
           LAW204 takes you further on specific principles of the law of contract. This 
           specific types of contracts, performance; termination; breach of contract; remedies
@@ -45,7 +45,7 @@
         </p> 
 
         <hr class="new5"/>
-        <h1 class="overview">Study Skills </h1> 
+       <h1 class="text-center chapter-topic secondary-heading text-primary"><strong>Study Skills</strong></h1> 
         <p>
           As an adult learner your approach to learning will be different to that from your school days: 
           you will choose what you want to study, you will have professional and/or personal motivation
