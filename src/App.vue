@@ -1,17 +1,7 @@
 <!--Template-->
 <template>
   <div id="app">
-    <!-- Header -->
     <SideNav/>
-    <div class="Header container-fluid">
-     
-     <img id="uneswaLogo" src="./assets/logo-uneswa.png" width="150" href="http://www.uniswa.sz/">     
-     
-    
-     <h1>Institute of Distance Education </h1>
-
-    </div>
-    <!-- Header -->
     <router-view/>
     <Footer/>
   </div>

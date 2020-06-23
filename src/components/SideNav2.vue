@@ -1,7 +1,6 @@
 <template>
   <div class="white-skin mdb-admin-sidenav">
     <mdb-side-nav
-      logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/University_of_Swaziland_logo.svg/300px-University_of_Swaziland_logo.svg.png"
       sideNavClass="sn-bg-9"
       mask="strong"
       :OpenedFromOutside.sync="toggle"
@@ -15,7 +14,6 @@
       </li>
       <li>
         <mdb-side-nav-nav>
-          <mdb-side-nav-cat name="Units" icon="tachometer-alt">
             <mdb-side-nav-item
             href="#/Unit1"
               @click.native="width < 1440 && toggleSideNav(false)"
@@ -56,7 +54,6 @@
               @click.native="width < 1440 && toggleSideNav(false)"
               >Unit8</mdb-side-nav-item
             >
-          </mdb-side-nav-cat>
          
         </mdb-side-nav-nav>
       </li>
@@ -68,7 +65,6 @@
 import {
   mdbSideNav,
   mdbSideNavNav,
-  mdbSideNavCat,
   mdbSideNavItem,
   waves
 } from "mdbvue";
@@ -88,7 +84,6 @@ export default {
   components: {
     mdbSideNav,
     mdbSideNavNav,
-    mdbSideNavCat,
     mdbSideNavItem
   },
   data() {
