@@ -39,19 +39,19 @@
   <div  class="col text-justified">
 
   <!-- Introduction -->
-  <div class="Chapter note  note-primary">
-    <h1 id="introduction"  class="text-center secondary-heading text-primary">Introduction</h1>
+  <div class="Chapter">
+    <h1 id="introduction"  class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
     <div>
-      <p>
+      <p class="text-left">
         This Unit deals with the termination of contracts. There is a number of ways through which a contract may be terminated. 
         We must recall that once a party formally agrees to a contract, they become liable under law to fulfil their contractual
         obligations. Failure to perform the terms stated in the contract can result in a breach of contract law suit or other legal liabilities
       </p>
-      <p>
+      <p class="text-left">
         However, there are some conditions under which a contract can be legally terminated before the contractual duties have been fulfilled. 
         This is known as “termination of contract” and may occur for many different reasons.
       </p>
-      <p>
+      <p class="text-left">
         It is necessary at the foremost of our discussion to be able to distinguish between the termination of ‘an obligation’ under a contract 
         and the termination of ‘the contract’ as a whole. The understanding of this will assist you to appreciate the fact that a contract may be
         terminated when one party’s obligation to the contract is fulfilled, and also when the performance of the entire contact has been rendered.
@@ -60,13 +60,14 @@
       </p>
 
     </div> 
+    <br>
     <!-- Contents -->
 
-    <div class="Chapter note  note-primary">
-      <h3 id="contents">Contents</h3>
-      <p>
+    <div class="Chapter">
+      <h4 id="contents" class="text-left"><strong>Contents</strong></h4>
+      <p class="text-left">
         In this Unit, we will cover the following aspects:
-      <ul>
+      <ol style="list-style-type:decimal;">
         <li>The termination of contractual obligations</li>
         <li>Instances when termination is lawful</li>
         <li>Impossibility of performance resulting in termination</li>
@@ -74,12 +75,15 @@
         <li>Breach</li>
         <li>Termination by Notice</li>
         <li>Termination by Agreement</li>               
-      </ul>
+      </ol>
       </p>
-
-      <p>
-        Upon completion of this unit you will be able to:
-        <ul>
+      <br>
+    
+    <!--Outcomes-->
+     <div class="">
+        <h4> <i class="fas fa-graduation-cap"> Outcomes</i></h4>
+        <h6 class="h6"> <strong>Upon completion of this unit you will be able to:</strong></h6>
+        <ul class="text-left">
           <li>Explain what and how termination of a contract occurs</li>
           <li>Outline the common reasons for the termination of a contract</li>
           <li>Describe the forms of termination of a contract</li>
@@ -89,26 +93,29 @@
           <li>Explain the terminology covered in this Unit.</li>
         </ul>
 
-      </p>
+      </div>
+      <!--Outcomes-->
 
     </div>
   <!-- /Contents -->
 
+<br>
   <!-- Terminology -->
-  <div>
+  <div class="text-left">
+    <h4> <i class="fas fa-spell-check"> Terminology</i></h4>
     <p>In this Unit, you will be introduced to the following concepts:</p>
-    <div>
-      <p>
+    <h6>
         Termination, breach, repudiation, novation, prescription, insolvency, set-off, merger, affluxion, 
         minor breach, major breach, material breach.
-      </p>
-    </div>
-    
+    </h6> 
   </div>
   <!-- /Terminology -->
+   
+   <br>
 
   <!--Case Study -->
   <div>
+     <h4 class="h4"> <i class="fas fa-gavel"> Case Study</i></h4>
     <ul>
       <li>Hanornag SA (Pty) Ltd v Otto 1940 CPD 437.</li>
       <li>Bold v Cooper and Another 1949(1)SA 1195 (W)</li>
@@ -123,16 +130,16 @@
 
   </div>
   <!--Case Study -->
-
+  <br>
 
   </div>
   <!-- /Introduction -->
 
   <!-- Termination Of Contractual Obligation -->        
-  <div class="Chapter note-primary">
-    <h1 class="text-center secondary-heading text-primary">Termination Of Contractual Obligation</h1>
+  <div class="Chapter">
+    <h1 class="text-center chapter-topic  secondary-heading text-primary">Termination Of Contractual Obligation</h1>
 
-    <h4>Introduction</h4>
+    <h4  class="text-left chapter-topic secondary-heading text-primary"><strong>Introduction</strong></h4>
     <p>
       A contract is terminated after being performed. Performance means that each party must perform its own obligations
       as envisaged by the contract. Such performance should be made by the party upon whom the obligation is imposed and 
@@ -176,12 +183,12 @@
   </div>
   <!-- /Termination Of Contractual Obligation -->
 
+<br>
   <!-- When Is Termination Of Contracts Lawful -->
   <div class="Chapter">
-    <ol>
-      <li>When Is Termination Of Contracts Lawful</li>
+      <h3  class="text-center chapter-topic secondary-heading text-primary"><strong>When Is Termination Of Contracts Lawful</strong></h3>
       <p>There are ten ways in which a contract may be terminated:</p>
-      <ul>
+      <ol style="a">
         <li>Performance or payment</li>
         <li>Release</li>
         <li>Novation</li>
@@ -192,10 +199,12 @@
         <li>nsolvency and rehabilitation</li>
         <li>Death</li>
         <li>Breach</li>
-      </ul>
+      </ol>
 
-      <ol>
-        <li>Performance or payment</li>
+  <ol sytle="a">
+        <h4>
+          <li>Performance or payment</li>
+          </h4>
         <p>
           This is the most common way of ending contracts: each party 
           simply does what he or she was meant to do. If the debt is a money debt, the creditor is entitled 
@@ -211,13 +220,17 @@
           (a form of enrichment action founded in Roman law).
         </p>
 
-        <li>Release </li>
+        <h4>
+          <li>Release </li>
+            </h4>
         <p>
           This is known as waiver, or discharge by agreement. The parties may waive their rights and release each other from their respective 
           rights and obligations. In effect, this means that one or both parties abandon rights to the contract<sup>77</sup>.
         </p>
 
-        <li>Novation</li>
+        <h4>
+          <li>Novation</li>
+          </h4>
         <p>
           It is possible to substitute a new contract for the original one (novation). The settlement of a dispute, or an agreement to compromise, 
           both discharge the original obligation, and a new one may be substituted in its place<sup>78</sup>.
@@ -235,31 +248,39 @@
           </ul>
         </p>
 
-        <li><strong>Merger</strong> <i>(confusio)</i> </li>
+        <h4>
+          <li>Merger<i>(confusio)</i>  </li>
+          </h4>
         <p>
           Merger occurs when the qualities of debtor and creditor coincide in the same person in respect of the same obligation, for example when a tenant 
           purchase the same property that he or she has been renting<sup>80</sup>.
         </p>
+
+        <br>
+
         <!-- Case law -->
         <div>
-          <p>Case law</p>
+        <h4 class="h4"> <i class="fas fa-gavel"> Case Law</i></h4>
           <p>
             In Grootchwaing Salt works Ltd v Van Tonder81, a tenant hired land with a salt pan. The lease gave the tenant rights to some of the adjoining ground, which was not let. The tenant later bought the ground over which the lease has existed. The court held that the rights over the adjoining ground had come to an end.
           </p>
         </div>
         <!-- /Case law -->
-
-        <li> <strong>Impossibility of Performance</strong> </li>
+         <br>
+       <h4>
+         <li>Impossibility of Performance</li>
+         </h4>
         <p>
           A contract that is initially impossible to perform is void. Supervening impossibility of performance is voidable. The contract is discharged as  
           though it had been impossible from the very beginning<sup>82</sup>. All rights and duties between the parties fall away, and there is no breach or liability
           for damages. What has already been performed is usually recoverable on the basis of unjustified enrichment. Supervening impossibility may arise through an 
           act of God, where the law is changed to make performance dies or becomes incapacitated<sup>83</sup>.
         </p>
-
+     
+     <br>
         <!-- Case Law -->
         <div>
-          <p>Case law</p>
+          <h4 class="h4"> <i class="fas fa-gavel"> Case Law</i></h4>
           <p>
             In <i>Peters Flamman and Company v Kokstad Municipality<sup>84</sup> </i>, a contract had been entered into a few years before the First World War to provide 
             lighting services for a period of twenty years. The partners of the suppliers were found to be enemy aliens, and interned. The business was
@@ -268,6 +289,7 @@
           </p>
         </div>
         <!-- /Case Law -->
+        <br>
 
         <p>
           Kopel<sup>85</sup> argues that supervening impossibility will not discharge a contract in any of the following cases:
@@ -282,10 +304,11 @@
             </li>
           </ul>
         </p>
-
+   
+   <br>
         <!-- Case Law -->
         <div>
-          <p>Case law</p>
+          <h4 class="h4"> <i class="fas fa-gavel"> Case Law</i></h4>
           <p>
             In <strong><i>Hersman v Shapiro & Company<sup>88</sup></i></strong>, a dealer in corn sold a consignment in advance. He argued that because of a crop failure it was impossible to 
             deliver the goods. The court held that there had been no evidence that the right quality and quantity of corn was absolutely unobtainable in all 
@@ -297,7 +320,9 @@
         </div>
         <!-- /Case Law -->
 
-        <li> <strong>Set-off (Compensation) </strong></li>
+        <h4>
+          <li> Set-off (Compensation)</li> 
+        </h4>
         <p>
           If each party to a contract is indebted to the other party, the debts are balanced against each other. The lesser debt is discharged or both debts are discharged if they are equal90.
           In the case of <strong><i>Altech Data (Pty) Ltd v MB Technologies (Pty) Ltd)</i></strong><sup>91</sup>, for set off to operate, four (4) requirements must be met:
@@ -317,7 +342,9 @@
           The parties may agree to exclude any set-off operating<sup>92</sup>.
         </p>
 
-        <li> <strong>Prescription (Position in South Africa)</strong></li>
+        <h4>
+          <li>Prescription (Position in South Africa)</li>
+        </h4>
         <p>
           In terms of the South African Prescription Act <sup>93</sup>, it is possible to acquire rights, or be released from obligations, simply by the passing of time. In this way, prescription
           provides legal certainty<sup>94</sup>. The Institution of Legal Proceedings against certain Organs of State Act <sup>95</sup> relates to any cause of action where the state is liable for payment
@@ -375,10 +402,10 @@
           action arose- if a plaintiff delays starting legal proceedings for too long, the defendant may argue successfully 
           that the claim has prescribed.
         </p>
-          
+          <br>
         <!-- Case law -->
           <div>
-            <p>Case law</p>
+              <h4 class="h4"> <i class="fas fa-gavel"> Case Law</i></h4>
             <p>
               In  <strong><i>Van Zijl v Hoogenhout</i></strong>  <sup>100</sup>, a woman claimed she had been sexually abused by her uncle from when she was six until 
               she reached fifteen years of age. This lasted from 1958 to 1967. The abused caused long-term physical, psychological 
@@ -410,7 +437,7 @@
         
         <!-- Case law -->
           <div>
-            <p>Case law</p>
+             <h4 class="h4"> <i class="fas fa-gavel"> Case Law</i></h4>
             <p>
               In Nedcor Bank Ltd v Rundle101, the court was asked to decide when prescription recommences after interruption caused by the filing
               of claim against a company in liquidation. The court held that the running of prescription of a money debt, interrupted by the filing 
@@ -450,9 +477,10 @@
             </li>
           </ul>
         <!-- Suspension -->
+        <br>
         <!-- Position in Eswatini -->
         <div>
-          <h4 id="positionInEswatini">Position in Eswatini</h4>
+          <h5 id="positionInEswatini">Position in Eswatini</h5>
           <p>
             Unlike in the Republic of South Africa where there is law regulating prescription, we do not have such a statute in Eswatini. This submission was clearly unpacked 
             in the local case of Shell South African Energy (Pty) Ltd v Fannie Constantine Mthethwa <sup>102</sup> The plea of prescription raised by the Plaintiff is based upon 
@@ -479,9 +507,11 @@
 
         </div>
         <!-- Position in Eswatini -->
-
+         <br>
         <!--Insolvency and rehabilitation -->
-        <li>1.8 Insolvency and rehabilitation</li>
+        <h4>
+          <li>Insolvency and rehabilitation</li>
+        </h4>
         <p>
           A person whose liabilities exceed his or her assets may be declared by the High Court to be insolvent. Certain contracts entered into by the
           insolvent prior to sequestration may be set aside by the court. The rehabilitation of the insolvent discharges all debts incurred prior to sequestration.
@@ -490,7 +520,9 @@
         <!--Insolvency and rehabilitation -->
 
         <!-- Death -->
-        <li>Death</li>
+        <h4>
+          <li>Death</li>
+        </h4>
         <p>
           As a general rule, the executor of the estate of a deceased person is liable in his or her representative capacity for all contracts for which the deceased 
           would have been liable in his or her lifetime, to the extent of the assets in the deceased estate. Similarly, the executor may claim from others the fulfilment 
@@ -516,7 +548,9 @@
         <!-- Death -->
 
         <!-- Breach of contract -->
-        <li>Breach of contract</li> 
+        <h4>
+          <li>Breach of contract</li> 
+        </h4>
         <p>
           When the party refuses or fails to perform as he or she agreed to, the contract has been breached104. We refer to the person who is owed performance as the creditor, and the 
           person who must perform as the debtor. Normally a creditor will be the party suing the debtor for performance. Sometimes, however, the debtor might then respond by alleging 
@@ -534,30 +568,24 @@
           </ul>
         </p>
         <!-- Breach of contract -->
-      </ol>
-
-    </ol>
-
-
-
+  </ol>
 
   </div>
   <!-- /When Is Termination Of Contracts Lawful -->
 
   <!-- Unit summary -->
   <div class="Chapter">
-    <p id="unitSummary">
+    <h1 id="unitSummary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i>Unit Summary</strong></h1>
       From the above discussion, it is clear that termination of a contract occurs in various forms. The determination factor in all the various forms is that no rights and obligations ensue from the parties upon the termination of the contract. 
       This is further evident in that once there is termination, neither of the parties is bound to the other and none of them can have a claim against the other once termination is established. Of further critical importance which the court 
       establishes in as far as termination is concerned is factoring on the intention of the parties taking into account the surrounding circumstances and everything which gives right or due to the intention to terminate a contract. We will now 
       proceed to discuss breach of contract in the next unit. Enjoy!
-    </p>
   </div>
   <!-- /Unit summary -->
 
   <!-- Discussion -->
   <div class="Chapter">
-    <h3 id="discussion">Discussion</h3>
+    <h1 id="discussion"  class="text-center chapter-topic secondary-heading text-primary"><strong>Discussion</strong></h1>
     <p>
       Termination of a contract takes place in various forms, discuss with decided cases.Termination of a contract takes place in various forms, discuss with decided cases.
     </p>
@@ -566,7 +594,7 @@
 
   <!-- Activity 1 -->
   <div class="Chapter">
-    <h3 id="activity1">Activity 1</h3>
+    <h1 id="activity1" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
     <p>
       Sipho enters into a contract with Vusi for the sale of a Honda Fit motor vehicle. The agreement is that Vusi will pay a deposit of 
       E20,000.00 and the balance of E20,000.00 will be paid in instalments of E5,000.00. The contract is not reduced into writing. Vusi 
@@ -578,7 +606,7 @@
 
   <!-- Activity 2 -->
   <div class="Chapter">
-    <h3 id="activity2">Activity 2</h3>
+    <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>
     <p>
       Company A hires Sihle on a limited duration contract. The contract is to run from January 
       2019 to December 2019. In August Sihle decides to buy shares from Company A. Will the purchase
@@ -647,3 +675,35 @@
 
   };
 </script>
+
+<style>
+.row{
+    position: relative;
+}
+.scrollspy-example {
+height: 100%;
+overflow-y:inherit;
+}
+.main-topic{
+    font-weight:700;
+}
+
+#contentlist{
+    list-style-type:decimal;
+}
+
+.sideNev{
+  list-style: armenian
+   
+
+}
+.bg{
+    background-color: #e1f5fe;
+}
+.bg2{
+  background-color: #bbdefb;  
+}
+.navbar {
+  background: #1e88e5 ;
+}
+</style>

@@ -1,6 +1,6 @@
 <template> 
-  <div class="container-fluid text-left"> 
-        <div class="container-fluid text-left" >
+<div class="container-fluid text-left"> 
+     
           <mdb-navbar
             position="top "
             transparent
@@ -32,20 +32,21 @@
     <!-- Unit header -->
       <div>      
         <h1 class="h1 h1-responsive">UNIT 3</h1>
-        <p class="h1-responsive red-text text-center main-topic">SPECIFIC PERFORMANCE</p>
+        <p class="h1-responsive red-text text-center main-topic">Specific Perfomance</p>
       </div>
+
     <!-- Unit header -->
-    <div div class="row text-left"> 
-       
+    <div class="row text-left m-2">
+      <div class="col content text-justified">
 
-<div class="col left-justified">
-<!-- Content --> 
 
-        <!-- Introduction -->
-          <div class="note  note-primary">
+  <!-- Content --> 
+
+        <!--Chapter Introduction -->
+        <div class="Chapter">
               <h1 id="introduction" class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
-
-              <p class="text-left">
+             
+              <p>
                 As mentioned in LAW203, one of the essential requirements of valid contracts is that, the intended
                 contract must be capable of performance. This basically means that the obligations arising from the 
                 contract must be deliverable. Recall the one aspect of performance we covered in LAW203, that is, 
@@ -53,13 +54,12 @@
                 right and as a remedy. We will also briefly discuss the legal effect of ‘incomplete performance’ and
                 ‘defective performance’ in comparison with complete performance. 
               </p>
-          
-            <hr>
+             
+              <!--Contents-->
 
-              <h4 class="text-left  secondary-heading text-primary"><strong>Contents</strong></h4>
+              <h4 class="text-left"><strong>Contents</strong></h4>
               <p class="text-left">
-          
-                In this Unit, we will cover the following aspects:
+                 In this Unit, we will cover the following aspects:
                 <ol id="contentlist" style="list-style-type:decimal;">
                   <li>Specific Perfomance</li>
                   <li>Reciprocity of Obligations</li>
@@ -67,208 +67,223 @@
                   <li> Complete Perfomance </li>
                 </ol>
               </p>
-         </div>
-        <!--/Introduction -->
- 
-      <!--Please add an outcome icon-->
+              <!--/Contents-->
+        
 
-      <hr>
+              <!-- Outcomes -->        
+                <div class="">
+                  <h4 ><i class="fas fa-graduation-cap">Outcomes</i></h4>
+                  <h6 class="h6"><strong>Upon completion of this unit you will be to:</strong></h6>
+                  <ul class="text-left">
+                    <li>Demonstrate a clear understanding of specific performance as a right, and as a remedy. </li>
+                    <li>Determine what constitutes defective performance.</li>
+                    <li>Appreciate the difference between complete and incomplete performance.</li>
+                    <li>Analyse the legal implications of incomplete and defective performance.</li>
+                    <li>State the circumstances affecting the exercise of the discretion for specific performance.</li>
+                    <li>Outline and discuss the requirements for specific performance</li> 
+                    <li>Explain the terminology covered in this unit.</li>
+                  </ul>
+                </div>
+              <!-- /Outcomes -->
 
-      <!-- Outcomes -->        
-        <div class="note note-primary">
-          <h4 class="text-left">Upon completion of this unit you will be able to:</h4>
-          <ul class="text-left">
-            <li>Demonstrate a clear understanding of specific performance as a right, and as a remedy. </li>
-            <li>Determine what constitutes defective performance.</li>
-            <li>Appreciate the difference between complete and incomplete performance.</li>
-            <li>Analyse the legal implications of incomplete and defective performance.</li>
-            <li>State the circumstances affecting the exercise of the discretion for specific performance.</li>
-            <li>Outline and discuss the requirements for specific performance</li> 
-            <li>Explain the terminology covered in this unit.</li>
-          </ul>
-        </div>
-      <!-- /Outcomes -->
+              <!--Time-->
+                <div class="text-left"> 
+                  <h4 class="h4"><i class="far fa-clock"></i>Time</h4>
+                    <p>We will be expected to finish this Unit in one week.</p>
+                </div>
+              <!-- /Time -->
+              <br>
 
-      <hr>
-      <!--Add a time icon-->
-      <!-- Time -->
-        <div class="note note-danger"> 
-          <h1><i class="far fa-clock"></i>Time</h1>
-            <p>We will be expected to finish this Unit in one (1)  week.</p>
-        </div>
-      <!-- /Time -->
- 
-      <hr>
+              <!-- Study Skills -->
+                <div class="text-letf">
+                  <h4 class="h4"><mdb-icon icon="book-open"/>Study Skils</h4>
+                  <strong>The study skills that will be required in this Unit are as follows:</strong>
+                    <ul>
+                      <li>You will be expected to have basic knowledge of a contract as discussed in LAW 203.</li>  
+                      <li>As we are now in the era of technology and E-Learning, you will be referred to relevant and informative websites on the law of contract.</li>
+                    </ul>
+                </div>
+              <!-- /Study Skills -->
+               <br>
+               <!-- Case Study -->
+                <div> 
+                <h4 class="h4"><i class="fas fa-gavel">Case Study</i></h4>
+                  <ul> 
+                    <li>Jossa v Barclays Western Bank Ltd 1990 (1) SA 575 (T)</li>
+                    <li>Schierhout v Minister of Justice 1926 AD 99</li>
+                    <li>Benson v SA Mutaul Life Assurance Society 1986 (1) SA 776 (A)</li>
+                    <li>Haynes v King Williamstown Municipality 1951(2) SA 31 (AD) 371 at 378H </li>
+                    <li>Nondlela Suzan Konyana v Ngwane Park Township (Pty) Limited Civil Appeal Case No. 58/09</li>
+                    <li>Tsabedze v University of Swaziland (51/10) [2011] SZSC 16 (31 May 2011)</li>
+                    <li>Farmers’ Co-operative Society v Berry 1912 AD 343 at 350-1</li>
+                    <li>Hitchins v Breslin 1939 TPD 677 at 682, </li>
+                    <li>Harrismith Building Society No.2 v Taylor 1938 OPD</li>
+                  </ul>
 
-      <!--Add a study Skills icon -->
+                  <p align="center"><b>Please refer to textbooks highlighted in <a href="#Unit1">Unit 1</a>.</b></p>
+                </div>
+              <!-- /Case Study -->
+                </div>
+         
+          <!--Chapter Introduction -->
 
-      <!-- Study Skills -->
-        <div class="note note-primary">
-          <h3>Study Skils</h3>
-          <strong>The study skills that will be required in this Unit are as follows:</strong>
-            <ul>
-              <li>You will be expected to have basic knowledge of a contract as discussed in LAW 203.</li>  
-              <li>As we are now in the era of technology and E-Learning, you will be referred to relevant and informative websites on the law of contract.</li>
-            </ul>
-        </div>
-      <!-- /Study Skills -->
 
-     <!--Add a Case study icon -->
 
-     <!-- Case Study -->
-        <div class="note note-primary">
-          <h3>Case Study</h3>
-          <ul> 
-            <li><i><strong>Jossa v Barclays Western Bank Ltd</strong></i> 1990 (1) SA 575 (T)</li>
-            <li><strong><i>Schierhout v Minister of Justice</i></strong> 1926 AD 99</li>
-            <li><strong><i>Benson v SA Mutaul Life Assurance Society</i></strong> 1986 (1) SA 776 (A)</li>
-            <li><strong><i>Haynes v King Williamstown Municipality</i></strong> 1951(2) SA 31 (AD) 371 at 378H </li>
-            <li><strong><i>Nondlela Suzan Konyana v Ngwane Park Township (Pty) Limited</i></strong> Civil Appeal Case No. 58/09</li>
-            <li><strong><i>Tsabedze v University of Swaziland</i></strong> 51/10) [2011] SZSC 16 (31 May 2011)</li>
-            <li><strong><i>Farmers’ Co-operative Society v Berry</i></strong> 1912 AD 343 at 350-1</li>
-            <li><strong><i>Hitchins v Breslin</i></strong> 1939 TPD 677 at 682, </li>
-            <li><strong><i>Harrismith Building Society No.2 v Taylor</i></strong> 1938 OPD</li>
-          </ul>
-
-          <p align="center"><b>Please refer to textbooks highlighted in <a href="#Unit1">Unit 1</a>.</b></p>
-        </div>
-      <!-- /Case Study -->
-     
-     
-      <!--Please add a reading icon -->
-     <hr>
-       
-
-      <!-- Reading -->
-        <div class="note note-primary" align="left">
-        <h1 id="specific-perfomance"  class="secondary-heading text-primary " align="center">Specific Perfomance</h1>
-          <p>
-              One critical aspect of contracts is that, in terms of the law, an aggrived party can seek an order of specific performance from Court in order to compell the defaulting party to perform. The right to order specific performance emanates from the fact that contrats create obligations which must be performed and each party is expected to deliver its obligations.You will recall that in Law203we discussed that a contract creates obligations or a duty to perform.Therefore, once a valid contract is concluded, the parties must honour their obligations, and that is where the element of performance comes into operation.
-            </p>
-            <p>
-              Let us begin by examining what is specific performance in contract.In accordance with the general principle <i>pacta sunt servanda</i><sup>44</sup> ,the parties to a contract are obliged to fulfil their contractual undertakings<sup>45</sup> . It follows that each party has a right to expect and to claim perfomrance from the other. Specific performance therefore forms one of the primary remedies for breach of contract. An order of specifc performance is an order of court compelling a contracting pary to render the very performance that the party agreed to make in terms of the contract<sup>46</sup> .In the case of <strong><i>Jossa v Barclays Western Bank Ltd</i></strong><sup>47</sup> it was held that specific performance can be claimed as soon as the obligation to make performance is due and enforceable; it is not necessary that the debtor should have fallen into <i>mora</i>. This tells us that specific perfomance is a right that vests on or accrues to a party to a contract upon a valid conclusion of the contract. 
-            </p>
-            <p>
-              Courts do not issue the order for specific performance willy nilly, there are ceratin guidelines that need to be followed. We will now proceed to discuss the scope for specific performance as well as discretion exercised by the courts when dealing with specific performance. It is also worth mention that before the court issues any order, there are certain requirements that must be met, similarly with the order for specific performance. These requirements will also be covered in this section. 
-            </p>   
-          
-              <hr align="left" width="50%" color="black"> 
-              <p>
-                <sup>44</sup>This is a Latin term which connotes the principle that “contracts must be kept”. In its common sense, the principle refers private contracts, stressing that contained clauses are law between the parties and implies that nonfulfillment of respective obligations is a breach of the pact. 
-                <br>
-                <sup>45</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 333
-                <br>
-                <sup>46</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 333
-                <br>
-                <sup>47</sup>1990 (1) SA 575 (T)
-              </p>
-        </div>
-      <!-- /Reading -->
-
-          <div class="text-left">    
-            <h3 class="secondary-heading text-primary" align="left">
-              <i>(i)  Scope for Specific Perfomance</i>
-            </h3>
-            <p>
-              As alluded to above, every court order issued must be within certain parameters, according to Hutchison<sup>48</sup>  a claim for specific performance may take any one of (but is not limited to)  the following three forms:
-            </p>
-          
-            <ol type="a" class="text-left">
-              <li>A claim for the payment of a sum of money. </li>
-              <li>A claim for the performance of some positive act other that the payment of money. </li>
-              <li>A claim to enforce a negative obligation (that the other party should refrain from doing). </li>
-            </ol>
-            
-            <p>
-              Starting with the first one, a claim for payment due under the contract is in reality a claim for specific performance, With regard to the enforcement of a negative contractual obligation, it takes the form of an interdict and it is most frequently encountered in cases involving the enforcement agreements on restraint of trade. With regard to the  the performance of a positive act, a simple example could  be the delivery of goods in a sale agreement.
-            </p>
-            <br>
-            <hr align="left" width="50%" color="black"> 
-              <p>
-                <sup>48</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 334
-              </p>
-          </div>
+          <hr id="specific-perfomance">
           <br>
-          <!--class-->
 
-        <div class="text-left">
-          <h3 class="text-left">
-            <i>(ii)  Discretion of the Courts in Specific Performance</i>
-          </h3>
-            <p>
-              Note that in Roman-Dutch law, the right to specific performance was almost absolute. Due to the influence of English law, however, our courts later came to accept that the remedy of specific performance is a discretionary one which can be refused on the grounds of equity or public policy - see in this regard the case of<i> Heynes v Kingwilliamsontown Municipality</i><sup>49</sup> . 
-            </p>
-            <p>
-            In practice, various guidelines were developed for the exercise of the court’s discretion, and over the years these guidelines have hardened to the point where they have almost attained the status of rules of law, effectively taking away the discretion of the court.   
-            </p>
-          
-            <p>
-              A case illustrating this position is that of <strong><i>Schierhout v Minister of Justice</i></strong><sup>50</sup>.This gradual fettering of the court’s discretion attracted much criticism and was eventually rejected by the Appellate Division in the leading case of <strong><i>Benson v SA Mutual Life Assurance Society</i></strong><sup>51</sup>.In the <strong><i>Benson</i></strong> case, the court forcefully reasserted that, in principle, <i>“contracting parties have a right to specific performance, subject only to the court’s overriding discretion to refuse the order in appropriate cases...”</i>
-            </p>
-            <br>
-            <p>
-              In the local case of <strong><i> Nondlela Suzan Konyana v Ngwane Park Township (Pty) Limited <sup>52</sup></i></strong> ,  the most recent local judgment on this topic, Foxcroft JA, at paragraph [3] of his so far unreported judgment, stated that:
-            </p>
-            <p class="text-left">
-                  <i>“Ms. Van der Walt referred us to the well-known decision in South Africa of<strong> Haynes v King Williamstown Municipality<sup>53</sup></strong>  She submitted, citing a passage from that 
-                  judgment, that specific performance should not be granted in this matter, as it –“would operate unreasonably hardly on the defendant.” In the more recent 
-                  decision of the same court in <strong>Benson v S.A Mutual Life Assurance Society<sup>54</sup></strong>  Hefer JA, in an “elucidation” of what De Villiers AJA had said in <strong>Haynes v King Williamstown Municipality</strong>,
-                  said the following:
-                  </i>
-              </p>
-              <p>
+          <div class="Chapter">
+            <h1 class="text-center chapter-topic secondary-heading text-primary"><strong>Specific Perfomance</strong></h1>
+                  <p>
+                      One critical aspect of contracts is that, in terms of the law, an aggrived party can seek an order of
+                      specific performance from Court in order to compell the defaulting party to perform. The right to order
+                      specific performance emanates from the fact that contrats create obligations which must be performed and 
+                      each party is expected to deliver its obligations.You will recall that in Law203we discussed that a contract
+                      creates obligations or a duty to perform.Therefore, once a valid contract is concluded, the parties must honour 
+                      their obligations, and that is where the element of performance comes into operation.
+                  </p>
+                  <p>
+                      Let us begin by examining what is specific performance in contract.In accordance with the general principle <i>pacta sunt servanda</i><sup>44</sup> 
+                      ,the parties to a contract are obliged to fulfil their contractual undertakings<sup>45</sup> . It follows that 
+                      each party has a right to expect and to claim perfomrance from the other. Specific performance therefore forms one 
+                      of the primary remedies for breach of contract. An order of specifc performance is an order of court compelling a
+                      contracting pary to render the very performance that the party agreed to make in terms of the contract<sup>46</sup> .
+                  </p>
+                  <p>
+                      In the case of <strong><i>Jossa v Barclays Western Bank Ltd</i></strong><sup>47</sup> it was held that specific performance 
+                      can be claimed as soon as the obligation to make performance is due and enforceable; it is not necessary that the debtor
+                      should have fallen into <i>mora</i>. This tells us that specific perfomance is a right that vests on or accrues to a party
+                      to a contract upon a valid conclusion of the contract. 
+                    </p>
+                    <p>
+                      Courts do not issue the order for specific performance willy nilly, there are ceratin guidelines that need to be followed. We will now proceed to discuss the scope for specific performance as well as discretion exercised by the courts when dealing with specific performance. It is also worth mention that before the court issues any order, there are certain requirements that must be met, similarly with the order for specific performance. These requirements will also be covered in this section. 
+                    </p>   
                   
-                  <i>“This does not mean that the discretion is in all respects completely unfettered.  It remains, after all, a judicial discretion and from its very nature arises the requirement that it is not to be exercised
-                    capriciously, nor upon a wrong principle (Ex parte Neethling (supra at 335)).  It is aimed at preventing an injustice – for cases do arise where justice demands that a plaintiff be denied his right
-                    to performance – and the basic principle thus is that the order which the Court makes should not produce an unjust result which will be the case, e.g.  if, in the particular circumstances, 
-                    the order will operate unduly harshly on the defendant.” 
-                  </i>
-                </p>
-                <p>
-                  From the reading of this judgment it is clear that the Court will refuse to order specific performance where to do so would cause undue hardship to the defaulting or third parties. 
-                  In this case, the respondent municipality had bound itself by contract to release 250 000 gallons of water per day to Haynes, but failed to honour this obligation during a period 
-                  of severe and unprecedented drought. Haynes’ claim for specific performance was refused in the grounds that to have ordered it
-                  <i>“would have very great hardship not 
-                  only to the respondent but to the citizens of King Williamstown to whom the respondent owed a public duty to render an adequate supply of water”. 
-                  </i>
-                </p>
+                      <hr align="left" width="50%" color="black"> 
+                      <p>
+                        <sup>44</sup>This is a Latin term which connotes the principle that “contracts must be kept”. In its common sense, the principle refers private contracts, stressing that contained clauses are law between the parties and implies that nonfulfillment of respective obligations is a breach of the pact. 
+                        <br>
+                        <sup>45</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 333
+                        <br>
+                        <sup>46</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 333
+                        <br>
+                        <sup>47</sup>1990 (1) SA 575 (T)
+                      </p>
+         
+ 
 
-                <p>
-                  All the above mentioned authorities were instrumental in the recent Supreme Court judgment of <strong><i>Tsabedze v University of Eswatini <sup>55</sup></i></strong> . Kerr<sup>56</sup> boldly asserts that there is no onus of proof
-                  in regard to the exercise of the discretion. 
-                </p>
-                <p>
-                  <i>
-                    “The discretion to refuse to order specific performance being the Court’s, the Court is entitled to arrive at
-                      its decision without being bound by any rules relating to the onus of proof.” Kerr also states the principle that,
-                    “a claim for specific performance is only competent if the plaintiff has performed or is ready and willing to perform any obligations
-                      resting on him which are due and reciprocal.” 
-                  </i>
-                </p>
-                
-                <p>
-                  You are required to study the above judgments so as to gain thorough understanding of specific performance as a right and as a remedy, and most importantly, the exercise of discretion by the court in determining its enforceability. 
-                </p>
-            <hr align="left" width="50%" color="black"> 
-              <p>
-                <sup>49</sup>Haynes v King Williamstown Municipality 1951 (2) SA 575 (T)
-                <sup>50</sup>1926 AD 99
-                <sup>51</sup>1986 (1) SA 776 (A)
-                <sup>52</sup>Civil Appeal Case No. 58/09
-                <sup>53</sup>1951(2) SA 31 (AD) 371 at 378H. 
-                <sup>54</sup>1986(1) SA 776 (AD) at 783 C-D,
-                <sup>55</sup>51/10) [2011] SZSC 16 (31 May 2011)
-                <sup>56</sup>AJ Kerr, “The Principles of The Law of Contract” 6th Ed, Lexis Nexis, Butterworths, p. 682
-              </p>
-          </div>
+            
+              <!-- /Reading -->
+          <!--Scope For Specific Perfomance-->
+            <div>
 
+          
+                    <h4 class="h4">
+                      Scope for Specific Perfomance
+                    </h4>
+
+                    <p>
+                      As alluded to above, every court order issued must be within certain parameters, according to Hutchison<sup>48</sup>  a claim for specific performance may take any one of (but is not limited to)  the following three forms:
+                    </p>
+                  
+                    <ol type="a" class="text-left">
+                      <li>A claim for the payment of a sum of money. </li>
+                      <li>A claim for the performance of some positive act other that the payment of money. </li>
+                      <li>A claim to enforce a negative obligation (that the other party should refrain from doing). </li>
+                    </ol>
+                    <p>
+                      Starting with the first one, a claim for payment due under the contract is in reality a claim for specific performance, With regard to the enforcement of a negative contractual obligation, it takes the form of an interdict and it is most frequently encountered in cases involving the enforcement agreements on restraint of trade. With regard to the  the performance of a positive act, a simple example could  be the delivery of goods in a sale agreement.
+                    </p>
+
+                    <hr align="left" width="50%" color="black"> 
+                    <p>
+                      <sup>48</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 334
+                    </p>
+            </div>
+          <!--/Scope For Specific Perfomance-->
+               
+
+          <!-- Discretion of the Courts in Specific Performance-->
+              <div>
+                    
+                  <h4 class="h4">
+                  Discretion of the Courts in Specific Performance
+                  </h4>
+                    <p>
+                      Note that in Roman-Dutch law, the right to specific performance was almost absolute. Due to the influence of English law, however, our courts later came to accept that the remedy of specific performance is a discretionary one
+                      which can be refused on the grounds of equity or public policy - see in this regard the case of<i> Heynes v Kingwilliamsontown Municipality</i><sup>49</sup> .
+                      In practice, various guidelines were developed for the exercise of the court’s discretion, and over the years these guidelines have hardened to the point where they have almost attained the status of rules of law, effectively 
+                      taking away the discretion of the court.   
+                      A case illustrating this position is that of <strong><i>Schierhout v Minister of Justice</i></strong><sup>50</sup>.This gradual fettering of the court’s discretion attracted much criticism and was eventually rejected by the 
+                      Appellate Division in the leading case of <strong><i>Benson v SA Mutual Life Assurance Society</i></strong><sup>51</sup>.In the <strong><i>Benson</i></strong> case, the court forcefully reasserted that, in principle, <i>“contracting 
+                      parties have a right to specific performance, subject only to the court’s overriding discretion to refuse the order in appropriate cases...”</i>
+                    </p>
+
+                    <br>
+
+                    <p>
+                      In the local case of <strong><i> Nondlela Suzan Konyana v Ngwane Park Township (Pty) Limited <sup>52</sup></i></strong> ,  the most recent local judgment on this topic, Foxcroft JA, at paragraph [3] of his so far unreported judgment, stated that:
+                    </p>
+
+                    <div class="example z-depth-2 bg2 p-3 m-4">
+                          <i>“Ms. Van der Walt referred us to the well-known decision in South Africa of<strong> Haynes v King Williamstown Municipality<sup>53</sup></strong>  She submitted, citing a passage from that 
+                          judgment, that specific performance should not be granted in this matter, as it –“would operate unreasonably hardly on the defendant.” In the more recent 
+                          decision of the same court in <strong>Benson v S.A Mutual Life Assurance Society<sup>54</sup></strong>  Hefer JA, in an “elucidation” of what De Villiers AJA had said in <strong>Haynes v King Williamstown Municipality</strong>,
+                          said the following:
+                          </i>
+                          <i>“This does not mean that the discretion is in all respects completely unfettered.  It remains, after all, a judicial discretion and from its very nature arises the requirement that it is not to be exercised
+                            capriciously, nor upon a wrong principle (Ex parte Neethling (supra at 335)).  It is aimed at preventing an injustice – for cases do arise where justice demands that a plaintiff be denied his right
+                            to performance – and the basic principle thus is that the order which the Court makes should not produce an unjust result which will be the case, e.g.  if, in the particular circumstances, 
+                            the order will operate unduly harshly on the defendant.” 
+                          </i>
+                        </div>
+
+                        <p>
+                          From the reading of this judgment it is clear that the Court will refuse to order specific performance where to do so would cause undue hardship to the defaulting or third parties. 
+                          In this case, the respondent municipality had bound itself by contract to release 250 000 gallons of water per day to Haynes, but failed to honour this obligation during a period 
+                          of severe and unprecedented drought. Haynes’ claim for specific performance was refused in the grounds that to have ordered it
+                          <i>“would have very great hardship not 
+                          only to the respondent but to the citizens of King Williamstown to whom the respondent owed a public duty to render an adequate supply of water”. 
+                          </i>
+                        </p>
+
+                        <p>
+                          All the above mentioned authorities were instrumental in the recent Supreme Court judgment of <strong><i>Tsabedze v University of Eswatini <sup>55</sup></i></strong> . Kerr<sup>56</sup> boldly asserts that there is no onus of proof
+                          in regard to the exercise of the discretion. 
+                        </p>
+                        <div class="example z-depth-2 bg2 p-3 m-4">
+                          <i>
+                            “The discretion to refuse to order specific performance being the Court’s, the Court is entitled to arrive at
+                              its decision without being bound by any rules relating to the onus of proof.” Kerr also states the principle that,
+                            “a claim for specific performance is only competent if the plaintiff has performed or is ready and willing to perform any obligations
+                              resting on him which are due and reciprocal.” 
+                          </i>
+                        </div>
+                        
+                        <p>
+                          You are required to study the above judgments so as to gain thorough understanding of specific performance as a right and as a remedy, and most importantly, the exercise of discretion by the court in determining its enforceability. 
+                        </p>
+                          <!--/ Discretion of the Courts in Specific Performance-->
+
+                    <hr align="left" width="50%" color="black"> 
+
+                      <p>
+                        <sup>49</sup>Haynes v King Williamstown Municipality 1951 (2) SA 575 (T)
+                        <sup>50</sup>1926 AD 99
+                        <sup>51</sup>1986 (1) SA 776 (A)
+                        <sup>52</sup>Civil Appeal Case No. 58/09
+                        <sup>53</sup>1951(2) SA 31 (AD) 371 at 378H. 
+                        <sup>54</sup>1986(1) SA 776 (AD) at 783 C-D,
+                        <sup>55</sup>51/10) [2011] SZSC 16 (31 May 2011)
+                        <sup>56</sup>AJ Kerr, “The Principles of The Law of Contract” 6th Ed, Lexis Nexis, Butterworths, p. 682
+                      </p>
+              
         
-        
-        
-        <div class="text-left">
-            <h3 class="text-left">
-              <i>(iii)Requirements for Specific Perfomance</i>
-            </h3>
+      <!--Requirements For Specific Perfomance-->
+           
+            <h4 class="h4">
+                    Requirements for Specific Perfomance
+            </h4>
             <p>
               In order for a party to be sucessful in a claim for specific performance, two basic requirements as stated in <strong><i>Farmers’ Co-operative Society v Berry <sup>57</sup></i></strong>, must be met:
               </p>
@@ -287,33 +302,17 @@
                 
               </p>
             </div>
-
-        <div class="text-left">
-          <h3 class="text-left">
-              <i>(iv)	Execution of Orders for Specific Performance </i>
-            </h3>
-            <p>
-              An order for specific performance, like any other order of court, is executed in accordance with the ordinary rules of procedure. For instance, if a debtor fails to comply with an order of specific performance, there are various ways of enforcing the order.
-                Where the order it so pay a sum of money, it can be enforced through the issue of writ of execution, followed by the attachment and sale of property of the debtor. Where the order is to perform some act, or refrain from performing some act, a deliberate failure
-                to comply with the order constitutes the offence of contempt of court, for which the debtor can be committee to prison. In appropriate cases, and without prejudice to its power to commit for contempt, the court may directly enforce the order instructing a third
-                  party (usually an official) to make performance to the creditor. For example, the sheriff might be instructed to seize movable property of the debtor and deliver it to the creditor; or the register deeds might be instructed to sign the documents necessary to effect
-                  transfer of immovable property to the creditor; or where property is in possession of a third party, such third party might be instructed to deliver it to the creditor.  
-            </p>
-            <hr align="left" width="50%" color="black"> 
-            <p>
-
-            </p>
             </div>
+        <!--/Requirements For Specific Perfomance-->
 
-
-
-
-      <div class="note note-primary" align="left">
-        <h1 id="reciprocityOfObligations"  class="secondary-heading text-primary " align="center"> Reciprocity Of Obligations </h1>
+       <!-- Execution of Orders for Specific Performance -->
+   <div class="Chapter">
+            <h1 class="text-center chapter-topic secondary-heading text-primary"><strong>Reciprocity Of Obligations </strong></h1>
           <p>
             In the leading case of <strong><i>BK Tooling (Edms) Bpk v Scope Precision Engineering (Edms) Bpk<sup>59</sup></i></strong> , the Appellate Division stated that reciprocal obligations are obligations that have been created in exchange of each other. A contract that contains reciprocal obligations is also called a reciprocal contract. The distinctive factor of a reciprocal contract, therefore, is that it is essentially aimed at accomplishing an exchange of obligations. Most contracts that create obligations for both parties will be regarded as reciprocal. 
             In the local case of <strong><i>G.S Franco Investments (Pty) Ltd v Carr Corp Investments (Pty) Ltd<sup>60</sup></i></strong>  Masuku J, referring to R.H. Christie’s analysis of the B.K. TOOLING case <i>(supra) per Jansen J.A.<sup>61</sup></i> , state the following : -
           </p>
+          <div class="example z-depth-2 bg2 p-3 m-4">
           <p> 
             <i>
           "In B.K. Tooling (Edms) Bpk vs Scope Precision Engineering (Edms) Bptk 1979, S.A. 391 (A), the Appellate Division reviewed in some detail the history and scope of what have become known as the principle of reciprocity and the exceptio non adimpleti contractus. The principle of reciprocity recognises the fact that in many contracts the common intention of the parties, expressed or unexpressed, is that there should be an exchange of performances, and the exceptio gives effect to the recognition of this fact by serving as a defence for the defendant who is sued on the contract by a plaintiff who has not yet performed or tendered to perform. "
@@ -330,6 +329,7 @@
           Reciprocity of obligations does not depend, however, merely upon the time fixed for performance thereof. Thus, the mere fact that the contract specifies that the obligations are due to be performed on the same day does not lead to the inference that the parties intended them to be reciprocal.... For reciprocity to exist there must be such a relationship between the obligation by the one party and that due by the other party as to indicate that one was undertaken in exchange for the performance of the other and in cases where the obligations are not consecutive, vice versa. "
             </i>
           </p>
+          </div>
             <hr align="left" width="50%" color="black"> 
               <p>
                 <sup>60</sup> ((1331/04)) [2004] SZHC 83 (21 June 2004)
@@ -339,10 +339,10 @@
                 <sup>62</sup>1973 (2) SA 805 (CPD) © at 808 - 9
                 <br>
               </p>
-        </div>
+      
         <!--Incomplete Or Defective Perfomance-->
 
-      <div class="note note-primary" align="left">
+      <div  align="left">
         <h1 id="incomplete or defective performance"  class="secondary-heading text-primary " align="center">Incomplete Or Defective Performance </h1>
           <p>
             According to Kerr, the term “incomplete performance” is used to refer to performance which, whether it is unfinished or defective, is not in all respects as required by the contract.  A defendant can rely on the <i>exceptio non adimpleti contractus <sup>63</sup></i> not only where the other party has failed to perform at all (<i>mora debitoris<sup>64</sup></i> ), but also in cases where the other party has failed to perform properly, or in full. The defective or incomplete performance need not be so serious as to justify cancellation of the contract; the innocent party is permitted to withhold his or her performance and raise the exception even where the defect or shortfall in the performance is relatively minor;
@@ -364,22 +364,18 @@
                 <sup>65</sup>The law does not concern itself with trifles. 
               </p>
       </div>
+      <br>
 
       <!--3.	Incomplete Or Defective Performance -->
-        <div class="text-left">
-          <h3 class="text-left">
-              <i>(i)	  Where Neither Party is at Faulty </i>
-            </h3>
+         <h4 class="h4">1. Where Neither Party is at Faulty
+         </h4>
             <p>
               The legal position concerning circumstances where <i>vis majorie</i> rather than the fault of either party was dealt with in LAW203. 
             </p>
-        </div>
 
         <!--(ii)	Performance Incomplete owing to the Fault of the Party -->
-            <div class="text-left">
-          <h3 class="text-left">
-              <i>(ii)	Performance Incomplete owing to the Fault of the Party to Whom Performance is Due (prevention of performance)</i>
-            </h3>
+            <h4 class="h4">2. Performance Incomplete owing to the Fault of the Party to Whom Performance is Due (prevention of performance)
+            </h4>
             <p>
                 It may happen that the party to whom performance is due (for example an owner for whom a house is being built) prevents 
                 the other party from completing the performance (for example the owner refuses the building contractor access to the
@@ -388,37 +384,35 @@
                 an action on the contract for what he is due under the contract less any savings brought about by the fact that
                 he has not performed fully (for examples less the cost of materials not supplied, see the case of BK Tooling).
             </p>
-            </div>
+            
 
-            <!--(iii)	Performance Incomplete Owing to the Fault of the Party Obliged to Perform-->
-                <div class="text-left">
-                  <h3 class="text-left" id="incompleteOrDefectivePerformance">
-                      <i>  (iii)	Performance Incomplete Owing to the Fault of the Party Obliged to Perform </i>
-                    </h3>
-                    <p>
-                      If a party to a contract owing to his fault, no longer has it in his power to perform
-                      his obligation in full but is in a position to give incomplete performance, the other
-                      party is entitled to demand such performance and retains his ordinary remedies in regard 
-                      to that part of performance which he is denied, unless, as in the case of sale where risk 
-                      has passed and partial destruction is by <i>casus fortuitus<sup>66</sup></i> , the other party is relieved of liability. 
-                      See the case of <strong><i>Wireohms SA (Pty) Ltd v Greenblatt and another<sup>67</sup></i></strong>  
-                    </p>
-                    <hr align="left" width="50%" color="black"> 
-                      <p>
-                        <sup>66</sup>Uncontrollable accident by act of God. 
-                        <br>
-                        <sup>67</sup>1959 3 SA 909 (C) 
-                        <br>
-                        
-                      </p>
-                </div>
+        <!--(iii)	Performance Incomplete Owing to the Fault of the Party Obliged to Perform-->
+              
+           <h4 class="h4">3. Performance Incomplete Owing to the Fault of the Party Obliged to Perform 
+            </h4>
+              <p>
+                If a party to a contract owing to his fault, no longer has it in his power to perform
+                his obligation in full but is in a position to give incomplete performance, the other
+                party is entitled to demand such performance and retains his ordinary remedies in regard 
+                to that part of performance which he is denied, unless, as in the case of sale where risk 
+                has passed and partial destruction is by <i>casus fortuitus<sup>66</sup></i> , the other party is relieved of liability. 
+                See the case of <strong><i>Wireohms SA (Pty) Ltd v Greenblatt and another<sup>67</sup></i></strong>  
+              </p>
+
+              <hr align="left" width="50%" color="black"> 
+                <p>
+                  <sup>66</sup>Uncontrollable accident by act of God. 
+                  <br>
+                  <sup>67</sup>1959 3 SA 909 (C) 
+                  <br>
+                  
+                </p>
+         
             <!--(iii)	Performance Incomplete Owing to the Fault of the Party Obliged to Perform-->
           
       <!--(iv)	Complete Performance Desired -->
-        <div class="text-left">
-          <h3 class="text-left">
-              <i>(iv)	Complete Performance Desired  </i>
-            </h3>
+      <h4 class="h4">4. Complete Performance Desired  
+      </h4>
             <p>
               If a party to whom performance is due is not himself at fault, and desires nothing less 
               that complete performance may do the following: 
@@ -440,10 +434,12 @@
                 <sup>71</sup>1962 4 SA 263 (T)  
               </p>
             </div>
+      <!--(iv)	Complete Performance Desired -->
             <br>
       <!--Unit Summary-->
-          <div class="note note-primary" align="left">
-            <h1 id="summary"  class="secondary-heading text-primary " align="center">Unit Summary</h1>
+        <div > 
+          <h1 id="unitSammary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
+          <div >
           <p>     
             Summary	This brings us to the end of a very interesting and important unit under the law of contract. 
             In this unit, we discussed the various types of performance and remedies available to same. We further 
@@ -454,23 +450,25 @@
             Enjoy!
       </p>
           </div>
-
+        </div>
+  
           <br>
 
-          <!--Discussion-->
-          <div class="note note-primary" align="left">
-            <h1 id="discussion"  class="secondary-heading text-primary " align="center">Discussion</h1>
+        <!--Discussion-->
+          <div class="Chapter">
+            <h1 id="discussion"  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Discussion</strong></h1>
           <p>
-          Discuss the important principle illustrated in the case of Heynes v King Williamstown
+            Discuss the important principle illustrated in the case of Heynes v King Williamstown
             Municipality 1951(2) SA 31 (AD) 371 at 378H.  
           </p>
           </div>
-
+        <!--Discussion-->
+          <hr>
           <br>
 
         <!--Activity 1-->
-          <div class="note note-primary" align="left">
-            <h1 id="activity1"  class="secondary-heading text-primary " align="center">Activity 1</h1>
+          <div class="Chapter">
+            <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 1</strong></h1>     
             <p>
             A runs a brothel in Manzini at Ngwane Park, Sipho goes to the brothel to seek personal pleasure services.
               Sipho pays A on arrival for the 2 nights. Sipho is given a room and a beautiful young lady called Patricia
@@ -483,20 +481,25 @@
 
             <br>
         <!-- Activity 2  -->
-          <div class="note note-primary" align="left">
-            <h1 id="activity2"  class="secondary-heading text-primary " align="center">Activity 2</h1>
+          <div >
+             <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
               <p> 
               Activity	Briefly unpack and discuss the various forms of performance covered in this Unit. 
             </p>
           </div>
         <!--Activity 2-->
-            <br>
+            
 
-            </div>
-          </div>
-        </div>
-      </div>
-   <!--</div> -->
+           
+        
+
+
+
+
+</div>
+    </div>
+</div>
+
  
 </template>
 
@@ -550,3 +553,36 @@
   } 
   };
 </script>
+
+<style >
+.row{
+    position: relative;
+}
+.scrollspy-example {
+height: 100%;
+overflow-y:inherit;
+}
+.main-topic{
+    font-weight:700;
+}
+
+#contentlist{
+    list-style-type:decimal;
+}
+
+.sideNev{
+  list-style: armenian
+   
+
+}
+.bg{
+    background-color: #e1f5fe;
+}
+.bg2{
+  background-color: #bbdefb;  
+}
+.navbar {
+  background: #1e88e5 ;
+}
+
+</style>
