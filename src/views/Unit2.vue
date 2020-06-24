@@ -19,7 +19,7 @@
             <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
             <mdb-dropdown-menu color="red">
               <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
-              <mdb-dropdown-item href="#facts">What is Varietion</mdb-dropdown-item>
+              <mdb-dropdown-item href="#whatIsVariation">What is Varietion</mdb-dropdown-item>
               <mdb-dropdown-item href="#conclusion">Conclusion</mdb-dropdown-item>
               <mdb-dropdown-item href="#unitSummary">Unit Summary</mdb-dropdown-item>
               <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
@@ -155,7 +155,7 @@
             </div>
             <!-- /Reading -->
 
-            <hr>
+            <hr id="whatIsVariation">
             <br>
 
             <!-- What Is A Variation -->
@@ -470,7 +470,7 @@
 
               <!-- Self Assessment -->
               <div class="Chapter">
-                <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
+                <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i>Self-Assessment</strong></h1>
                   <ol>
                     <li>What is a variation?</li>
                     <li>What is a variation clause?</li>
