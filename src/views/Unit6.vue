@@ -1120,7 +1120,7 @@
           <hr>
           <br> 
           <!--Refferences  -->
-            <div class="note note-danger">
+            <div class="note ">
               <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong> References</strong></h1>
             
               <li> <a id="130r" href="#130">130</a> 1986 (1) SA 776 (A) at 872 H – J</li>
@@ -1158,12 +1158,6 @@
               <li> <a id="175r" href="#175">175</a>(1854) 150 ER 145</li>
               <li> <a id="176r" href="#176">176</a>RH Christie supra, at page 607</li>
               <li> <a id="177r" href="#177">177</a>1939 AD 372-388</li>
-              
-               
-            
-
-            
-
             </div>
 
           <!--Refferences  -->

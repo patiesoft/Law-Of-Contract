@@ -633,7 +633,7 @@
               </div>
             <!--Activity 2-->
 
-            <div class="note note-danger">
+            <div class="note ">
               <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong> References</strong></h1>
               <li> <a id="105r" href="#105">105</a>AJ Kerr “Principles of the Law of Contract” 6th Edition, LexisNexis, p. 601.</li>
               <li> <a id="106r" href="#106">106</a>1976 1 (SA) 667 (NC)</li>
