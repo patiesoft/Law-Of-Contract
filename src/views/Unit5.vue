@@ -80,7 +80,7 @@
             <!--Expected Outcomes -->
               <div>
                 <h4> <i class="fas fa-graduation-cap"> Outcomes</i></h4>                       
-                <h6 class="text-center secondary-heading text-primary">Upon completion of this unit you will be able to:</h6>
+                <h6 class="text-left secondary-heading ">Upon completion of this unit you will be able to:</h6>
                 <ul class="text-left">
                   <li>State what constitutes a breach in a contract.</li>
                   <li>Outline the three (3) categories of a breach.</li>
@@ -110,7 +110,7 @@
             <!--New Concepts-->
           </div>
         <!--Introduction-->
-            
+            <hr>
             <br>
 
           <!--Chapter/Section-->
@@ -123,19 +123,19 @@
                   If without lawful excuse a party fails to do what he 
                   has contracted to do, or does what  he has contracted 
                   not to do, an ordinary breach of contract is said have 
-                  taken place<sup><a id="105" href="105r">105</a></sup>. It is to be noted, however that if a provision 
+                  taken place<sup><a id="105" href="#105r">105</a></sup>. It is to be noted, however that if a provision 
                   is inserted in a contract for the benefit of one of the parties 
                   only and that party disregards it (i.e. waives the benefit of it) 
                   the other party cannot claim that non-fulfilment of the provision is  
-                  breach of contract.  This was clearly illustrated in the case of <em><strong>Lastky v Burger</strong></em><sup><a id="106" href="106r">106</a></sup>.  
-                  It is worth noting that a breach of contract does not in itself bring the contract to an end<sup><a id="107" href="107r">107</a></sup>. 
+                  breach of contract.  This was clearly illustrated in the case of <em><strong>Lastky v Burger</strong></em><sup><a id="106" href="#106r">106</a></sup>.  
+                  It is worth noting that a breach of contract does not in itself bring the contract to an end<sup><a id="107" href="#107r">107</a></sup>. 
                   It gives the aggrieved party a choice of remedies, the options varying with the nature of the breach. 
                   In the case of a major breach, the aggrieved party may terminate the contract by cancelling it. in the case 
                   of minor breach, the aggrieved party may not cancel, his choice, normally, being between on the one hand, 
                   specific performance and on the other hand damages.
                 </p>
                 <p>
-                  In the case of <em><strong>Culverwell and Another v Brown</strong></em><sup><a id="108" href="108r">108</a></sup>  it was held that the onus of proving that the breach is major lies on the party asserting it. A party who asks for specific performance asks for of the original contract, not performance of a new obligation created by the breach. If a party aggrieved by a major breach, whether anticipatory or ordinary cancels the contract it comes to an end and when the cancellation takes effect, a claim for damages being competent thereafter. 
+                  In the case of <em><strong>Culverwell and Another v Brown</strong></em><sup><a id="108" href="#108r">108</a></sup>  it was held that the onus of proving that the breach is major lies on the party asserting it. A party who asks for specific performance asks for of the original contract, not performance of a new obligation created by the breach. If a party aggrieved by a major breach, whether anticipatory or ordinary cancels the contract it comes to an end and when the cancellation takes effect, a claim for damages being competent thereafter. 
                 </p>
                 <em><li>Minor Breach</li></em>
                 <p>
@@ -143,7 +143,7 @@
                 </p>
                 <em> <li>Major Breach</li></em>
                 <p>
-                  A breach is a major one if it goes to the root of the contract or affects a vital part of the obligations or means that there is no substantial performance. It amounts to saying that the breach must be so serious that it cannot reasonably be expected of the other party that he should continue with the contract and content himself with an eventual claim for damages<sup><a id="110" href="110r">110</a></sup>.<strong><em>Stracham v Prinsloo</em></strong><sup><a id="111" href="111r">111</a></sup>  it was stated that “ as far as I can judge a breach going to the root of the contract  In the local case of  <strong><em>New Mall (Pty) Ltd v Tricor International (Pty) Ltd</em></strong><sup><a id="112" href="112r">112</a></sup> it was held that  it was incumbent upon the applicant to show to the respondent that the remedy so demanded was as a result of a <em>“material breach”</em> and therefore the statements <em>“the foundation of the contract has been completely destroyed”</em> and <em>“irretrievable breakdown of trust and confidence”</em> was nothing else by information tautologous to the fact that the breach complained of was material.
+                  A breach is a major one if it goes to the root of the contract or affects a vital part of the obligations or means that there is no substantial performance. It amounts to saying that the breach must be so serious that it cannot reasonably be expected of the other party that he should continue with the contract and content himself with an eventual claim for damages<sup><a id="110" href="110r">110</a></sup>.<strong><em>Stracham v Prinsloo</em></strong><sup><a id="111" href="#111r">111</a></sup>  it was stated that “ as far as I can judge a breach going to the root of the contract  In the local case of  <strong><em>New Mall (Pty) Ltd v Tricor International (Pty) Ltd</em></strong><sup><a id="112" href="112r">112</a></sup> it was held that  it was incumbent upon the applicant to show to the respondent that the remedy so demanded was as a result of a <em>“material breach”</em> and therefore the statements <em>“the foundation of the contract has been completely destroyed”</em> and <em>“irretrievable breakdown of trust and confidence”</em> was nothing else by information tautologous to the fact that the breach complained of was material.
                 </p>
                 <em> <li>Anticipatory Breach</li></em>
                 <p>
@@ -181,30 +181,21 @@
                   </div>
                 <p>
                   The court followed 
-                  <em>
+                 
                     <strong>
-                      Frost v Knight
+                      Frost v Knight<sup><a id="114" href="#114r">114</a></sup>
                     </strong>
-                  </em>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^4'"></span>. 
-                  You can also make reference to 
-                  <em>
+                  
+                  You can also make reference to                  
                     <strong>
-                      Tuckers Land and Development Corporation (Pty) Ltd v Hovis
+                      Tuckers Land and Development Corporation (Pty) Ltd v Hovis<sup><a id="115" href="#115r">115</a></sup>
                     </strong>
-                  </em>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^5'"></span>. 
+                  . 
                 </p>
                 <p>
                   When an anticipatory breach takes place, the aggrieved party has an election, a choice, he may choose one of the 
-                  following
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^6'"></span>: 
+                  following<sup><a id="116" href="#116r">116</a></sup>
+                  : 
                   <ol type="a">
                     <li>He may treat the words or conduct as a breach of contract and take action immediately, claiming whichever of the 
                       available remedies he prefers.
@@ -215,7 +206,8 @@
               </ol> 
             </div>
           <!--Chapter/Section end-->
-
+              <hr>
+              <br>
           <!--Chapter/Section-->
             <div class="Chapter">
               <h1 id="formsOfBreach" class="text-center chapter-topic  secondary-heading text-primary"><strong>Forms Of Breach</strong></h1>
@@ -223,11 +215,11 @@
                 <p>
                   In modern law, the generic concept of breach has been fractured into a number of distinct types or forms of breach, creating the 
                   impression that the conduct in question must first be slotted into one of these specific doctrinal pigeonholes before it can 
-                  attract consequences of breach of contract <sup><a id="117" href="117r">117</a></sup>
+                  attract consequences of breach of contract <sup><a id="117" href="#117r">117</a></sup>
                   . Before we discuss the various types of breach, it is imperative that we understand the meaning of 
                   the term 
                   <em>“mora”</em> 
-                  in the context of contracts. GA Mulligan <sup><a id="118" href="118r">118</a></sup>
+                  in the context of contracts. GA Mulligan <sup><a id="118" href="#118r">118</a></sup>
                   defined mora as follows:
                 </p>
                 <div >
@@ -247,10 +239,7 @@
                 </p>
                 <em><strong><li>Mora Debitoris</li></strong></em>
                 <p>
-                  According to Hutchison
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^9'"></span> 
+                  According to Hutchison<sup><a id="119" href="#119r">119</a></sup>
                   , <em>mora debitoris</em> is the failure of debtor, without lawful excuse, to make timeous performance of a positive 
                   obligation that is due and enforceable and still capable of performance in spite of such failure. It is evident that, for its fulfilment, 
                   any obligation must have a time limit, otherwise the obligation will be valueless. If the debtor neglects or fails to perform timeously 
@@ -304,8 +293,8 @@
                     <ul>
                       <li>Performance by the debtor may be enforced.</li>
                       <li>Creditor may cancel the contract in certain circumstances.</li>
+                      <li>Creditor may claim damages with regard to any loss suffered.</li>
                       <li>Damages may be claimed together with specific performance or with cancellation.</li>
-                      <li></li>
                     </ul>
                   </p>
                   <strong><li>The Circumstances under which the Creditor May Resile from the Contract</li></strong>
@@ -320,23 +309,21 @@
                     <ul>
                       <li>
                         When the contract contains a cancellation clause. See the case of <em><strong>Van der Merwe v Brink</strong></em>
-                        <span v-katex="'^1'"></span>
-                        <span v-katex="'^2'"></span>
-                        <span v-katex="'^0'"></span> 
+                        <sup><a id="120" href="#120r">120</a></sup>
+                    
                       </li>
                       <li>
                         Where there is a tacit cancellation clause. This is as per Herbstein J in Goldtein & <em><strong>Wolff v Maison Blanc (Pty) Ltd</strong></em> at 
-                        <span v-katex="'452-453'"></span>
+                        <i>452-453</i>                      
                       </li>
                       <li>Where the creditor has given the debtor a notice of rescission. See the case of <em><strong>Goldberg v Buystendag Boerdery Beleggings (Edms) Bpk</strong></em>
-                        <span v-katex="'^1'"></span>
-                        <span v-katex="'^2'"></span>
-                        <span v-katex="'^1'"></span> 
+                       <sup><a id="121" href="#121r">121</a></sup>
+                        
                       </li>
                     </ul>
                   </p>
                   <br>
-                  <div class="example z-depth-5 bg2 p-4">
+                  <div class="example z-depth-2 bg2 p-4">
                     <h6 class="text-left">Example</h6>
                     <ul>
                       <li>
@@ -367,19 +354,15 @@
                   It is not only a debtor who can commit a breach but a creditor can also act wrongfully. Where the cooperation of the creditor is 
                   necessary for the fulfilment of the obligation of the debtor, the creditor is guilty of breach of contract if he fails to co-operate 
                   timeously and performance remains possible
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^2'"></span>
-                  <span v-katex="'^2'"></span> 
+                  <sup><a id="122" href="#122r">122</a></sup>                   
                   . We then speak of <em>mora creditoris</em>. The role of a creditor in relation to a contract obligation is a passive one, namely to 
                   receive rather than to make the performance that is due in terms of the obligation. Hutchison
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^2'"></span>
-                  <span v-katex="'^3'"></span> goes on to say that it might therefore seem strange that the creditor can commit a breach of contract in 
+                  <sup><a id="123" href="#123r">123</a></sup>
+                   goes on to say that it might therefore seem strange that the creditor can commit a breach of contract in 
                   his or her capacity as creditor. in such cases, the creditor is obliged to lend his or her co-operation, and a culpable failure to so 
                   timeously constitutes the form of breach known as <em>mora creditoris</em>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^2'"></span>
-                  <span v-katex="'^4'"></span>. 
+                  <sup><a id="124" href="#124r">124</a></sup>
+                  . 
                 </p>
                 <ol type="a">
                   <li>
@@ -391,9 +374,7 @@
                         <li>
                           The debtor must be under an obligation to make the performance to the creditor, but the debt need not be enforceable since
                           mora creditoris can occur even in respect of a natural obligation
-                          <span v-katex="'^1'"></span>
-                          <span v-katex="'^2'"></span>
-                          <span v-katex="'^5'"></span>. 
+                          <sup><a id="125" href="#125r">125</a></sup>                           
                         </li>
                         <li>
                           The cooperation of the creditor must be necessary for the proper performance by the debtor of his or her obligation. Thus, 
@@ -406,9 +387,8 @@
                         </li>
                         <li>
                           The creditor must delay in accepting performance (e.g. not being present at the stipulated time to receive performance)
-                          <span v-katex="'^1'"></span>
-                          <span v-katex="'^2'"></span>
-                          <span v-katex="'^6'"></span>. 
+                          <sup><a id="126" href="#126r">126</a></sup>
+                           
                         </li>
                         <li>
                           The delay in performance must be due to the fault of the creditor. If it is caused by vis <em>maior</em> or <em>fortuitus</em>, <em>mora creditors</em> is excluded.
@@ -439,9 +419,7 @@
                           <strong><h6>Specific performance</h6></strong>
                           <p>
                             If the debtor elects to abide by the contract, he or she mat in suitable circumstances obtain an order of specific performance compelling the creditor to cooperate    
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^2'"></span>
-                            <span v-katex="'^7'"></span>. 
+                            <sup><a id="127" href="#127r">127</a></sup>                            
                           </p>
                         </li>
                         <li>
@@ -449,18 +427,15 @@
                           <p>
                             In the case of a reciprocal contract, the creditor’s delay in receiving the debtor’s performance clearly does not relieve him or her of the duty to make his or her 
                             own counter performance. Faced with the prospect of being compelled to perform his or her obligation, the creditor is likely to then accept the debtor’s performance 
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^2'"></span>
-                            <span v-katex="'^8'"></span>. 
+                            <sup><a id="128" href="#128r">128</a></sup>
+                           . 
                           </p>
                         </li>
                         <li>
                           <strong><h6>Care of article and Supervening Impossibility of Performance</h6></strong>
                           <p>
                             According to Hutchison
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^2'"></span>
-                            <span v-katex="'^9'"></span> 
+                            <sup><a id="129" href="#129r">129</a></sup>                            
                             , <em>mora creditoris</em> alleviates the duty of the debtor to take care of an article that he or she has to deliver. Usually the debtor is liable for 
                             any damages caused to the article by his or her negligence; once <em>mora creditoris</em> intervenes, the debtor’s responsibility is limited to <em>dolus</em> (intent) and <em>culpa lata</em> 
                             (gross negligence).
@@ -470,9 +445,7 @@
                           <strong><h6>Effect on Security</h6></strong>
                           <p> 
                             Mora creditoris releases sureties, but is effect on the existence of a mortgage, pledge or lien is uncertain 
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^3'"></span>
-                            <span v-katex="'^0'"></span>. 
+                            <sup><a id="130" href="#130r">130</a></sup>. 
                           </p>
                         </li>
                         <li>
@@ -480,9 +453,8 @@
                           <p> 
                             Unless he or she validly cancels the contract or obtains an order compelling the creditor to cooperate, it is not clear how the debtor can discharge the debt without having to wait until the 
                             period of prescription has run or until performance has become impossible 
-                            <span v-katex="'^1'"></span>
-                            <span v-katex="'^3'"></span>
-                            <span v-katex="'^1'"></span>. 
+                            <sup><a id="131" href="#131r">120</a></sup>
+                           . 
                           </p>
                         </li>
                       </ul>
@@ -506,28 +478,23 @@
                   breach, repudiation was virtually unknown to the Roman-Dutch law, at any rate in its anticipatory form. According to Hitchison, the 
                   doctrine is derived from English law, a fact that explains not only the ready reference to English cases on the topic, but also many of 
                   the peculiar features of this novel form of breach 
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^3'"></span>
-                  <span v-katex="'^2'"></span>. 
+                  <sup><a id="132" href="#132r">132</a></sup>
+                  . 
                 </p>
                 <p>
                   In the local case of <strong><em>The New Mall (Pty) Ltd v Tricor International (Pty) Ltd</em></strong>
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^3'"></span>
-                  <span v-katex="'^3'"></span>, the learned judge stated as follows: 
+                  <sup><a id="133" href="#133r">133</a></sup>  
+                   , the learned judge stated as follows: 
                 </p> 
-                <div class="col-sm-3 col-lg-4 border-primary">
+                <div>
                 </div>
-                <div class="col-sm-9 col-lg-8">
-                  <p>
-                    <em>
+                <div>                  
                       <blockquote class="blockquote text-left">
                         “In every case the question of repudiation must depend on the character of the contract, the number and weight of the wrongful acts or 
                         assertion, the intention indicated by such acts or words, the deliberation or otherwise with which they are committed or uttered, and the 
                         general circumstances of the case.”
                       </blockquote>
-                    </em> 
-                  </p>
+                   
                 </div>
                 <p>
                   The learned Judge went on to scrutinize Clause 11 of the contract which stated that:
@@ -556,12 +523,9 @@
                 <p>
                   However, where performance on either side becomes impossible after the conclusion of the contract owing to the fault of either the debtor or the creditor, the contract is not terminated, 
                   but the party who rendered performance impossible is guilty of breach of contract known as prevention of performance
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^3'"></span>
-                  <span v-katex="'^4'"></span>.It is not necessary that the performance should be objectively impossible in order for the breach to arise; subjective impossibility will suffice 
-                  <span v-katex="'^1'"></span>
-                  <span v-katex="'^3'"></span>
-                  <span v-katex="'^5'"></span>. In other words, the breach is committed even when the impossibility attaches only to the particular debtor; for example A sells a cow to B and thereafter 
+                  <sup><a id="134" href="#134r">134</a></sup>
+                  .It is not necessary that the performance should be objectively impossible in order for the breach to arise; subjective impossibility will suffice 
+                  <sup><a id="135" href="#135r">135</a></sup>. In other words, the breach is committed even when the impossibility attaches only to the particular debtor; for example A sells a cow to B and thereafter 
                   prevents himself from fulfilling the contract by selling and delivering the cow to C.  In such a case, performance is not altogether impossible, A might re-acquire the cow from C in order to 
                   deliver it to B- but this is highly unlikely to occur.   
                 </p>
@@ -572,7 +536,7 @@
                     <li>
                       <h6><em>Fault</em></h6>
                       <p>
-                        According to <strong>Hutchison</strong>, fault is an important element of breach since in its absence supervening impossibility will terminate the contract. Although Roman and Roman-Dutch law required 
+                        According to <strong><i>Hutchison</i></strong>, fault is an important element of breach since in its absence supervening impossibility will terminate the contract. Although Roman and Roman-Dutch law required 
                         various degrees of fault in respect of contracts involving duty to deliver or to re-deliver an article in one’s custody, it seems that in the modern law there is only one standard of 
                         fault, namely, the care that could be expected from an ordinary, reasonable person in the circumstances . 
                       </p>
@@ -592,9 +556,7 @@
                         <li>
                           Abide by the contract, perform his or her side of the agreement and claim damages in lieu of performance from the debtor. See the case of <strong>BK Tooling (EDMS) BPK v Scope 
                           Precision Engineering (EDMS) BPK</strong>  
-                          <span v-katex="'^1'"></span>
-                          <span v-katex="'^3'"></span>
-                          <span v-katex="'^6'"></span>
+                          <sup><a id="136" href="#136r">136</a></sup>
                         </li>
                       </ul>
 
@@ -608,6 +570,7 @@
               </ol>
             </div>
           <!--Chapter/Section end-->
+            <hr>
             <br>
           
           <!--Unit Summary-->
@@ -624,12 +587,13 @@
 
             </div>
           <!--Unit Summary-->
+            <hr>
             <br> 
             
             <!--Discussion-->
               <div >
-                <i class="fas fa-comments"></i>
-                <h5 id="discussion" class="text-left">Discussion</h5>
+               
+                <h4 id="discussion" class="text-left"><i class="fas fa-comments"></i> Discussion</h4>
                 <p class="text-left">
                   With the aid of decided cases, discuss the five(5) different forrms of
                   breach as covered in this unit. 
@@ -641,8 +605,7 @@
           
             <!--Activity 1-->
               <div class="Chapter">
-                <i class="fas fa-tools"></i>
-                <h5 id="activity1" class="text-left">Activity 1</h5>
+              <h1 id="activity1" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
                 <p class="text-left">
                   Unpack the differences between <em>mora debitoris</em> and <em>mora creditoris,</em> 
                   highlighting the remedies applicable to each.
@@ -650,13 +613,13 @@
 
               </div>
             <!--Activity 1-->
+            <hr>
             <br> 
           
             <!--Activity 2-->
               <div class="Chapter">
-                <i class="fas fa-tools"></i>
-                <h5 id="activity2" class="text-left">Activity 2</h5>
-                <p class="text-left">
+               <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
+                 <p class="text-left">
                   Nomcebo enters into a contract with Dlamini a qualified plumber for 
                   the maintenance of her sewer lines in her private property. The 
                   two parties sign a contract for the work to be done by Dlamini.
@@ -668,7 +631,44 @@
                 </p>
 
               </div>
-            <!--Unit Summary-->
+            <!--Activity 2-->
+
+            <div class="note note-danger">
+              <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong> References</strong></h1>
+              <li> <a id="105r" href="#105">105</a>AJ Kerr “Principles of the Law of Contract” 6th Edition, LexisNexis, p. 601.</li>
+              <li> <a id="106r" href="#106">106</a>1976 1 (SA) 667 (NC)</li>
+              <li> <a id="107r" href="#107">107</a>Stewart Wrightson (Pty) Ltd v Thorpe 1977 2 SA 943A</li>
+              <li> <a id="108r" href="#108">108</a>1988 2 SA 468 ( C) at 475 A</li>
+              <li> <a id="109r" href="#109">109</a>Adopting GA Mulligan’s terminology in “Damages for Breach” (1957) 74 SALJ 61</li>
+              <li> <a id="110r" href="#110">110</a>Per Hiemstra J in Swartz & Son (Pty) Ltd v Wolmaransstad Town Council 1960 2 SA I (T) at approved in Culverwell and Another v Brown 1990 1 SA.</li>
+              <li> <a id="111r" href="#111">111</a>1925 TPD at 717 </li>
+              <li> <a id="112r" href="#112">112</a>(302/2012) [2012] SZHC 212 (14 September 2012) </li>
+              <li> <a id="113r" href="#113">113</a>1910 CPD 263 at 267 </li>
+              <li> <a id="114r" href="#114">114</a>(1872) LR 7 Ex 111 </li>
+              <li> <a id="115r" href="#115">115</a>1980 1 SA 645 (A) at 652G </li>
+              <li> <a id="116r" href="#116">116</a>Remedies will be discussed at length in Unit 6. </li>
+              <li> <a id="117r" href="#117">117</a>This is according to Alfred Cockrell “ Breach of Contract” in R Zimmermann & D Visser (Eds) Southern Cross: Civil Law in South Africa (1996) 303. </li>
+              <li> <a id="118r" href="#118">118</a>Mora, (1952) 69 SALJ 276. </li>
+              <li> <a id="119r" href="#119">119</a>D Hutchison, “The Law of contract in South Africa” third edition, Oxford, p. 292 </li>
+              <li> <a id="120r" href="#120">120</a>1974 (3) SA 331 (T). </li>
+              <li> <a id="121r" href="#121">121</a>1980 (4) SA 775 (A) </li>
+              <li> <a id="122r" href="#122">122</a>D Hutchison, “The Law of contract in South Africa” third edition, Oxford, p. 301) </li>
+              <li> <a id="123r" href="#123">123</a>As above. </li>
+              <li> <a id="124r" href="#124">124</a>Ranch International Pipelines (Transvaal)(Pty) Ltd v LMG Construction (City) Pty Ltd 1984 (3) SA 861 (w) at 877-878, see also Alfred McAlpine & Son (Pty) Ltd v Transvaal Provincial administrator 1974 (3) SA 506 (A) at 529, 534 </li>
+              <li> <a id="125r" href="#125">125</a>D Hutchison, “The Law of contract in South Africa” third edition, Oxford, p. 302 </li>
+              <li> <a id="126r" href="#126">126</a>National Bank of SA Ltd v Leon Levson Studios Ltd 1913 AD 213 </li>
+              <li> <a id="127r" href="#127">127</a>De Wet & Van Wyk at 192-3</li>
+              <li> <a id="128r" href="#128">128</a>D Hutchison, “The Law of Contract in South Africa” third edition, Oxford, p. 304</li>
+              <li> <a id="129r" href="#129">127</a>D Hutchison, “The Law of Contract in South Africa” third edition, Oxford, p. 305, see also Wingerin v Ross 1951 (2) SA 82 ( C ).</li>
+              <li> <a id="130r" href="#130">130</a>Arenson v Bishop 1926 CPD 73; St’ Patrick’s Mansion (Pty) Ltd v Grange Restaurant (Pty) Ltd 1949 (4) SA 57 (W) at 63.  </li>
+              <li> <a id="131r" href="#131">131</a>D Hutchison, “The Law of Contract in South Africa” third edition, Oxford, p. 307  </li>
+              <li> <a id="132r" href="#132">132</a>Novick v Benjamin 1972 (2) SA 842 (A) at 853-4  </li>
+              <li> <a id="133r" href="#133">133</a>302/2012 [2012] SZHC 212 (14th September 2011  </li>
+              <li> <a id="134r" href="#134">134</a>De Wet & Van Wyk at 172ff; LAWSA Contracts at 413-7.  </li>
+              <li> <a id="135r" href="#135">135</a>LAWSA Contracts at 413, Hutchison at  </li>
+              <li> <a id="136r" href="#136">136</a>LAWSA Contracts at 416.  </li>
+              <li> <a id="137r" href="#137">137</a>1979 (1) SA 391 (A) at 413  </li>
+            </div>
         </div>    
 
 

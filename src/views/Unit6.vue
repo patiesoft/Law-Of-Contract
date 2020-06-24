@@ -129,7 +129,7 @@
 
           <br> 
 
-          <!--Chapter/Section-->
+          <!--Chapter Specific Perfomance-->
             <div class="Chapter">
               <ol type="1"> 
                 <h1 id="specificPerfomance" class="text-center chapter-topic  secondary-heading text-primary"><strong> Specific Perfomance</strong></h1>
@@ -255,7 +255,7 @@
                 <!--Paragraph 6 end-->
               </ol>
             </div>
-          <!--Chapter/Section end-->
+          <!--Chapter Specific Perfomance-->
           <hr>
           <br>
           
@@ -424,7 +424,7 @@
           <!--Chapter/Section end-->
           <hr>
           <br>
-          <!--Chapter/Section-->
+          <!--Chapter Cancellation-->
             <div class="Chapter">
               <ol type="1"> 
                 <h1 id="cancellation" class="text-center chapter-topic secondary-heading text-primary"><strong>Cancellation</strong></h1>
@@ -443,30 +443,26 @@
                 </p>
                 <!--Paragraph 2 end-->
                 <!--Blockquote-->
-                <div >
-                  <p>
-                    <em>
-                      <strong>
-                        <blockquote class="blockquote text-left z-depth-2">
-                          “When cancellation takes place the legal position is similar to that when a lease is said to have terminated by effluxion of time or in consequences 
-                          of notice duly given:  a major change in the history of the parties’ contractual relationship has taken place but certain adjustments may still have 
-                          to be made between them (the parties). In the case of cancellation the major change is that no further performances by either party is due; obligations 
-                          to perform in future are terminated, brought to an end, no longer exist; but rights already accrued, due and enforceable, can be pursued and whatever 
-                          adjustments the law allows in respect of the default by the one party can be enforced.’’
-                        </blockquote>
-                      </strong>
-                    </em> 
-                  </p>
-                </div> 
+                  <div >   
+                    <i>
+                    <blockquote class="blockquote text-left z-depth-2">
+                      “When cancellation takes place the legal position is similar to that when a lease is said to have terminated by effluxion of time or in consequences 
+                      of notice duly given:  a major change in the history of the parties’ contractual relationship has taken place but certain adjustments may still have 
+                      to be made between them (the parties). In the case of cancellation the major change is that no further performances by either party is due; obligations 
+                      to perform in future are terminated, brought to an end, no longer exist; but rights already accrued, due and enforceable, can be pursued and whatever 
+                      adjustments the law allows in respect of the default by the one party can be enforced.’’
+                    </blockquote>
+                    </i>
+                  </div> 
                 <!--Blockquote end-->
-                <!--Paragraph 3-->
+               
                 <p>
                   Unlike void contracts, a contract that has been cancelled may result in contractual obligations of the parties even after the date of cancellation, namely a duty 
                   to pay damages and duties to perform. Parties may also cancel a contract by mutual consent, or the contract may create a right to cancel in certain circumstances 
                   irrespective of breach. However, for the purposes of this chapter we will focus on the unilateral cancellation of a contract which results from breach of contract 
                   by the other party. 
                 </p>
-                <!--Paragraph 3 end-->
+               
                 <strong><u><h6>Requirements for cancellation</h6></u></strong>
                 <!--Paragraph 4-->
                 <p>
@@ -559,12 +555,15 @@
                     </p>
                   </li> 
                   <!--Blockquote-->
-                  <div class="col-sm-9 z-depth-2 col-lg-8">                    
+                  <div class=" example z-depth-2 bg2 p-3 m-4">     
+                    <h6 class="text-left class h6">Example 2</h6>               
                         <blockquote class="blockquote text-left">
                           A party may combine the notice of recession with an advance notice of cancellation
                           <br>
+                          <i>
                           “I will have the right to cancel the contract if you do not perform by 1 August of this year (notice of recession), and I elect 
                           to cancel the contract if you do not perform in time (notice of cancellation).”
+                          </i>
                           <br>
                           If the debtor fails to perform by 1 August, the creditor does not have to do anything further. Since he has already communication 
                           his election to the debtor, the contract is cancelled automatically on 1st August. 
@@ -582,8 +581,8 @@
                     </u>
                     <p>
                       Cancelation is a unilateral juristic act performed by the innocent party and it does not require the consent of the guilty party: 
-                      See <em><strong>Stuart Wrightson (Pty) Ltd v Thorpe <sup>157</sup>
-                      .</strong></em> A J Kerr <sup>158</sup>
+                      See <em><strong>Stuart Wrightson (Pty) Ltd v Thorpe <sup><a id="157" href="157r">157</a></sup>
+                      .</strong></em> A J Kerr <sup><a id="158" href="158r">158</a> </sup>
                       asserts the foregoing annotation by stating that “if a party aggrieved by a 
                       major breach … wishes to take some active steps to show that the contract is being brought to an end, that is, he wishes to do 
                       more than just disregard the contract, he may cancel the contract without asking for any remedies such as restitution or damages”.
@@ -616,12 +615,12 @@
                         <li>
                           There are no prescribed formalities for cancellation. Provided that there is an unambiguous election to cancel, 
                           notification of cancellation can be expressed (in words), implied (by conduct) or may even be contained in a 
-                          summon <sup>159</sup>
+                          summon <sup><a id="159" href="159r">159</a></sup>
                           The parties can even agree to dispense with the requirement of notice of cancellation.
                         </li>
                         <li>
                           The decision to cancel must be conveyed to the guilty party. The only issue is whether the notice of cancellation reached 
-                          the guilty party: See in this regard <strong><em>Datacolour International (Pty) Ltd v Intamarket (Pty) Ltd <sup>160</sup>
+                          the guilty party: See in this regard <strong><em>Datacolour International (Pty) Ltd v Intamarket (Pty) Ltd <sup><a href="160"></a> 160</sup>
                           </em></strong>
                         </li>
                         <li>
@@ -698,7 +697,8 @@
                       Cancelation extinguishes all obligations that need to be performed after the date of cancelation, and further creates an obligation to 
                     </p> 
                     <!--Blockquote-->
-                    <div class="example z-depth-2">                      
+                    <div class="example z-depth-2 bg2 p-3 m-4">  
+                      <h6 class="text-left class h6">Example 1</h6>                    
                           <blockquote class="blockquote text-left">
                             A sells his bull to B for E10, 000.00 to mate with B’s cows. The parties agree that A will deliver the bull to B on payment of a 
                             E5, 000.00 deposit. They agree that B will pay the remainder of the purchase price in monthly instalments of E1, 000.00 over the 
@@ -779,10 +779,10 @@
                 <!--Paragraph 5 end-->
               </ol>
             </div>
-          <!--Chapter/Section end-->
+          <!--Chapter Cancellation end-->
           <hr>
           <br>
-          <!--Chapter/Section-->
+          <!--Chapter Damages-->
             <div class="Chapter">
               
               <ol type="1"> 
@@ -1069,7 +1069,7 @@
                 </ol>
               </ol>
             </div>
-          <!--Chapter/Section end-->
+          <!--Chapter Damages end-->
           <hr>
           <br>
          
@@ -1124,7 +1124,55 @@
             </div>
           <!--Activity 2-->
           <hr>
-          <br>  
+          <br> 
+          <!--Refferences  -->
+            <div class="note note-danger">
+              <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong> References</strong></h1>
+            
+              <li> <a id="130r" href="#130">130</a> 1986 (1) SA 776 (A) at 872 H – J</li>
+              <li> <a id="140r" href="#140">140</a>A J Kerr, “The Principles of the Law of Contract” 6th Edition, at page 677</li>
+              <li> <a id="141r" href="#141">141</a>1986 (1) SA 776</li>
+              <li> <a id="145r" href="#145">145</a>1919 WLD 100</li>
+              <li> <a id="146r" href="#146">146</a>1971 (3) SA 643 (W)</li>
+              <li> <a id="147r" href="#147">147</a>1924 NPD 208 148 1994 (1) SA 626</li>
+              <li> <a id="148r" href="#148">148</a>1994 (1) SA 626 (T) 634 B-C</li>
+              <li> <a id="149r" href="#149">149</a>Compagnie Interafricaine de Travaux v South African Transport Services 1991 (4) SA 217 (A) 2301-231 C; Ex parte Van Schalkwyk and Hay 1952 (2) SA 407 (A); Durban City Council v Association of Building Sicieties 1942 AD 27 32-3.</li>
+              <li> <a id="150r" href="#150">150</a>Taljaard v Glose 1951 (1) SA 209 (SWA); Shaban v Culemborg Bnaking Corpn Ltd 1962 (2) SA 450 (W).</li>
+              <li> <a id="151r" href="#151">151</a>AJ Kerr supra at p.595-596.</li>
+              <li> <a id="152r" href="#152">152</a>Deeksha Bhana et al, “Student’s Guide to the Law of Contract” (3rd Edition) at page 321.</li>
+              <li> <a id="153r" href="#153">153</a>AJ Kerr, “The Principles of the Law of Contract” 6th Edition, p. 703.</li>
+              <li> <a id="154r" href="#154">154</a>Deeksha Bhana et al, “Students Guide to the Law of Contract “3rd Edition, p. 322</li>
+              <li> <a id="155r" href="#155">155</a>1981 (2) SA 684 (A).</li>
+              <li> <a id="156r" href="#156">156</a>2006 (6) SA 358 (SCA) para 11</li>
+              <li> <a id="157r" href="#157">157</a>1977 (2) SA 943 (A)</li>
+              <li> <a id="158r" href="#158">157</a>The Principles of the Law of Contract, supra page 704)</li>
+              <li> <a id="160r" href="#160">160</a>2001 (2) SA 284 SCA</li>
+              <li> <a id="161r" href="#161">161</a>Schuurman v Davey 1908 TS 664 at 671 per Innes CJ followed in Jaffer v Falante 1959 (4) SA 360 (C) at 362</li>
+              <li> <a id="162r" href="#162">162</a>Radiotronics (Pty) Ltd v Scott, Lindberg & Co. Ltd 1951 (1) SA 312 (C) at 324</li>
+              <li> <a id="163r" href="#163">163</a>Segal v Mazzur 1920 CPD 634 at 644 approved in Du Plessis And Another NNO v Rolfes Ltd 1997 (2) SA 354 (A) at 364 H</li>
+              <li> <a id="164r" href="#164">164</a>N.O. 1985 (3) SA 729 (A)</li>
+              <li> <a id="165r" href="#165">165</a>2011 (2) SA 525 (SCA).</li>
+              <li> <a id="166r" href="#166">166</a>A tenant’s duty to restore property in original condition after cancellation of lease, subject to wear and tear. Another example would be that of the employer’s obligation to pay wages subsequent to the cancellation of the employment contract.</li>
+              <li> <a id="167r" href="#167">167</a>1972 (2) SA 863 (A)</li>
+              <li> <a id="168r" href="#168">168</a>AJ Kerr supra page 737</li>
+              <li> <a id="169r" href="#169">169</a>1951 (1) SA 443 (A) 449 B-C</li>
+              <li> <a id="170r" href="#170">170</a>1975 (1) SA 961 W</li>
+              <li> <a id="171r" href="#171">171</a>1990 (3) SA 581 (A)</li>
+              <li> <a id="172r" href="#172">172</a>2007 (4) SA 190 (C)</li>
+              <li> <a id="173r" href="#173">173</a>2001 (4) SA 551 (SCA).</li>
+              <li> <a id="174r" href="#174">174</a>1977 (3) SA 670 (A) 687</li>
+              <li> <a id="175r" href="#175">175</a>(1854) 150 ER 145</li>
+              <li> <a id="176r" href="#176">176</a>RH Christie supra, at page 607</li>
+              <li> <a id="177r" href="#177">177</a>1939 AD 372-388</li>
+              
+               
+            
+
+            
+
+            </div>
+
+          <!--Refferences  -->
 
 
       </div>
