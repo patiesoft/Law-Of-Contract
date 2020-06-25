@@ -36,7 +36,7 @@
 
   
     <!--Row-->
-    <div class="row text-left" > 
+    <div class="row text-left text-left m-2" > 
       <!-- Side Nav -->
         <div id="topics" class="col-sm-3 col-lg-2 sideNev  ">
           <div class="border border-primary sticky-top">
