@@ -4,8 +4,8 @@
   <div class="container-fluid text-left" >
     
      <!--DropDown Button  -->
-      <div class=" sticky-top col-sm-12 col-lg-0 "  >
-        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  >
+      <div class=" sticky-top col-sm-12 "  v-mdb-scroll-spy="{container: 'custom-container'}"  >
+        <mdb-dropdown  class="dropChapter"  >
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link "   href="#introduction">Introduction</a></mdb-dropdown-item>
@@ -519,7 +519,7 @@
 </template>
 
 <script>
-    import { mdbScrollSpy,mdbCollapse, mdbContainer,mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle} from "mdbvue";
+    import { mdbScrollSpy,mdbCollapse, mdbContainer,mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle,mdbIcon} from "mdbvue";
   export default {
     directives: {
       mdbScrollSpy,
@@ -530,7 +530,8 @@
       mdbDropdown,
       mdbDropdownItem,
       mdbDropdownMenu,
-      mdbDropdownToggle
+      mdbDropdownToggle,
+      mdbIcon
     } 
   };
 

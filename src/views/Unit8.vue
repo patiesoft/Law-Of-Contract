@@ -3,8 +3,8 @@
   <div class="container-fluid text-left " >
   
    <!--DropDown Button  -->
-      <div class=" sticky-top col-sm-12 col-lg-0 "  >
-        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter" >
+      <div class=" sticky-top col-sm-12 col-lg-0 " v-mdb-scroll-spy="{container: 'custom-container'}" >
+        <mdb-dropdown   class="dropChapter" >
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link "         href="#introduction">Introduction</a></mdb-dropdown-item>
@@ -19,7 +19,7 @@
             <mdb-dropdown-item><a class="nav-link"          href="#sign">Signatures</a>   </mdb-dropdown-item>              
              <mdb-dropdown-item><a class="nav-link"         href="#unit">   Unit Sammary</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#activity">Activity 1</a></mdb-dropdown-item>
-            <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
+          
           </mdb-dropdown-menu>
         </mdb-dropdown>
       </div>

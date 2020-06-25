@@ -2,8 +2,8 @@
   <div class="container-fluid text-left" > 
       
       <!--DropDown Button  -->
-      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
-        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
+      <div class=" sticky-top col-sm-12 col-lg-0 cont" v-mdb-scroll-spy="{container: 'custom-container'}"  color="">
+        <mdb-dropdown   class="dropChapter"  color="">
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link "   href="#introduction">Introduction</a></mdb-dropdown-item>
