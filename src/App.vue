@@ -18,6 +18,17 @@
             <mdb-navbar-nav>
                 <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
                 <mdb-nav-item href="#//Overview" waves-fixed active>Overview</mdb-nav-item>
+                        <mdb-nav-item href="#/Unit1">Unit 1</mdb-nav-item>
+                        <mdb-nav-item href="#/Unit2">Unit 2</mdb-nav-item>
+                        <mdb-nav-item href="#/Unit3">Unit 3</mdb-nav-item>
+                        <mdb-nav-item href="#/Unit4">Unit 4</mdb-nav-item>
+                        <mdb-nav-item href="#/Unit5">Unit 5</mdb-nav-item>
+                        <mdb-nav-item href="#/Unit6">Unit 6</mdb-nav-item>
+                        <mdb-nav-item href="#/Unit7">Unit 7</mdb-nav-item>
+                        <mdb-nav-item href="#/Unit8">Unit 8</mdb-nav-item>
+
+
+                        <!--  -
                 <mdb-dropdown tag="li" class="nav-item">
                     <mdb-dropdown-toggle slot="toggle"  waves-fixed  tag="li" outline="none" class="btn-red"><strong>UNITS</strong></mdb-dropdown-toggle>
                     <mdb-dropdown-menu color="red">
@@ -31,6 +42,7 @@
                         <mdb-dropdown-item href="#/Unit8">Unit 8</mdb-dropdown-item>
                     </mdb-dropdown-menu>
                 </mdb-dropdown>
+                --  -->
             </mdb-navbar-nav>
         </mdb-navbar-toggler>
          
@@ -50,10 +62,10 @@ import Footer from '@/components/Footer.vue'
   mdbNavItem,
   mdbNavbarNav,
   mdbNavbarToggler,
-  mdbDropdown, 
-  mdbDropdownItem, 
-  mdbDropdownMenu, 
-  mdbDropdownToggle, 
+  //mdbDropdown, 
+  //mdbDropdownItem, 
+  //mdbDropdownMenu, 
+  //mdbDropdownToggle, 
   mdbNavbarBrand
 
   } from "mdbvue";
@@ -65,10 +77,10 @@ export default {
     mdbNavItem,
     mdbNavbarNav,
     mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
+    //mdbDropdown, 
+    //mdbDropdownItem, 
+    //mdbDropdownMenu, 
+    //mdbDropdownToggle, 
     mdbNavbarBrand
   
   }
@@ -83,11 +95,6 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-.nevBar{
-  width:70%;
-}
-
-
 
 .row{
     position: relative;
@@ -104,11 +111,6 @@ overflow-y:inherit;
     list-style-type:decimal;
 }
 
-.sideNev{
-  list-style: armenian
-   
-
-}
 .bg{
     background-color: #e1f5fe;
 }
@@ -117,6 +119,7 @@ overflow-y:inherit;
 }
 .navbar {
   background: #1e88e5 ;
+    width:60%;
 }
 
 .sideNev{
@@ -126,11 +129,10 @@ overflow-y:inherit;
 .dropChapter{
   display:block;
   position:fixed;
-  left: 70%;
+  left: 60%;
   top: 0px; 
   font-weight: 700;
   z-index: 5;
-  width: 60%;
   margin: 0px;
   
 }
