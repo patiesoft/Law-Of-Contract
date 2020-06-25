@@ -29,7 +29,7 @@
              <h1 class="h1 text-center red-text h1-responsive">UNIT 4</h1>
               <hr>
                 
-            <ul  v-mdb-scroll-spy="{container: 'custom-container'}">
+            <ul  v-mdb-scroll-spy="{container: 'custom-container'}" >
                 <li><a class="nav-link " href="#teminationOf">Termination of Contractual Obligation</a></li>
                 <li><a class="nav-link " href="#unitSummary">Unit summary</a></li>
                 <li><a class="nav-link " href="#discussion">Discussion</a></li>
@@ -649,7 +649,7 @@
 
 </script>
 
-<style>
+<style scoped>
 .row{
     position: relative;
 }
@@ -696,11 +696,21 @@ overflow-y:inherit;
   
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 566px) { 
   .sideNev{
     display:block;
 
   }
+   #topics div ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+     #topics div ul li:hover{
+    background-color: rgb(211, 224, 233);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+     }
   .dropChapter{
     display: none;
   }

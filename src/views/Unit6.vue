@@ -8,7 +8,7 @@
         <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
-            <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"   href="#introduction">Introduction</a></mdb-dropdown-item>
              <mdb-dropdown-item><a class="nav-link"           href="#specificPerfomance">Specific Perfomance</a> </mdb-dropdown-item>
              <mdb-dropdown-item><a class="nav-link"           href="#prohibitoryInterdict">Prohibitory Interdict</a> </mdb-dropdown-item>
              <mdb-dropdown-item><a class="nav-link"           href="#declarationOfRights">Declaration of Rights</a> </mdb-dropdown-item>
@@ -1205,7 +1205,7 @@
 
 </script>
 
-<style>
+<style scoped>
  .scrollspy-example {
 height: 100%;
 overflow-y:inherit;
@@ -1249,6 +1249,16 @@ overflow-y:inherit;
     display:block;
 
   }
+  #topics div ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+     #topics div ul li:hover{
+    background-color: rgb(211, 224, 233);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+     }
   .dropChapter{
     display: none;
   }

@@ -611,7 +611,7 @@
 
 </script>
 
-<style>
+<style scoped>
 .row{
     position: relative;
 }
@@ -658,11 +658,23 @@ overflow-y:inherit;
   
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 566px) { 
   .sideNev{
     display:block;
+    padding: 0;
+    margin: 0;
 
   }
+   #topics div ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+     #topics div ul li:hover{
+    background-color: rgb(211, 224, 233);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+     }
   .dropChapter{
     display: none;
   }

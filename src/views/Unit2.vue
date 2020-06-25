@@ -8,7 +8,7 @@
         <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  >
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
-            <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link "   href="#introduction">Introduction</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#facts">What is Varietion</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#issues">         Conclusion</a>  </mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#unitSammary">   Unit Sammary</a></mdb-dropdown-item>
@@ -24,7 +24,7 @@
     <!--DropDown Button  -->
 
     <!-- Header -->
-    <div class="Head"> 
+    <div > 
      <br >
       <p class="h1-responsive red-text text-center main-topic">Variation And Waiver</p>
     </div>
@@ -40,7 +40,7 @@
               <hr>               
 
             <ul  v-mdb-scroll-spy="{container: 'custom-container'}" >
-                <li><a class="nav-link active"   href="#introduction">  Introduction</a></li>                
+                <li><a class="nav-link "   href="#introduction">  Introduction</a></li>                
                 <li><a class="nav-link"          href="#facts">                 What is Varietion</a></li> 
                 <li><a class="nav-link"          href="#issues">         Conclusion</a></li> 
                 <li><a class="nav-link"          href="#unitSummary">          Unit Sammary</a></li> 
@@ -536,7 +536,7 @@
 
 </script>
 
-<style>
+<style scoped>
 .nevigation{
  position: sticky;
 }
@@ -557,11 +557,21 @@
   
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 566px) { 
   .sideNev{
     display:block;
 
   }
+  #topics div ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+     #topics div ul li:hover{
+    background-color: rgb(211, 224, 233);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+     }
   .dropChapter{
     display: none;
   }
