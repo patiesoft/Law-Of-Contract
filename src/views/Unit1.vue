@@ -28,7 +28,7 @@
 
     <!-- Header -->
     <div class="Head"> 
-        <h1 class="h1 h1-responsive">UNIT 1</h1>
+       <br>
         <p class="h1-responsive red-text text-center main-topic">CONDITIONS AND WARRANTIES</p>
     </div>
     <!--/Header -->        

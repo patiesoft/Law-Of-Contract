@@ -8,8 +8,7 @@
      <mdb-navbar
         position="top"  
         color="primary"
-        dark
-      
+        dark      
         class="nevBar "
 
         

@@ -4,7 +4,7 @@
       <!--DropDown Button  -->
       <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
         <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
-          <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
+          <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
            <mdb-dropdown-item><a class="nav-link"          href="#def">         Defination of Cession</a> </mdb-dropdown-item>           
@@ -23,7 +23,7 @@
     <!--DropDown Button  -->
 
     <div class="Head">
-      <h1 class="h1 h1-responsive">UNIT 7</h1>
+     <br>
       <p class="h1-responsive red-text text-center main-topic">TRANSFER OF RIGHTS AND OBLIGATIONS (CESSION)</p>
     </div>
    

@@ -4,7 +4,7 @@
    <!--DropDown Button  -->
       <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
         <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
-          <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
+          <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link "   href="#introduction">Introduction</a></mdb-dropdown-item>
             <mdb-dropdown-item> <a class="nav-link "             href="#specific-perfomance">Specific Perfomance</a>   </mdb-dropdown-item> 
@@ -25,7 +25,7 @@
 
     <!-- Unit header -->
       <div>      
-        <h1 class="h1 h1-responsive">UNIT 3</h1>
+       <br>
         <p class="h1-responsive red-text text-center main-topic">Specific Perfomance</p>
       </div>
 

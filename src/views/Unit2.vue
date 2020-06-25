@@ -4,9 +4,9 @@
   <div class="container-fluid text-left" >
     
      <!--DropDown Button  -->
-      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
-        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
-          <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
+      <div class=" sticky-top col-sm-12 col-lg-0 "  >
+        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  >
+          <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#facts">What is Varietion</a></mdb-dropdown-item>
@@ -16,7 +16,7 @@
             <mdb-dropdown-item><a class="nav-link"          href="#activity2">Activity 2</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></mdb-dropdown-item>           
            
-            <div class="dropdown-divider"></div>
+           
             <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
           </mdb-dropdown-menu>
         </mdb-dropdown>
@@ -25,7 +25,7 @@
 
     <!-- Header -->
     <div class="Head"> 
-      <h1 class="h1 h1-responsive">UNIT 2</h1>
+     <br >
       <p class="h1-responsive red-text text-center main-topic">Variation And Waiver</p>
     </div>
     <!--/Header --> 
