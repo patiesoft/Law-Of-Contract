@@ -53,8 +53,9 @@
     <div class="row text-left" > 
       <!-- Side Nav -->
         <div id="topics" class="col-sm-3 col-lg-2 sideNev  ">
-          <div class="border border-info sticky-top">
-            
+          <div class="border border-primary sticky-top">
+            <h1 class="h1 text-center red-text h1-responsive">UNIT 6</h1>
+              <hr>
 
             <ul  v-mdb-scroll-spy="{container: 'custom-container'}" >
               <li><a class="nav-link active"    href="#introduction">Introduction</a></li>

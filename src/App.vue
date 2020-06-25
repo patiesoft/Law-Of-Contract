@@ -3,8 +3,7 @@
   <div id="app">
    
      <mdb-navbar
-        position="top"
-        transparent
+        position="top"  transparent
         color="mdb"
         dark
         scrolling
@@ -82,5 +81,14 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+.nevBar{
+  width:50%;
+}
 
+@media (min-width: 576px) { 
+.nevBar{
+  width:100%;
+  align-self: flex-end;
+}
+ }
 </style>

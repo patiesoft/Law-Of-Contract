@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jun 25 2020 05:58:12 GMT+0200 (South Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.vue
+* src/views/Unit6.vue
+* src/views/Unit7.vue
+* src/views/Unit8.vue
+
+
+Created files:
+* .autogit/logs/log-25-5-2020-5-28-6.txt
+
+
+Deleted files:
+
+
+Renamed files:

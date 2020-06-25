@@ -41,7 +41,7 @@
 
         <!-- Side Nav -->
           <div id="topics" class="col-sm-3 col-lg-2 sideNev">
-            <div class="border border-info sticky-top spyscroll">
+            <div class="border border-primary sticky-top spyscroll">
               <h1 class="h1 text-center red-text h1-responsive">UNIT 7</h1>
               <hr>
                 
