@@ -3,8 +3,8 @@
   <div class="container-fluid text-left " >
   
    <!--DropDown Button  -->
-      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
-        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="primary">
+      <div class=" sticky-top col-sm-12 col-lg-0 "  >
+        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter" >
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link "         href="#introduction">Introduction</a></mdb-dropdown-item>
@@ -19,8 +19,6 @@
             <mdb-dropdown-item><a class="nav-link"          href="#sign">Signatures</a>   </mdb-dropdown-item>              
              <mdb-dropdown-item><a class="nav-link"         href="#unit">   Unit Sammary</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#activity">Activity 1</a></mdb-dropdown-item>
-            
-            <div class="dropdown-divider"></div>
             <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
           </mdb-dropdown-menu>
         </mdb-dropdown>
@@ -55,7 +53,7 @@
                         <li><a class="nav-link"          href="#struct">Structure and Language</a></li> 
                         <li><a class="nav-link"          href="#sign">Signatures</a></li> 
                         <li><a class="nav-link"          href="#unit">Unit summary</a></li> 
-                        <li> <a class="nav-link"          href="#activity">Activity 1</a></li> 
+                        <li> <a class="nav-link"         href="#activity">Activity 1</a></li> 
                 </ul>
              </div>
                 
@@ -469,74 +467,5 @@
   };
 
 </script>
-
-<style scoped>
-.row{
-    position: relative;
-}
-.scrollspy-example {
-height: 100%;
-overflow-y:inherit;
-}
-.main-topic{
-    font-weight:700;
-}
-
-#contentlist{
-    list-style-type:decimal;
-}
-
-.sideNev{
-  list-style: armenian
-   
-
-}
-.bg{
-    background-color: #e1f5fe;
-}
-.bg2{
-  background-color: #bbdefb;  
-}
-.navbar {
-  background: #1e88e5 ;
-}
-
-.sideNev{
-    display: none;
-      list-style: armenian
-  }
-.dropChapter{
-  display:block;
-  position:fixed;
-  left: 70%;
-  top: 0px; 
-  font-weight: 700;
-  z-index: 5;
-  width: 60%;
-  margin: 0px;
-  
-}
-
-@media (min-width: 566px) { 
-  .sideNev{
-    display:block;
-
-  }
-  #topics div ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    }
-     #topics div ul li:hover{
-    background-color: rgb(211, 224, 233);
-    color: whitesmoke;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-     }
-  .dropChapter{
-    display: none;
-  }
- }
-
-</style>
 
 

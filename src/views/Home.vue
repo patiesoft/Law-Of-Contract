@@ -43,9 +43,10 @@
   display: block;
 }
 #middle{
-background-image: url("../assets/landingmiddle.png");
+background-image: url("../assets/landingmiddle.svg");
 width:100%;
 height: 500px;
+
 }
 #bottom{
   background-color: rgb(6, 49, 6);

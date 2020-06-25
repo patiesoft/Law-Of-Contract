@@ -9,12 +9,12 @@
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link "   href="#introduction">Introduction</a></mdb-dropdown-item>
-            <mdb-dropdown-item><a class="nav-link"          href="#facts">What is Varietion</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#whatIsVariation">What is Varietion</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#issues">         Conclusion</a>  </mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#unitSammary">   Unit Sammary</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#activity1">Activity 1</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#activity2">Activity 2</a></mdb-dropdown-item>
-            <mdb-dropdown-item><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></mdb-dropdown-item>           
+            <mdb-dropdown-item><a class="nav-link"          href="#selfAssesment">SELF-ASSESMENT</a></mdb-dropdown-item>           
            
            
             <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
@@ -34,19 +34,19 @@
 
 
       <!-- Side Nav -->
-        <div id="topics" class="col-sm-3 col-lg-2 sideNev ">
+        <div id="topics" class="col-sm-0 col-lg-2 sideNev ">
           <div class="sticky-top border border-primary">
              <h1 class="h1 text-center red-text h1-responsive">UNIT 2</h1>
               <hr>               
 
             <ul  v-mdb-scroll-spy="{container: 'custom-container'}" >
                 <li><a class="nav-link "   href="#introduction">  Introduction</a></li>                
-                <li><a class="nav-link"          href="#facts">                 What is Varietion</a></li> 
-                <li><a class="nav-link"          href="#issues">         Conclusion</a></li> 
+                <li><a class="nav-link"          href="#whatIsVariation">                 What is Varietion</a></li> 
+                <li><a class="nav-link"          href="#conclusion">         Conclusion</a></li> 
                 <li><a class="nav-link"          href="#unitSummary">          Unit Sammary</a></li> 
                 <li><a class="nav-link"          href="#activity1">     Activity 1</a></li> 
                 <li><a class="nav-link"          href="#activity2">     Activity 2</a></li> 
-                <li><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></li> 
+                <li><a class="nav-link"          href="#selfAssesment">SELF-ASSESMENT</a></li> 
             </ul>
           </div>
         </div>
@@ -535,47 +535,3 @@
   };
 
 </script>
-
-<style scoped>
-.nevigation{
- position: sticky;
-}
-
-.sideNev{
-    display: none;
-      list-style: armenian
-  }
-.dropChapter{
-  display:block;
-  position:fixed;
-  left: 70%;
-  top: 0px; 
-  font-weight: 700;
-  z-index: 5;
-  width: 60%;
-  margin: 0px;
-  
-}
-
-@media (min-width: 566px) { 
-  .sideNev{
-    display:block;
-
-  }
-  #topics div ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    }
-     #topics div ul li:hover{
-    background-color: rgb(211, 224, 233);
-    color: whitesmoke;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-     }
-  .dropChapter{
-    display: none;
-  }
- }
-
-
-</style>

@@ -599,13 +599,13 @@
 
             </div>
           <!--Unit Summary-->
-            <hr>
+            <hr id="discussion">
             <br> 
             
             <!--Discussion-->
               <div >
                
-                <h4 id="discussion" class="text-left"><i class="fas fa-comments"></i> Discussion</h4>
+                <h1 class="text-center chapter-topic  secondary-heading text-primary h1"><i class="fas fa-comments"></i> Discussion</h1>
                 <p class="text-left">
                   With the aid of decided cases, discuss the five(5) different forrms of
                   breach as covered in this unit. 
@@ -709,68 +709,3 @@
   };
 
 </script>
-
-<style scoped>
-.scrollspy-example {
-height: 100%;
-overflow-y:inherit;
-}
-.main-topic{
-    font-weight:700;
-}
-
-#contentlist{
-    list-style-type:decimal;
-}
-#dotted_underline{
-  border-bottom: 1px dotted #000;
-  text-decoration: none;
-
-}
-.bg{
-  background-color: #e1f5fe;
-}
-.bg2{
-  background-color: #bbdefb;  
-}
-.navbar{
-  color: blue; 
-}
-
-.sideNev{
-    display: none;
-      list-style: armenian
-  }
-.dropChapter{
-  display:block;
-  position:fixed;
-  left: 70%;
-  top: 0px; 
-  font-weight: 700;
-  z-index: 5;
-  width: 60%;
-  margin: 0px;
-  
-}
-
-@media (min-width: 566px) { 
-  .sideNev{
-    display:block;
-
-  }
-  #topics div ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    }
-     #topics div ul li:hover{
-    background-color: rgb(211, 224, 233);
-    color: whitesmoke;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-     }
-  .dropChapter{
-    display: none;
-  }
- }
-
-</style>

@@ -75,9 +75,8 @@ export default {
   
 }
 </script>
-<style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
+<style >
 
 #app {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -88,13 +87,77 @@ export default {
   width:70%;
 }
 
-@media (min-width: 576px) { 
-.nevBar{
+
+
+.row{
+    position: relative;
+}
+.scrollspy-example {
+height: 100%;
+overflow-y:inherit;
+}
+.main-topic{
+    font-weight:700;
+}
+
+#contentlist{
+    list-style-type:decimal;
+}
+
+.sideNev{
+  list-style: armenian
+   
+
+}
+.bg{
+    background-color: #e1f5fe;
+}
+.bg2{
+  background-color: #bbdefb;  
+}
+.navbar {
+  background: #1e88e5 ;
+}
+
+.sideNev{
+    display: none;
+      list-style: armenian
+  }
+.dropChapter{
+  display:block;
+  position:fixed;
+  left: 70%;
+  top: 0px; 
+  font-weight: 700;
+  z-index: 5;
+  width: 60%;
+  margin: 0px;
+  
+}
+
+@media (min-width: 566px) { 
+  .sideNev{
+    display:block;
+
+  }
+  #topics div ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+     #topics div ul li:hover{
+    background-color: rgb(211, 224, 233);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+     }
+  .dropChapter{
+    display: none;
+  }
+  .nevBar{
   width:100%;
   align-self: flex-end;
-  .NevBack{
-    background: red;
-  }
+  
 }
  }
+
 </style>
