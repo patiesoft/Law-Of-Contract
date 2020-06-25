@@ -1,63 +1,51 @@
 <template>
   <div class="container-fluid">
-     <mdb-navbar
-    position="top "
-    transparent
-    color="mdb"
-    dark
-    scrolling
-    class="sticky-top"
-    >
-    <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-    <mdb-navbar-toggler>
-      <mdb-navbar-nav>
-        <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-      </mdb-navbar-nav>
-    </mdb-navbar-toggler>
-  </mdb-navbar>
+    <div id="top">
+        <img src="../assets/logo-uneswa.png" alt="Loading" height="70%" >
+        <div>
+          <h1>INSTITUTE OF DISTANCE</h1>
+          <h1>EDUCATION</h1>
+        </div>
+    </div>
+    <div id="middle">
+
+    </div>
+    <div id="bottom">
+
+    </div>
+   <!-- 
+
       <img src="../assets/lending.png" alt="Loading" class="rounded mx-auto d-block img-fluid">
+    -->
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-
-import {
-     mdbNavbar, 
-    mdbNavItem, 
-    mdbNavbarNav, 
-    mdbNavbarToggler, 
-    mdbNavbarBrand, 
-    mdbIcon
-} from 'mdbvue'; 
-import{ mapActions} from 'vuex'; 
-export default {
-  name: 'Home',
-  components: { 
-    mdbNavbar, 
-    mdbNavItem, 
-    mdbNavbarNav, 
-    mdbNavbarToggler, 
-    mdbNavbarBrand, 
-    mdbIcon
-  }, 
-   data() {
-    return {};
-  },
-  methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
+<style>
+#top{
+  color:white;
+  background-color: rgb(6, 49, 6);
+  height: 200px;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
 }
-</script>
+#top div{
+  display: block;
+}
+#middle{
+background-image: url("../assets/landingmiddle.png") no-repeat;
+width:100%;
+height: 500px;
+}
+#bottom{
+  background-color: rgb(6, 49, 6);
+  height: 200px;
+  width: 100%;
+}
+</style>
+
+
+
