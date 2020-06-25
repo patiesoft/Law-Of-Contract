@@ -35,7 +35,7 @@
       <p class="h1-responsive red-text text-center main-topic">TRANSFER OF RIGHTS AND OBLIGATIONS (CESSION)</p>
     </div>
    
-  <div class="row text-left m-2" >
+      <div class="row text-left m-2" >
         <div class="col text-justify">
           <hr id="intro">
           <br>
@@ -139,7 +139,7 @@
             <p>Cession is the legal act whereby a personal right is transferred from a creditor to another person, who then becomes a creditor<sup id="180r"><a href="#180">180</a></sup>. A simple example of cession is the following:</p>
 
             <div class="example z-depth-2 bg2 p-3 m-4">
-              <p>Example 1</p>
+              <p class="h6">Example 1</p>
               <p>A buys a car from B. In respect of that car: A (creditor) has a personal right against B (debtor) for delivery of the car.
                 A may want to transfer this personal right to C. This can be done by way of cession. The effect of a valid cession is that C 
                 will now have a personal right for delivery of the car which is enforceable against B.</p>
@@ -151,7 +151,7 @@
             <p>In the case of cession, only the cedent and the cessionary need to consent<sup id="181r"><a href="#181">181</a></sup> . Let us look at the following example in explaining the above statement:</p>
             <div class="example z-depth-2 bg2 p-3 m-4">
 
-              <p>Example 2</p>
+              <p class="h6">Example 2</p>
               <p>A bought a car from B at a price of E50, 000.00. A is the debtor in relation to the price, and the creditor in relation to the car.</p>
               <p><strong>Cession:</strong> A transfers his right to the car to C. C is now the new creditor for the car. Only A and C need to consent to the transfer of the right. Note that A remains the debtor in relation to the purchase price.</p>
               <p><strong>Delegation:</strong> A transfers his duty to pay the price to C. C is now the new debtor in relation to payment of the price. All three parties (A, B and C) must consent to the transfer. Note that A remains the creditor in relation to the car.</p>
@@ -171,7 +171,7 @@
             <p>Very often, the contract to cede and the cession happens simultaneously and both are embodied in the same legal document. However, this is not necessarily the case. As we will see, in some situations we need delivery of a document to complete the cession and this would take place after the contract to cede has been concluded.
             </p>
             <div class="example z-depth-2 bg2 p-3 m-4">
-              <p>Example 3</p>
+              <p class="h6">Example 3</p>
               <p>X owes A E15, 000.00. A agrees to cede her right against X to B in return for E10, 000.00 cash (Obligationary Agreement Contract):</p>
                 <ul class="h6">
                   <li>The contract between A and B to effect cession of the right is a normal contract like any other. A has a duty to transfer (cede) her right against X to B and if she fails to do so, she is guilty of breach of contract. B can then enforce A’s duty to cede the right by way of specific performance;</li>
@@ -322,27 +322,32 @@
             <p>A enters into a contract with B for the killing of C. A duly pays B a deposit if E15,000.00. On the agreed date of the execution. B decides to engage D and he gives him the money to kill B. upon taking the money D disappears. B comes to you for advice regarding the transaction claiming that he ceded his obligation to D. Advise B. </p>
           </div>
           <!--/Activity-->
-        </div>
-        <div class="Chapter">
-          <h1 class="text-center chapter-topic  secondary-heading text-primary h1">References</h1>
-          <p id="180"><sup><a href="#180r">180</a></sup> First National Bank of SA Ltd v Lynn N.O. and Others 1996 (2) SA 339 (A); Headleigh Private Hospital (Pty) Ltd t/Rand Clinic v Soller & Manning Attorneys and Others 2001 (1) SA 360 (W)</p>
-          <p id="181"><sup><a href="#181r">181</a></sup> “Students Guide to the Law of Contract” supra at page 458</p>
-          <p id="182"><sup><a href="#182r">182</a></sup> Hutchison, “The Law of Contract in South Africa”, 3rd Edition, Oxford, p.367</p>
-          <p id="183"><sup><a href="#183r">183</a></sup> Hutchison, “The Law of Contract in South Africa”, 3rd Edition, Oxford, p.367</p>
-          <p id="184"><sup><a href="#184r">184</a></sup>  1904 TS 949</p>
-          <p id="185"><sup><a href="#185r">185</a></sup>  1963 (3) SA 538 (A)</p>
-          <p id="186"><sup><a href="#186r">186</a></sup>  1983 (1) SA 276 (A)</p>
-          <p id="187"><sup><a href="#187r">187</a></sup>  1995 (2) SA 750 (A)</p>
-          <p id="188"><sup><a href="#188r">188</a></sup>  1920 AD 600</p>
-          <p id="189"><sup><a href="#189r">189</a></sup>  1999(3) SA 389 (SCA).</p>
-          <p id="190"><sup><a href="#190r">190</a></sup>  1989 (1) SA 1 (A) </p>
-          <p id="191"><sup><a href="#191r">191</a></sup>  2000 (2) SA 880 (T)</p>
-          <p id="192"><sup><a href="#192r">192</a></sup>  2003 (1) SA 169 (SCA)).</p>
-          <p id="193"><sup><a href="#193r">193</a></sup>  1974 (1) SA 747 (A)</p>
-          <p id="194"><sup><a href="#194r">194</a></sup>  2008 (3) SA 594 (C).</p>
-          <p id="195"><sup><a href="#195r">195</a></sup>  Rothschild v Lowndes 1908 TS 493 – 499 </p>
-          <p id="196"><sup><a href="#196r">196</a></sup>  1979 (1) SA 69 (A)</p>
-        </div>
+          <hr>
+          <br>
+          <div class="Chapter">
+            <h1 class="text-center chapter-topic  secondary-heading text-primary h1">References</h1>
+            <p id="178"><sup><a href="#178r">178</a></sup>  1904 TS 949</p>
+            <p id="179"><sup><a href="#179r">179</a></sup>  1963 (3) SA 538 (A)</p>
+            <p id="180"><sup><a href="#180r">180</a></sup> First National Bank of SA Ltd v Lynn N.O. and Others 1996 (2) SA 339 (A); Headleigh Private Hospital (Pty) Ltd t/Rand Clinic v Soller & Manning Attorneys and Others 2001 (1) SA 360 (W)</p>
+            <p id="181"><sup><a href="#181r">181</a></sup> “Students Guide to the Law of Contract” supra at page 458</p>
+            <p id="182"><sup><a href="#182r">182</a></sup> Hutchison, “The Law of Contract in South Africa”, 3rd Edition, Oxford, p.367</p>
+            <p id="183"><sup><a href="#183r">183</a></sup> Hutchison, “The Law of Contract in South Africa”, 3rd Edition, Oxford, p.367</p>
+            <p id="184"><sup><a href="#184r">184</a></sup>  1904 TS 949</p>
+            <p id="185"><sup><a href="#185r">185</a></sup>  1963 (3) SA 538 (A)</p>
+            <p id="186"><sup><a href="#186r">186</a></sup>  1983 (1) SA 276 (A)</p>
+            <p id="187"><sup><a href="#187r">187</a></sup>  1995 (2) SA 750 (A)</p>
+            <p id="188"><sup><a href="#188r">188</a></sup>  1920 AD 600</p>
+            <p id="189"><sup><a href="#189r">189</a></sup>  1999(3) SA 389 (SCA).</p>
+            <p id="190"><sup><a href="#190r">190</a></sup>  1989 (1) SA 1 (A) </p>
+            <p id="191"><sup><a href="#191r">191</a></sup>  2000 (2) SA 880 (T)</p>
+            <p id="192"><sup><a href="#192r">192</a></sup>  2003 (1) SA 169 (SCA)).</p>
+            <p id="193"><sup><a href="#193r">193</a></sup>  1974 (1) SA 747 (A)</p>
+            <p id="194"><sup><a href="#194r">194</a></sup>  2008 (3) SA 594 (C).</p>
+            <p id="195"><sup><a href="#195r">195</a></sup>  Rothschild v Lowndes 1908 TS 493 – 499 </p>
+            <p id="196"><sup><a href="#196r">196</a></sup>  1979 (1) SA 69 (A)</p>
+          </div>
+      </div>
+        
   </div>
 </div>
 </template>
