@@ -2,36 +2,24 @@
 <template> 
   <div class="container-fluid text-left ">
   <!--Container-->
-  <!--  -
-     <mdb-navbar
-        position="top "
-        transparent
-        color="mdb"
-        dark
-        scrolling
-        class="sticky-top"
-        >
-        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-        <mdb-navbar-toggler>
-          <mdb-navbar-nav>
-            <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-            <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-            <mdb-dropdown tag="li" class="nav-item">
-              <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
-              <mdb-dropdown-menu color="red">
-                <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
-                <mdb-dropdown-item href="#classificalOfBreach">Classifical Of Breach</mdb-dropdown-item>
-                <mdb-dropdown-item href="#formsOfBreach">#Forms Of Breach</mdb-dropdown-item>
-                <mdb-dropdown-item href="#unitSummary">Unit Summary</mdb-dropdown-item>
-                <mdb-dropdown-item href="#discussion">Discussion</mdb-dropdown-item>
-                <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
-                <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
-              </mdb-dropdown-menu>
-            </mdb-dropdown>
-          </mdb-navbar-nav>
-        </mdb-navbar-toggler>
-      </mdb-navbar>
-  --  -->
+ <!--DropDown Button  -->
+      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
+        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
+          <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
+          <mdb-dropdown-menu>
+            <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"           href="#classificalOfBreach">Classifical of Breach</a> </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"           href="#formsOfBreach">Forms of Breach</a> </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"           href="#unitSummary">Unit Summary</a> </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"           href="#discussion">Discussion</a> </mdb-dropdown-item>
+             <mdb-dropdown-item><a class="nav-link"          href="#activity1">Activity 1</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#activity2">Activity 2</a></mdb-dropdown-item>
+            <div class="dropdown-divider"></div>
+            <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
+          </mdb-dropdown-menu>
+        </mdb-dropdown>
+      </div>
+    <!--DropDown Button  -->
 
     <!-- Header -->
       <div class="Head">
@@ -705,13 +693,19 @@
 </template>
 <!--Template-->
 <script>
-      import { mdbScrollSpy,mdbCollapse, mdbContainer} from "mdbvue";
+    import { mdbScrollSpy,mdbCollapse, mdbContainer,mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle} from "mdbvue";
   export default {
     directives: {
       mdbScrollSpy,
       mdbCollapse,
       mdbContainer
-    }  
+    }, 
+     components: {
+      mdbDropdown,
+      mdbDropdownItem,
+      mdbDropdownMenu,
+      mdbDropdownToggle
+    } 
   };
 
 </script>

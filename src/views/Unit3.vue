@@ -12,9 +12,6 @@
             <mdb-dropdown-item><a class="nav-link"              href="#incompleteOrDefectivePerformance">Incomplete Or Defective Performance</a>    </mdb-dropdown-item> 
             <mdb-dropdown-item><a class="nav-link "             href="#summary">Summary</a>    </mdb-dropdown-item> 
             <mdb-dropdown-item><a class="nav-link "             href="#discussion">Discussion</a>    </mdb-dropdown-item> 
-
-
-
             <mdb-dropdown-item><a class="nav-link"          href="#activity1">Activity 1</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#activity2">Activity 2</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></mdb-dropdown-item>           
@@ -525,13 +522,19 @@
 </template>
 
 <script>
-     import { mdbScrollSpy,mdbCollapse, mdbContainer} from "mdbvue";
+    import { mdbScrollSpy,mdbCollapse, mdbContainer,mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle} from "mdbvue";
   export default {
     directives: {
       mdbScrollSpy,
       mdbCollapse,
       mdbContainer
-    }  
+    }, 
+     components: {
+      mdbDropdown,
+      mdbDropdownItem,
+      mdbDropdownMenu,
+      mdbDropdownToggle
+    } 
   };
 
 </script>

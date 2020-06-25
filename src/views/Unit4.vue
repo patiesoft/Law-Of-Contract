@@ -1,34 +1,21 @@
 <template> 
 <div class="container-fluid text-left" >
-<!--  -
-  <mdb-navbar
-    position="top "
-    transparent
-    color="mdb"
-    dark
-    scrolling
-    class="sticky-top"
-    >
-    <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-    <mdb-navbar-toggler>
-      <mdb-navbar-nav>
-        <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-        <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-        <mdb-dropdown tag="li" class="nav-item">
-          <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
-          <mdb-dropdown-menu color="red">
-            <mdb-dropdown-item href="#teminationOf">Termination of Contractual Obligation</mdb-dropdown-item>
-            <mdb-dropdown-item href="#unitSummary">Unit Summary</mdb-dropdown-item>
-            <mdb-dropdown-item href="#discussion">Discussion</mdb-dropdown-item>
-            <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
-            <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
+     <!--DropDown Button  -->
+      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
+        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
+          <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
+          <mdb-dropdown-menu>
+            <mdb-dropdown-item><a class="nav-link " href="#teminationOf">Termination of Contractual Obligation</a>  </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link " href="#unitSummary">Unit summary</a>  </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link " href="#discussion">Discussion</a>  </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link " href="#activity1">Activity 1</a>  </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link " href="#activity2">Activity 2</a>  </mdb-dropdown-item>
+            <div class="dropdown-divider"></div>
+            <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
           </mdb-dropdown-menu>
         </mdb-dropdown>
-      </mdb-navbar-nav>
-    </mdb-navbar-toggler>
-  </mdb-navbar>
---  -->
-  <!-- Unit header -->
+      </div>
+    <!--DropDown Button  -->
   <div>      
     <h1 class="h1 h1-responsive">UNIT 4</h1>
     <p class="h1-responsive red-text text-center main-topic">Termination Of A Contract</p>
@@ -645,13 +632,19 @@
 </template>
 
 <script>
-      import { mdbScrollSpy,mdbCollapse, mdbContainer} from "mdbvue";
+    import { mdbScrollSpy,mdbCollapse, mdbContainer,mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle} from "mdbvue";
   export default {
     directives: {
       mdbScrollSpy,
       mdbCollapse,
       mdbContainer
-    }  
+    }, 
+     components: {
+      mdbDropdown,
+      mdbDropdownItem,
+      mdbDropdownMenu,
+      mdbDropdownToggle
+    } 
   };
 
 </script>

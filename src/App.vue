@@ -11,15 +11,7 @@
 
         
         >
-        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon v-text="Chapters" icon="bars"/></mdb-navbar-brand>
-        <mdb-navbar-toggler>
-            <mdb-navbar-nav>
-                <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-                <mdb-nav-item href="#//Overview" waves-fixed active>Overview</mdb-nav-item>
-                <mdb-dropdown tag="li" class="nav-item">
-                    <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">UNITS</mdb-dropdown-toggle>
-                    <mdb-dropdown-menu color="red">
-                        <mdb-dropdown-item href="#/Unit1">Unit 1</mdb-dropdown-item>
+        <mdb-dropdown-item href="#/Unit1">Unit 1</mdb-dropdown-item>
                         <mdb-dropdown-item href="#/Unit2">Unit 2</mdb-dropdown-item>
                         <mdb-dropdown-item href="#/Unit3">Unit 3</mdb-dropdown-item>
                         <mdb-dropdown-item href="#/Unit4">Unit 4</mdb-dropdown-item>
@@ -27,6 +19,15 @@
                         <mdb-dropdown-item href="#/Unit6">Unit 6</mdb-dropdown-item>
                         <mdb-dropdown-item href="#/Unit7">Unit 7</mdb-dropdown-item>
                         <mdb-dropdown-item href="#/Unit8">Unit 8</mdb-dropdown-item>
+        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon v-text="Chapters" icon="bars"/>Units</mdb-navbar-brand>
+        <mdb-navbar-toggler>
+            <mdb-navbar-nav>
+                <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
+                <mdb-nav-item href="#//Overview" waves-fixed active>Overview</mdb-nav-item>
+                <mdb-dropdown tag="li" class="nav-item">
+                    <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">UNITS</mdb-dropdown-toggle>
+                    <mdb-dropdown-menu color="red">
+                        
                     </mdb-dropdown-menu>
                 </mdb-dropdown>
             </mdb-navbar-nav>

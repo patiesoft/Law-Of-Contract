@@ -2,6 +2,31 @@
     
   <div class="container-fluid text-left " >
   
+   <!--DropDown Button  -->
+      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
+        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
+          <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
+          <mdb-dropdown-menu>
+            <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#parties">   Parties to Contract</a>   </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#nature"> Nature of a Contract Heading</a>   </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#recite"> Recitals and Preambles</a>   </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#date">Date of Agreement</a>   </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#sequence">Sequence of Clauses</a>   </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#specific">Specific Clauses</a>   </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#general">General Clauses</a>   </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#struct">Structure and Language</a>   </mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#sign">Signatures</a>   </mdb-dropdown-item>              
+             <mdb-dropdown-item><a class="nav-link"          href="#unit">   Unit Sammary</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"          href="#activity">Activity 1</a></mdb-dropdown-item>
+            
+            <div class="dropdown-divider"></div>
+            <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
+          </mdb-dropdown-menu>
+        </mdb-dropdown>
+      </div>
+    <!--DropDown Button  -->
+
     <!-- Header -->
     <div class="Head">
       <h1 class="h1 h1-responsive">UNIT 8</h1>
@@ -428,13 +453,19 @@
 </template>
 
 <script>
-      import { mdbScrollSpy,mdbCollapse, mdbContainer} from "mdbvue";
+    import { mdbScrollSpy,mdbCollapse, mdbContainer,mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle} from "mdbvue";
   export default {
     directives: {
       mdbScrollSpy,
       mdbCollapse,
       mdbContainer
-    }  
+    }, 
+     components: {
+      mdbDropdown,
+      mdbDropdownItem,
+      mdbDropdownMenu,
+      mdbDropdownToggle
+    } 
   };
 
 </script>

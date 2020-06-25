@@ -519,16 +519,23 @@
 </template>
 
 <script>
-     import { mdbScrollSpy,mdbCollapse, mdbContainer} from "mdbvue";
+    import { mdbScrollSpy,mdbCollapse, mdbContainer,mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle} from "mdbvue";
   export default {
     directives: {
       mdbScrollSpy,
       mdbCollapse,
       mdbContainer
-    }  
+    }, 
+     components: {
+      mdbDropdown,
+      mdbDropdownItem,
+      mdbDropdownMenu,
+      mdbDropdownToggle
+    } 
   };
 
 </script>
+
 <style>
 .nevigation{
  position: sticky;

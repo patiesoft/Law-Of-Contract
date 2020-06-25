@@ -1,37 +1,27 @@
 <template>  
   <div class="container-fluid text-left" > 
       
-      <!--  -
-      <mdb-navbar
-        position="top "
-        transparent
-        color="mdb"
-        dark
-        scrolling
-        class="sticky-top"
-        >
-        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-        <mdb-navbar-toggler>
-          <mdb-navbar-nav>
-            <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-            <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-            <mdb-dropdown tag="li" class="nav-item">
-              <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
-              <mdb-dropdown-menu color="red">
-                <mdb-dropdown-item href="#intro">Introduction</mdb-dropdown-item>
-                <mdb-dropdown-item href="#def">Defination of Cession</mdb-dropdown-item>
-                <mdb-dropdown-item href="#nature">The Legal Nature of Cession</mdb-dropdown-item>
-                <mdb-dropdown-item href="#reqmnt">Requirements of a Valid Cession</mdb-dropdown-item>
-                <mdb-dropdown-item href="#consequences">Consequences of Cession</mdb-dropdown-item>
-                <mdb-dropdown-item href="#extinct">Extinction of Obligations</mdb-dropdown-item>
-                <mdb-dropdown-item href="#summary">Unit Summary</mdb-dropdown-item>
-                <mdb-dropdown-item href="#activity">Activity</mdb-dropdown-item>
-              </mdb-dropdown-menu>
-            </mdb-dropdown>
-          </mdb-navbar-nav>
-        </mdb-navbar-toggler>
-      </mdb-navbar>
-   -  -->
+      <!--DropDown Button  -->
+      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
+        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
+          <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
+          <mdb-dropdown-menu>
+            <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
+           <mdb-dropdown-item><a class="nav-link"          href="#def">         Defination of Cession</a> </mdb-dropdown-item>           
+           <mdb-dropdown-item><a class="nav-link"          href="#nature">        The Legal Nature of Cession</a> </mdb-dropdown-item>           
+           <mdb-dropdown-item><a class="nav-link"          href="#reqmnt">          Requirements of a Valid Cession</a> </mdb-dropdown-item>           
+           <mdb-dropdown-item><a class="nav-link"          href="#consequences">   Consequences of Cession</a> </mdb-dropdown-item>           
+           <mdb-dropdown-item><a class="nav-link"          href="#extinct">     Extinction of Obligations</a> </mdb-dropdown-item> 
+           <mdb-dropdown-item><a class="nav-link"          href="#summary">     Unit summary</a> </mdb-dropdown-item> 
+           <mdb-dropdown-item><a class="nav-link"          href="#activity">Activity</a> </mdb-dropdown-item> 
+
+            <div class="dropdown-divider"></div>
+            <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
+          </mdb-dropdown-menu>
+        </mdb-dropdown>
+      </div>
+    <!--DropDown Button  -->
+
     <div class="Head">
       <h1 class="h1 h1-responsive">UNIT 7</h1>
       <p class="h1-responsive red-text text-center main-topic">TRANSFER OF RIGHTS AND OBLIGATIONS (CESSION)</p>
@@ -370,14 +360,22 @@
   </div>
 </div>
 </template>
+
+
 <script>
-      import { mdbScrollSpy,mdbCollapse, mdbContainer} from "mdbvue";
+    import { mdbScrollSpy,mdbCollapse, mdbContainer,mdbDropdown, mdbDropdownItem, mdbDropdownMenu, mdbDropdownToggle} from "mdbvue";
   export default {
     directives: {
       mdbScrollSpy,
       mdbCollapse,
       mdbContainer
-    }  
+    }, 
+     components: {
+      mdbDropdown,
+      mdbDropdownItem,
+      mdbDropdownMenu,
+      mdbDropdownToggle
+    } 
   };
 
 </script>
