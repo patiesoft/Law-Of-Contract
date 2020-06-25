@@ -2,8 +2,8 @@
 <template> 
   <!--Container-->
   <div class="container-fluid text-left">
-  
-    <!--Nevigation  -->
+  <!--  -
+    --Nevigation  -
      <mdb-navbar
         position="top "
         transparent
@@ -36,6 +36,7 @@
           </mdb-navbar-nav>
         </mdb-navbar-toggler>
       </mdb-navbar>
+    --  -->
     <!--Nevigation  -->
     
 
@@ -50,6 +51,22 @@
   
     <!--Row-->
     <div class="row text-left" > 
+      <!-- Side Nav -->
+        <div id="topics" class="col-sm-3 col-lg-2 sideNev border border-info ">
+            <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
+              <li><a class="nav-link active"    href="#introduction">Introduction</a></li>
+              <li><a class="nav-link"           href="#specificPerfomance">Specific Perfomance</a></li>
+              <li><a class="nav-link"           href="#prohibitoryInterdict">Prohibitory Interdict</a> </li>
+              <li><a class="nav-link"           href="#declarationOfRights">Declaration of Rights</a> </li>
+              <li><a class="nav-link"           href="#cancellation">Cancellation</a> </li>
+              <li><a class="nav-link"           href="#damages">Damages</a> </li>
+              <li><a class="nav-link"           href="#unitSummary">Unit Summary</a></li>
+              <li><a class="nav-link"           href="#discussion">Discussion</a></li>
+              <li><a class="nav-link"           href="#activity1">Activitiy 1</a></li>
+              <li><a class="nav-link"           href="#activity2">Activitiy 2</a></li>
+            </ul>
+        </div>
+      <!-- Side Nav -->
 
       <div class="col text-justify">
          

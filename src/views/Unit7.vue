@@ -1,5 +1,7 @@
 <template>  
   <div class="container-fluid text-left" > 
+      
+      <!--  -
       <mdb-navbar
         position="top "
         transparent
@@ -29,13 +31,30 @@
           </mdb-navbar-nav>
         </mdb-navbar-toggler>
       </mdb-navbar>
-
+   -  -->
     <div class="Head">
       <h1 class="h1 h1-responsive">UNIT 7</h1>
       <p class="h1-responsive red-text text-center main-topic">TRANSFER OF RIGHTS AND OBLIGATIONS (CESSION)</p>
     </div>
    
   <div class="row text-left m-2" >
+
+        <!-- Side Nav -->
+          <div id="topics" class="col-sm-3 col-lg-2 sideNev border border-info ">
+              <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
+                <li><a class="nav-link active"   href="#intro">  Introduction</a></li>                
+                  <li><a class="nav-link"          href="#def">         Defination of Cession</a></li> 
+                  <li><a class="nav-link"          href="#nature">        The Legal Nature of Cession</a></li> 
+                  <li><a class="nav-link"          href="#reqmnt">          Requirements of a Valid Cession</a></li> 
+                  <li><a class="nav-link"          href="#consequences">   Consequences of Cession</a></li> 
+                  <li><a class="nav-link"          href="#extinct">     Extinction of Obligations</a></li> 
+                  <li><a class="nav-link"          href="#summary">     Unit summary</a></li> 
+                  <li><a class="nav-link"          href="#activity">Activity</a></li> 
+              </ul>
+          </div>
+        <!-- Side Nav -->
+
+
         <div class="col text-justify">
           <hr id="intro">
           <br>
@@ -357,3 +376,37 @@
   };
 
 </script>
+
+
+<style>
+.row{
+    position: relative;
+}
+.scrollspy-example {
+height: 100%;
+overflow-y:inherit;
+}
+.main-topic{
+    font-weight:700;
+}
+
+#contentlist{
+    list-style-type:decimal;
+}
+
+.sideNev{
+  list-style: armenian
+   
+
+}
+.bg{
+    background-color: #e1f5fe;
+}
+.bg2{
+  background-color: #bbdefb;  
+}
+.navbar {
+  background: #1e88e5 ;
+}
+
+</style>

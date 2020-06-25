@@ -8,7 +8,9 @@
         color="mdb"
         dark
         scrolling
-        class="sticky-top"
+        class="sticky-top nevBar "
+
+        
         >
         <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
         <mdb-navbar-toggler>
@@ -80,4 +82,5 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
 </style>

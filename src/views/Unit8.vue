@@ -1,6 +1,7 @@
 <template>
     
   <div class="container-fluid text-left " >
+    <!--  -
     <mdb-navbar
       position="top "
       transparent
@@ -34,6 +35,7 @@
         </mdb-navbar-nav>
       </mdb-navbar-toggler>
     </mdb-navbar>
+    --  -->
     <!-- Header -->
     <div class="Head">
       <h1 class="h1 h1-responsive">UNIT 8</h1>
@@ -42,6 +44,31 @@
     <!-- Header -->
 
     <div class="row text-left m-2" >  
+
+      <!-- Side Nav -->
+          <div id="topics" class="col-sm-3 col-lg-2 sideNev  ">
+                <div class="fixed">
+
+                  <br>
+                  <br>
+                <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class=" border border-info">
+                     <a class="nav-link active"   href="#intro">  Introduction</a>               
+                      <li><a class="nav-link"          href="#parties">   Parties to Contract</a></li> 
+                        <li><a class="nav-link"          href="#nature"> Nature of a Contract Heading</a></li> 
+                        <li><a class="nav-link"          href="#recite"> Recitals and Preambles</a></li> 
+                        <li><a class="nav-link"          href="#date">Date of Agreement</a></li> 
+                        <li><a class="nav-link"          href="#sequence">Sequence of Clauses</a></li> 
+                        <li><a class="nav-link"          href="#specific">Specific Clauses</a></li> 
+                        <li><a class="nav-link"          href="#general">General Clauses</a></li> 
+                        <li><a class="nav-link"          href="#struct">Structure and Language</a></li> 
+                        <li><a class="nav-link"          href="#sign">Signatures</a></li> 
+                        <li><a class="nav-link"          href="#unit">Unit summary</a></li> 
+                        <li> <a class="nav-link"          href="#activity">Activity 1</a></li> 
+                </ul>
+                </div>
+            </div>
+          <!-- Side Nav -->
+
       <div class="col content text-justify">
         <hr id="intro">
         <br>
@@ -445,8 +472,36 @@
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+.row{
+    position: relative;
+}
+.scrollspy-example {
+height: 100%;
+overflow-y:inherit;
+}
+.main-topic{
+    font-weight:700;
+}
 
+#contentlist{
+    list-style-type:decimal;
+}
+
+.sideNev{
+  list-style: armenian
+   
+
+}
+.bg{
+    background-color: #e1f5fe;
+}
+.bg2{
+  background-color: #bbdefb;  
+}
+.navbar {
+  background: #1e88e5 ;
+}
 
 </style>
+
 
