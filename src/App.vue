@@ -15,8 +15,7 @@ export default {
   components:{
     Footer, 
     SideNav
-  }
-  
+  },
 }
 </script>
 <style lang="scss">

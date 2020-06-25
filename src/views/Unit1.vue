@@ -610,25 +610,7 @@
     return {};
   },
   methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-    scrollToTop() {
-        window.scrollTo(0,0);
-                },
-    mounted () {
-    this.activePage = this.$route.name
 
-  },
-  
-  updated () {
-    this.activePage = this.$route.name
-    }
 
   };
 </script>
