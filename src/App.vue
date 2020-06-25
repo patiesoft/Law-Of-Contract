@@ -11,7 +11,7 @@
 
         
         >
-        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
+        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon v-text="Chapters" icon="bars"/></mdb-navbar-brand>
         <mdb-navbar-toggler>
             <mdb-navbar-nav>
                 <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
@@ -82,7 +82,7 @@ export default {
   color: #2c3e50;
 }
 .nevBar{
-  width:50%;
+  width:70%;
 }
 
 @media (min-width: 576px) { 

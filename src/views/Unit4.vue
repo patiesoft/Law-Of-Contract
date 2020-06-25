@@ -686,4 +686,32 @@ overflow-y:inherit;
 .navbar {
   background: #1e88e5 ;
 }
+
+.sideNev{
+    display: none;
+      list-style: armenian
+  }
+.dropChapter{
+  display:block;
+  position:fixed;
+  left: 70%;
+  top: 0px; 
+  font-weight: 700;
+  z-index: 5;
+  width: 60%;
+  margin: 0px;
+  
+}
+
+@media (min-width: 576px) { 
+  .sideNev{
+    display:block;
+
+  }
+  .dropChapter{
+    display: none;
+  }
+ }
+
+
 </style>

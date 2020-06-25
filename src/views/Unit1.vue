@@ -3,8 +3,8 @@
 <div class="container-fluid text-left">
    
     <!--DropDown Button  -->
-      <div class="dropChapter sticky-top col-sm-9 col-lg-0 primary"  color="primary">
-        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" color="primary">
+      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
+        <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
           <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
@@ -649,7 +649,7 @@ overflow-y:inherit;
 .dropChapter{
   display:block;
   position:fixed;
-  left: 50%;
+  left: 70%;
   top: 0px; 
   font-weight: 700;
   z-index: 5;
