@@ -17,7 +17,7 @@
             <mdb-dropdown-item><a class="nav-link"          href="#general">General Clauses</a>   </mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#struct">Structure and Language</a>   </mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#sign">Signatures</a>   </mdb-dropdown-item>              
-             <mdb-dropdown-item><a class="nav-link"          href="#unit">   Unit Sammary</a></mdb-dropdown-item>
+             <mdb-dropdown-item><a class="nav-link"         href="#unit">   Unit Sammary</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#activity">Activity 1</a></mdb-dropdown-item>
             
             <div class="dropdown-divider"></div>
@@ -37,9 +37,9 @@
     <div class="row text-left m-2" >  
 
       <!-- Side Nav -->
-          <div id="topics" class="col-sm-3 col-lg-2 sideNev ">
+          <div id="topics" class="col-sm-0 col-lg-2 sideNev ">
                 
-             <div class="border border-info sticky-top spyscroll">
+             <div class="border border-primary sticky-top spyscroll">
                <h1 class="h1 text-center red-text h1-responsive">UNIT 8</h1>
                   <hr>
                 
@@ -62,8 +62,8 @@
             </div>
           <!-- Side Nav -->
 
-      <div class="col content text-justify">
-        <hr id="intro">
+      <div class="col  text-justify z-depth-1 ">
+        <br id="intro">
         <br>
         <!--Introduction-->
         <div class="Chapter">  
@@ -517,7 +517,7 @@ overflow-y:inherit;
   
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 566px) { 
   .sideNev{
     display:block;
 

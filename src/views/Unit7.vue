@@ -50,8 +50,8 @@
         <!-- Side Nav -->
 
 
-        <div class="col text-justify">
-          <hr id="intro">
+        <div class="col text-justify z-depth-1">
+          <br id="intro">
           <br>
           <!--Intronduction-->
           <div class="Chapter">  
@@ -427,7 +427,7 @@ overflow-y:inherit;
   
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 566px) { 
   .sideNev{
     display:block;
 

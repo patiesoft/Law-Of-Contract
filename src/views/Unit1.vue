@@ -5,7 +5,7 @@
     <!--DropDown Button  -->
       <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
         <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
-          <mdb-dropdown-toggle color="primary" slot="toggle">Chapters</mdb-dropdown-toggle>
+          <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link active"   href="#introduction">Introduction</a></mdb-dropdown-item>
             <mdb-dropdown-item><a class="nav-link"          href="#facts">         Facts</a></mdb-dropdown-item>
@@ -58,9 +58,9 @@
 
 
         <!--Body col-->
-        <div class="col content text-justify"> 
+        <div class="col content text-justify z-depth-1"> 
             <!--Chapter Introduction --> 
-            <hr id="introduction">
+            <br id="introduction">
             <br>
             <div class="Chapter" >
                 <h1 class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 

@@ -59,12 +59,12 @@
         </div>
       <!-- Side Nav -->
 
-      <div class="col text-justify">
+      <div class="col text-justify z-depth-1">
          
           <!--Introduction-->
             <div class="Chapter">
 
-              <hr id="introduction">
+              <br id="introduction">
               <br>
 
               <h1  class="text-center chapter-topic secondary-heading text-primary"><strong> Introduction</strong></h1>
@@ -1244,7 +1244,7 @@ overflow-y:inherit;
   
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 566px) { 
   .sideNev{
     display:block;
 

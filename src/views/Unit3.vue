@@ -7,14 +7,14 @@
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>
             <mdb-dropdown-item><a class="nav-link "   href="#introduction">Introduction</a></mdb-dropdown-item>
-            <mdb-dropdown-item> <a class="nav-link "             href="#specific-perfomance">Specific Perfomance</a>   </mdb-dropdown-item> 
-            <mdb-dropdown-item><a class="nav-link "             href="#reciprocityOfObligations">Reciprocity Of Obligations</a>    </mdb-dropdown-item> 
-            <mdb-dropdown-item><a class="nav-link"              href="#incompleteOrDefectivePerformance">Incomplete Or Defective Performance</a>    </mdb-dropdown-item> 
-            <mdb-dropdown-item><a class="nav-link "             href="#summary">Summary</a>    </mdb-dropdown-item> 
-            <mdb-dropdown-item><a class="nav-link "             href="#discussion">Discussion</a>    </mdb-dropdown-item> 
-            <mdb-dropdown-item><a class="nav-link"          href="#activity1">Activity 1</a></mdb-dropdown-item>
-            <mdb-dropdown-item><a class="nav-link"          href="#activity2">Activity 2</a></mdb-dropdown-item>
-            <mdb-dropdown-item><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></mdb-dropdown-item>           
+            <mdb-dropdown-item> <a class="nav-link "  href="#specific-perfomance">Specific Perfomance</a>   </mdb-dropdown-item> 
+            <mdb-dropdown-item><a class="nav-link "   href="#reciprocityOfObligations">Reciprocity Of Obligations</a>    </mdb-dropdown-item> 
+            <mdb-dropdown-item><a class="nav-link"    href="#incompleteOrDefectivePerformance">Incomplete Or Defective Performance</a>    </mdb-dropdown-item> 
+            <mdb-dropdown-item><a class="nav-link "   href="#summary">Summary</a>    </mdb-dropdown-item> 
+            <mdb-dropdown-item><a class="nav-link "   href="#discussion">Discussion</a>    </mdb-dropdown-item> 
+            <mdb-dropdown-item><a class="nav-link"    href="#activity1">Activity 1</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"    href="#activity2">Activity 2</a></mdb-dropdown-item>
+            <mdb-dropdown-item><a class="nav-link"    href="#selfAssessment">SELF-ASSESMENT</a></mdb-dropdown-item>           
             <div class="dropdown-divider"></div>
             <mdb-dropdown-item><a><mdb-icon far icon="arrow-alt-circle-up" /></a></mdb-dropdown-item>
           </mdb-dropdown-menu>
@@ -38,8 +38,7 @@
               <hr>
                 
             <ul  v-mdb-scroll-spy="{container: 'custom-container'}" >
-
-                  <li><a class="nav-link "       href="#introduction"> Introduction</a></li>
+                  <li><a class="nav-link "             href="#introduction"> Introduction</a></li>
                   <li><a class="nav-link "             href="#specific-perfomance">Specific Perfomance</a></li>
                   <li><a class="nav-link "             href="#reciprocityOfObligations">Reciprocity Of Obligations</a></li>
                   <li><a class="nav-link"              href="#incompleteOrDefectivePerformance">Incomplete Or Defective Performance</a></li>
@@ -53,14 +52,14 @@
     <!-- Side Nav -->
 
 
-      <div class="col content text-justified">
+      <div class="col content z-depth-1 text-justified">
 
 
   <!-- Content --> 
 
         <!--Chapter Introduction -->
         <div class="Chapter">
-          <hr id="introduction">
+          <br id="introduction">
           <br>
               <h1  class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
              

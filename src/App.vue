@@ -19,7 +19,7 @@
                 <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
                 <mdb-nav-item href="#//Overview" waves-fixed active>Overview</mdb-nav-item>
                 <mdb-dropdown tag="li" class="nav-item">
-                    <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red"><strong>UNITS</strong></mdb-dropdown-toggle>
+                    <mdb-dropdown-toggle slot="toggle"  waves-fixed  tag="li" outline="none" class="btn-red"><strong>UNITS</strong></mdb-dropdown-toggle>
                     <mdb-dropdown-menu color="red">
                         <mdb-dropdown-item href="#/Unit1">Unit 1</mdb-dropdown-item>
                         <mdb-dropdown-item href="#/Unit2">Unit 2</mdb-dropdown-item>

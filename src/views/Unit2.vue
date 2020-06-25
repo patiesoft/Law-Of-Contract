@@ -55,8 +55,8 @@
 
 
 
-      <article class="col text-justify">
-        <hr id="introduction">
+      <article class="col text-justify z-depth-1" >
+        <br id="introduction">
         <br> 
         <!--Introduction-->
         <div class="Chapter">

@@ -41,11 +41,11 @@
     <!-- Side Nav -->
 
 
-  <div  class="col text-justified">
+  <div  class="col text-justified z-depth-1">
 
   <!-- Introduction -->
   <div class="Chapter">
-    <hr id="introduction">
+    <br id="introduction">
     <br>
     <h1   class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
     <div>
