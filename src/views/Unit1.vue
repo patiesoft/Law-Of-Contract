@@ -8,14 +8,11 @@
         dark
         scrolling
         class="sticky-top"
+        
         >
-        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-        <mdb-navbar-toggler>
-            <mdb-navbar-nav>
-                <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-                <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
+        <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
                 <mdb-dropdown tag="li" class="nav-item">
-                    <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
+                    <mdb-dropdown-toggle slot="toggle" color="primary" >Sections</mdb-dropdown-toggle>
                     <mdb-dropdown-menu color="red">
                         <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
                         <mdb-dropdown-item href="#facts">Facts</mdb-dropdown-item>
@@ -27,6 +24,10 @@
                         <mdb-dropdown-item href="#selfAssessment">Self-Assessment</mdb-dropdown-item>
                     </mdb-dropdown-menu>
                 </mdb-dropdown>
+        <mdb-navbar-toggler>
+            <mdb-navbar-nav>
+                <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
+                <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item> 
             </mdb-navbar-nav>
         </mdb-navbar-toggler>
     </mdb-navbar>
@@ -40,7 +41,7 @@
     <!--/Header -->        
 
     <!-- Body rom -->
-    <div class="row  text-left m-2" > 
+    <div class="row  text-left "> 
         <!--Body col-->
         <div class="col content text-justify"> 
             <!--Chapter Introduction --> 
@@ -201,7 +202,7 @@
 
             
             <!--Issues-->
-            <div class="Chapter ">
+            <div class="Chapter">
                 
                 <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-puzzle-piece"></i> Issues</strong></h1>
                 <ol>
@@ -488,11 +489,11 @@
             </div>
             <!--/Issues-->
             
-            <hr id="unitSammary">
+            <hr>
             <br>
 
             <!--Summary-->
-            <div > 
+            <div id="unitSammary" > 
                 <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
                 <div >
                     <p>
@@ -505,11 +506,11 @@
             </div>
             <!--Summary-->
             
-            <hr id="activity1">
+            <hr>
             <br>
 
             <!--Activity 1-->
-            <div class="Chapter">
+            <div id="activity1" class="Chapter">
                 <h1 id="activity1" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
                 
                 <p>
@@ -519,11 +520,11 @@
             </div>
             <!--/Activity-->
 
-                <hr id="activity2">
+                <hr >
                 <br>
 
             <!--Activity 2-->
-            <div class="Chapter">
+            <div id="activity2" class="Chapter">
                 <h1  class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
                 <p>
                     A bought a car from B at a price of E15,000.00. A was to pay the total amount of E15,000.00 in cash before 
@@ -538,11 +539,11 @@
             </div>
             <!--/Activity-->
             
-            <hr id="unitSammary" >
+            <hr  >
             <br>
             
             <!--Self-Assessment--> 
-            <div class="Chapter">
+            <div id="selfAssessment" class="Chapter">
                 <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i>Self-Assessment</strong></h1>
                 
                 <ol>
@@ -580,6 +581,7 @@
 <script>
   import { mdbScrollSpy,
   mdbNavbar,
+  mdbBtn,
   mdbNavItem,
   mdbNavbarNav,
   mdbNavbarToggler,
@@ -587,13 +589,13 @@
   mdbDropdownItem, 
   mdbDropdownMenu, 
   mdbDropdownToggle, 
-  mdbNavbarBrand, 
   mdbIcon
   } from "mdbvue";
   import { mapActions } from 'vuex'; 
     export default {
         components: {
             mdbNavbar,
+            mdbBtn,
             mdbNavItem,
             mdbNavbarNav,
             mdbNavbarToggler,
@@ -601,7 +603,6 @@
             mdbDropdownItem, 
             mdbDropdownMenu, 
             mdbDropdownToggle, 
-            mdbNavbarBrand, 
             mdbIcon
 
       } , 
@@ -622,10 +623,18 @@
   },
     mounted () {
     this.activePage = this.$route.name
+
+    this.activePage = this.$route.name
+  },
+  beforeUpdate(){
+    var shiftWindow = function() { scrollBy(0, -50) };
+    if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);
+
   },
   updated () {
     this.activePage = this.$route.name
-  }
+    }
 
   };
 </script>
@@ -659,6 +668,9 @@ overflow-y:inherit;
 }
 .navbar {
   background: #1e88e5 ;
+}
+.pad{
+    padding-top: 70px;
 }
 
 </style>

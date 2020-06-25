@@ -3,8 +3,7 @@
     <mdb-side-nav
       sideNavClass="sn-bg-9"
       mask="strong"
-      :OpenedFromOutside.sync="toggle"
-    >
+      :OpenedFromOutside.sync="toggle" >      
       <li>
         <form class="search-form" role="search">
           <div class="form-group md-form mt-0 pt-1 ripple-parent" @click="wave">
@@ -14,6 +13,17 @@
       </li>
       <li>
         <mdb-side-nav-nav>
+            <mdb-side-nav-item
+            href="#/"
+              @click.native="width < 1440 && toggleSideNav(false)"
+              >Home</mdb-side-nav-item
+            >
+            <mdb-side-nav-item
+            href="#/About"
+              @click.native="width < 1440 && toggleSideNav(false)"
+              >Overview</mdb-side-nav-item
+            >
+            <hr>
             <mdb-side-nav-item
             href="#/Unit1"
               @click.native="width < 1440 && toggleSideNav(false)"
@@ -54,6 +64,7 @@
               @click.native="width < 1440 && toggleSideNav(false)"
               >Unit8</mdb-side-nav-item
             >
+            <hr>
          
         </mdb-side-nav-nav>
       </li>
