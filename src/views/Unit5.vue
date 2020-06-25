@@ -36,6 +36,7 @@
       <div class="Head">
         <h1 class="h1 h1-responsive">UNIT5</h1> 
         <p class="h1-responsive red-text text-center main-topic">Breach Of Contract</p> 
+        
       </div>
     <!-- Header -->
 
@@ -45,7 +46,11 @@
       <div class="col text-justify">
         <!--Introduction-->
           <div class="Chapter">
-             <h1 id="introduction" class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
+
+              <hr id="introduction">
+              <br>
+
+             <h1  class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
               <p class="text-left">
                 In the previous Unit, we discussed breach as means of 
                 terminating a contract. In this unit, we will unpack the 

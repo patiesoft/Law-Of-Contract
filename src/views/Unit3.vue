@@ -44,7 +44,9 @@
 
         <!--Chapter Introduction -->
         <div class="Chapter">
-              <h1 id="introduction" class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
+          <hr id="introduction">
+          <br>
+              <h1  class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
              
               <p>
                 As mentioned in LAW203, one of the essential requirements of valid contracts is that, the intended

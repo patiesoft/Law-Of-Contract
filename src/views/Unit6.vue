@@ -45,6 +45,7 @@
         <p class="h1-responsive red-text text-center main-topic">Remedies Of Contract</p> 
       </div>
       <!--/Header-->
+    
 
   
     <!--Row-->
@@ -54,7 +55,11 @@
          
           <!--Introduction-->
             <div class="Chapter">
-              <h1 id="introduction" class="text-center chapter-topic secondary-heading text-primary"><strong> Introduction</strong></h1>
+
+              <hr id="introduction">
+              <br>
+
+              <h1  class="text-center chapter-topic secondary-heading text-primary"><strong> Introduction</strong></h1>
               <p class="text-left">
                 As a legal practitioner, you may find yourself seized of a matter in which your client has failed to honour his/her contractual 
                 obligation(s), or where your client wishes to enforce a contractual right, or where one or both parties is/are in breach of the 

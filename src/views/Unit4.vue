@@ -40,7 +40,9 @@
 
   <!-- Introduction -->
   <div class="Chapter">
-    <h1 id="introduction"  class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
+    <hr id="introduction">
+    <br>
+    <h1   class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
     <div>
       <p class="text-left">
         This Unit deals with the termination of contracts. There is a number of ways through which a contract may be terminated. 
