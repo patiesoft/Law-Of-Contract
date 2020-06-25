@@ -92,7 +92,7 @@
                         <h6>Resolutive conditions</h6>
                         <h6>Fictional fulfilment</h6>
                         <br>
-                        <div class="note note-warning">NB: Find the meanings of these key terms in this unit.</div>
+                        <div class="note note-warning"><mdb-icon far icon="bell"/> NB: Find the meanings of these key terms in this unit.</div>
                     </div>
                     <!--Terminology -->
 
@@ -169,13 +169,13 @@
                     from conditions. ‘Terms’ in a contract serve to determine the contents of a contract.
                     On the other hand, a condition is a term which makes the enforceability or
                     consequence of the contract dependent on the occurrence or non-occurrence of 
-                    an uncertain future event.1
+                    an uncertain future event.<sup id="1r"><a href="#1">1</a></sup>
                 </p>
                 <p>
                     A condition is a major term of the contract which goes to the root
                     of the contract. If a condition is breached the innocent party is entitled 
-                    to repudiate (end) the contract and claim damages2. This principle was clearly
-                    illustrated in the old case of Poussard v. Spiers3.
+                    to repudiate (end) the contract and claim damages<sup id="2r"><a href="#2">2</a></sup>. This principle was clearly
+                    illustrated in the old case of Poussard v. Spiers<sup id="3r"><a href="#3">3</a></sup>.
                 </p>
                 <p>
                     The Claimant (Poussard) was an opera singer. She was contracted by the defendant 
@@ -241,7 +241,7 @@
                     <div>
                         <h1   class="text-center  secondary-heading text-primary chapter-topics"> <strong>Types Of Conditions </strong></h1>
                         <p>
-                            In a unanimous judgment, De Villiers A.J. sitting with Watermeyer J in R. v Katz4 explaining the types
+                            In a unanimous judgment, De Villiers A.J. sitting with Watermeyer J in R. v Katz<sup id="4r"><a href="#4">4</a></sup> explaining the types
                             of conditions, it was held as follows:
                         </p>
                         <p>
@@ -264,7 +264,7 @@
                         </p>
                         <p>
                             The above -mentioned case was very instrumental to the judgment of the Swaziland High Court in the case of Norlaw Investments 
-                            (Pty) Ltd v Eric Slabbert Agencies (Pty) Ltd5.
+                            (Pty) Ltd v Eric Slabbert Agencies (Pty) Ltd<sup id="5r"><a href="#5">5</a></sup>.
                         </p>
                         <p>
                             From the summary above, I am sure it has dawned to the reader that in the strict sense there are two types of conditions. 
@@ -276,13 +276,13 @@
                                     <ol>
                                         <li class="h6">Nature</li>
                                         <p>
-                                            According to Sharrock6 by its very nature, the suspensive condition suspends the operation of an obligation arising
+                                            According to Sharrock<sup id="6r"><a href="#6">6</a></sup> by its very nature, the suspensive condition suspends the operation of an obligation arising
                                             from the contract (or a number of obligations, or the whole contract) until the occurrence or non-occurrence as the 
                                             case may be, of future uncertain event. This definition was also upheld in the case of Tamarillo (Pty) Ltd v. B N Aiken 
-                                            (Pty) Ltd7. Other jurists have suggested from time to time that where there is a suspensive condition there is no contract
-                                            at all until the condition has been fulfilled.8 Note that this view is due to a misconception that the contract will not 
+                                            (Pty) Ltd<sup id="7r"><a href="#7">7</a></sup>. Other jurists have suggested from time to time that where there is a suspensive condition there is no contract
+                                            at all until the condition has been fulfilled.<sup id="8r"><a href="#8">8</a></sup> Note that this view is due to a misconception that the contract will not 
                                             be binding unless a certain condition is fulfilled. But it is important to note the literal meaning of the word ‘suspensive’-
-                                            an operative principle denoting the suspension of an obligation, not the entire agreement. Gibson9 and Sharrock10 therefore 
+                                            an operative principle denoting the suspension of an obligation, not the entire agreement. Gibson<sup id="9r"><a href="#9">9</a></sup> and Sharrock<sup id="10r"><a href="#10">10</a></sup> therefore 
                                             argue that a contract that is subject to a suspensive condition is a valid and binding contract from the moment of its conclusion.
                                             This basically means that obligations are created when the contract is completed and neither party can resale from it. It is a particular 
                                             obligation that cannot be enforced until the condition is fulfilled.
@@ -291,7 +291,7 @@
 
                                         <li class="h6">The Position of the Parties prior to fulfillment</li>
                                         <p>
-                                            According to Sharrock11, prior to the fulfillment of the condition (occurrence or non-occurrence of the specified event),
+                                            According to Sharrock<sup id="11r"><a href="#11">11</a></sup>, prior to the fulfillment of the condition (occurrence or non-occurrence of the specified event),
                                             the conditional debtor is not liable to perform the suspended obligation. But the parties are contractually bound to each other 
                                             and each must carry out any obligations which are not affected by the condition. See the example below as an illustration of this principle: 
                                         </p>
@@ -312,11 +312,11 @@
                                         <li class="h6">The Effect of Fulfillment or Failure</li>
                                         <p>
                                             As it has been alluded to above that a conditional agreement remains valid despite the inclusion of a suspensive condition. Similarly, 
-                                            where a suspensive condition is fulfilled, the debtor must perform the obligation which was suspended12. Where a suspensive condition 
+                                            where a suspensive condition is fulfilled, the debtor must perform the obligation which was suspended<sup id="12r"><a href="#12">    12</a></sup>. Where a suspensive condition 
                                             fails, the suspended obligation comes to an end (unless the conditional debtor has waived fulfillment). In the case of Tuckers Land
                                             and Development Corporation (Pty) Ltd v. Strydom, it was stated that a sale subject to suspensive conditions is a sale, although 
                                             consequences such as the passing of risk do not take place until the sale is perfected by the fulfilment of the condition. Another 
-                                            landmark case which clearly illustrate the principle in discussion is that of Africast (Pty) Ltd v. Pangbourne Properties Ltd13 
+                                            landmark case which clearly illustrate the principle in discussion is that of Africast (Pty) Ltd v. Pangbourne Properties Ltd<sup id="13r"><a href="#13">13</a></sup> 
                                             [You are required to study this judgment].
                                         </p>
                                         <p>
@@ -330,15 +330,15 @@
                                             According to Sharrock, if no time for the occurrence (or non-occurrence) of the event has been agreed upon, expressly or impliedly,
                                             the law holds that the condition fails if the event does not take place within a reasonable time. Important factors to be borne in 
                                             mind in determining whether a reasonable time has elapsed are: difficulties, obstacles and delays which the parties contemplated, 
-                                            or ought to have foreseen, at the time of entering into the contract, and the commercial interests of each of the parties14. A case
-                                            in point is that of Cardoso v. Tuckers Land and Development Corporation (Pty) Ltd15[You are required to study the judgment].
+                                            or ought to have foreseen, at the time of entering into the contract, and the commercial interests of each of the parties<sup id="14r"><a href="#14">14</a></sup>. A case
+                                            in point is that of Cardoso v. Tuckers Land and Development Corporation (Pty) Ltd<sup id="15r"><a href="#15">15</a></sup>[You are required to study the judgment].
                                         </p>
 
                                         <li class="h6">Fictional Fulfilment</li>
                                         <p>
                                             The doctrine of fictional fulfilment provides that if a party to a contract which is subject to a suspensive condition deliberately 
                                             prevents fulfilment of the condition to avoid being bound by the contract, the condition may be deemed to have been fulfilled. 
-                                            MacDuff & Co Ltd (in Liquidation) v Johannesburg Consolidated Investment Co Ltd 16 is the leading case in South African contract 
+                                            MacDuff & Co Ltd (in Liquidation) v Johannesburg Consolidated Investment Co Ltd <sup id="16r"><a href="#16">16</a></sup> is the leading case in South African contract 
                                             law on the issue of fictional fulfilment of suspensive conditions. The case involved two companies: Johannesburg Consolidated Investment
                                             (JCI) which was a minority shareholder in Macduff & Co. JCI had entered into a contract with Macduff whereby the latter would undergo 
                                             voluntary liquidation. Macduff agreed that, once liquidated, it would transfer all its assets into a newly founded company under the 
@@ -354,7 +354,7 @@
                                         </p>
                                         <p>
                                             This remedy is an equitable one that has its origins in Roman law, and which was subsequently accepted in Roman-Dutch law. Two landmark 
-                                            cases that dealt with this principle are that of Gowan v Bowern17 and MacDuff & Co Ltd v Johannesburg Consolidated Investment Co Ltd18. 
+                                            cases that dealt with this principle are that of Gowan v Bowern<sup id="17r"><a href="#17">17</a></sup> and MacDuff & Co Ltd v Johannesburg Consolidated Investment Co Ltd<sup id="18r"><a href="#18">18</a></sup>. 
                                             In the MacDuff case Innes CJ succinctly stated the position as follows:
                                         </p>
                                         <p>
@@ -392,7 +392,7 @@
                                 <li class="h5">Resolutive Condition</li>
                                 <p>
                                     A resolutive condition is a contractual term which renders the continued existence of the contract dependant on the occurrence (or non-occurrence) of a specified 
-                                    uncertain future event.19 A contract subject to a resolutive condition is immediately binding with all rights and obligations coming into existence and becoming 
+                                    uncertain future event.<sup id="19r"><a href="#19">19</a></sup> A contract subject to a resolutive condition is immediately binding with all rights and obligations coming into existence and becoming 
                                     enforceable from the time of the agreement. There is no suspension of rights and obligations. Unlike a suspensive condition, if a resolutive condition is fulfilled, 
                                     it would have the effect of terminating the contract with retrospect between the parties and the operation of the rights and obligations between the parties would 
                                     immediately cease to exist. The parties would then need to be restored to their pre-contractual state, which is often complicated as this may for example require 
@@ -417,8 +417,8 @@
                                         <li class="h6">What is a Warranty?</li>
                                         <p>
                                             The concept of a warranty bears a variety of meanings. According to Sharrock, warranty or ‘guarantee’ in the strict sense is a contractual undertaking that a certain state of affairs exists or 
-                                            that a certain act will be performed or a state of affairs will exist in the future20. Hutchinson defines a warranty as a term inserted in a contract in favour of one party to extend the liability 
-                                            of the other party beyond what it would normally be21.Havenga defines a warranty as a contractual term whereby a contracting party accepts absolute responsibility for proper performance relating to
+                                            that a certain act will be performed or a state of affairs will exist in the future<sup id="20r"><a href="#20">20</a></sup>. Hutchinson defines a warranty as a term inserted in a contract in favour of one party to extend the liability 
+                                            of the other party beyond what it would normally be<sup id="21r"><a href="#21">21</a></sup>.Havenga defines a warranty as a contractual term whereby a contracting party accepts absolute responsibility for proper performance relating to
                                             the absence of defects in the warrantor’s product or service, or to the possibility that that the warrantor is able to render the performance, or to the quality or standard of the warrantor’s product
                                             or service, or to the quantity of performance etc. 
                                         </p>
@@ -427,7 +427,7 @@
                                             party should warranty performance. If the warranty is agreed to, the obligation is
                                         </p>
                                         <p>
-                                            Is created, even though performance is impossible. The party in breach of the warranty would then be liable to pay damages22.
+                                            Is created, even though performance is impossible. The party in breach of the warranty would then be liable to pay damages<sup id="22r"><a href="#22">22</a></sup>.
                                         </p>
 
                                         <!--Example-->
@@ -444,13 +444,13 @@
 
                                         <li class="h6">Types of Warranty</li>
                                         <p>
-                                            A warranty may be express or implied23. If it is clear from the circumstances that the mutual intention of the parties was that a statement should be a term of the contractor, the term will be an implied warranty.
+                                            A warranty may be express or implied<sup id="23r"><a href="#23">23</a></sup>. If it is clear from the circumstances that the mutual intention of the parties was that a statement should be a term of the contractor, the term will be an implied warranty.
                                             In certain cases warranties are implied by law (such as the implied warranty against eviction, and the implied warranty against latent defects in every contract of purchase and sale). 
                                         </p>
 
                                         <li class="h6">Common - Law Warranty</li>
                                         <p>
-                                            In the local case of Lungisani Vilakati v Purell (Pty) Ltd24, it was stated that the duty of establishing the existence and operation of an implied term in a contract falls within the onus of proof which is ordinarily
+                                            In the local case of Lungisani Vilakati v Purell (Pty) Ltd<sup id="24r"><a href="#24">24</a></sup>, it was stated that the duty of establishing the existence and operation of an implied term in a contract falls within the onus of proof which is ordinarily
                                             on a balance of probabilities. In discharging this onus the courts have come to recognise the so called hypothetical officious bystander fiction as an aid for assigning the common intention of the parties. In the classic
                                             oft-quoted dictum of De Villiers J, in Simon v DCU Holdings (Pty) Ltd and others where he said:
                                         </p>
@@ -463,7 +463,7 @@
                                             </p>
                                         </div>
                                         <p>
-                                            In Alfred McAlpine & Son (Pty) Ltd v Transvaal Provincial Administration25 this is how the court explained and articulated the concept of an implied term of contract:
+                                            In Alfred McAlpine & Son (Pty) Ltd v Transvaal Provincial Administration<sup id="25r"><a href="#25">25</a></sup> this is how the court explained and articulated the concept of an implied term of contract:
                                         </p>
                                         <div>
                                             <p>
@@ -519,8 +519,8 @@
             </div>
             <!--/Activity-->
 
-                <hr id="activity2">
-                <br>
+            <hr id="activity2">
+            <br>
 
             <!--Activity 2-->
             <div class="Chapter">
@@ -566,6 +566,38 @@
                 </ol>
             </div>
             <!--Self-Assessment-->                
+
+            <hr>
+            <br>
+
+            <div class="Chapter">
+                <h1 class="text-center chapter-topic secondary-heading text-primary h1">References</h1>
+                <p id="1"><sup><a href="#1r">1</a></sup>  Robert Sharrock “Business Transactions Law” 9th Ed, Juta</p>
+                <p id="2"><sup><a href="#2r">2</a></sup>  Poussard v Spiers (1876) 1 QBD 410 </p>
+                <p id="3"><sup><a href="#3r">3</a></sup>  Ibid</p>
+                <p id="4"><sup><a href="#4r">4</a></sup>  1959 (3) S.A. 408 at 417</p>
+                <p id="5"><sup><a href="#5r">5</a></sup>  (2507/2011) [2013] SZHC 69 (3rd May, 2013)</p>
+                <p id="6"><sup><a href="#6r">6</a></sup>  Robert Sharrock “Business Transactions Law” 9th Ed, Juta, p.236</p>
+                <p id="7"><sup><a href="#7r">7</a></sup>  1982 (1) SA 398 (A)</p>
+                <p id="8"><sup><a href="#8r">8</a></sup>  See for example the arguments in Cardoso v Truckers Land Development Corporation (PTY) Ltd. 1981 (3) SA 54 (W)</p>
+                <p id="9"><sup><a href="#9r">9</a></sup>  Gibson, “South African Mercantile and Company Law”, 8th Ed, Juta, p.77</p>
+                <p id="10"><sup><a href="#10r">10</a></sup>  n 6 above at 236.</p>
+                <p id="11"><sup><a href="#11r">11</a></sup>  Robert Sharrock “Business Transactions Law” 9th Ed, Juta,p.236</p>
+                <p id="12"><sup><a href="#12r">12</a></sup>  Robert Sharrock “Business Transactions Law” 9th Ed, Juta, p.236</p>
+                <p id="13"><sup><a href="#13r">13</a></sup>  [2014] 3 All SA 653 (SCA)</p>
+                <p id="14"><sup><a href="#14r">14</a></sup>  Robert Sharrock “Business Transactions Law” 9th Ed, Juta, p.237</p>
+                <p id="15"><sup><a href="#15r">15</a></sup>  1981 (3) SA 54 (W)</p>
+                <p id="16"><sup><a href="#16r">16</a></sup>  1924 AD 573</p>
+                <p id="17"><sup><a href="#17r">17</a></sup>  1924 AD 550</p>
+                <p id="18"><sup><a href="#18r">18</a></sup>  1924 AD 573</p>
+                <p id="19"><sup><a href="#19r">19</a></sup>  Peter Havenga et. Al. “General Principles of Commercial Law” (8th ed. 2010) 101.</p>
+                <p id="20"><sup><a href="#20r">20</a></sup>  Robert Sharrock “Business Transactions Law” 9th Ed, Juta, p.240</p>
+                <p id="21"><sup><a href="#21r">21</a></sup>  Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 217</p>
+                <p id="22"><sup><a href="#22r">22</a></sup>  Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 218</p>
+                <p id="23"><sup><a href="#23r">23</a></sup>  Gibson, “South African Mercantile and Company Law” 8th Ed, Juta, p.80</p>
+                <p id="24"><sup><a href="#24r">24</a></sup>  (945/14) [2017] SZHC158 (27th July, 2017)</p>
+                <p id="25"><sup><a href="#25r">25</a></sup>  1974 (3) SA 506 A at 531</p>
+            </div>
         </div>
         <!--/Body col  -->
     

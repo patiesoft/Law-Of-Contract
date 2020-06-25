@@ -168,7 +168,7 @@
                   delivery, time frame, personnel, and a price etc.
               </p>
               <p>
-                The principle in the example was discussed in the case of Chrysafis and Others v Katsapsa26 [Study the judgment].
+                The principle in the example was discussed in the case of Chrysafis and Others v Katsapsa<sup id="26r"><a href="#26">26</a></sup> [Study the judgment].
               </p>
 
               <!-- Example box -->
@@ -193,7 +193,7 @@
                 <p>
                   It is common in a commercial contract to include a provision that any changes made to a contract are ineffective unless made in 
                   writing and signed by or on behalf of both parties. This is known as a variation clause and it is intended to prevent informal 
-                  or inadvertent oral variations.27 These variation clauses may also detail the process or procedure to follow, often specifying 
+                  or inadvertent oral variations.<sup id="27r"><a href="#27">27</a></sup> These variation clauses may also detail the process or procedure to follow, often specifying 
                   the need for variations to be executed in writing. Whilst it is best practice for any variation to be in writing, it must be noted
                   that a change can inadvertently be made to a contract by verbal agreement or conduct even when there are clauses expressly stating 
                   that variation are to be in writing (refer to our example one above). What do think would be the legal effect of such a purported variation?
@@ -205,7 +205,7 @@
                   of achieving certainty and avoiding disputes about whether a variation or cancellation has been agreed, they will incorporate in their contract 
                   a non-variation clause. Typically, a non-variation clause provides that no subsequent agreement between the parties on a specified on a specified 
                   topic (for instance subletting, cancellation, additional work in a building contract) shall be valid unless in writing, or that no variation clause 
-                  of any of the terms of the contract (including the non-variation clause itself) shall be valid unless it is in writing.28
+                  of any of the terms of the contract (including the non-variation clause itself) shall be valid unless it is in writing.<sup id="28r"><a href="#28">28</a></sup>
                 </p>
                 <p>
                   Remember that variation clauses are not always expressly called “variation clauses”. When considering any proposed variation always note that it is
@@ -216,7 +216,7 @@
                 <li class="h5">The Importance of Having Variations in Writing</li>
                 <p>
                   If a contract is varied based on a verbal agreement, it can be difficult to determine exactly what was agreed, particularly if things go wrong. Again,
-                  consider the case of Chrysafis and others29 above where such confusion was evident after the contract was interpreted varied following the oral agreement 
+                  consider the case of Chrysafis and others<sup id="29r"><a href="#29">29</a></sup> above where such confusion was evident after the contract was interpreted varied following the oral agreement 
                   on the payment terms. The following reasons (though not exhaustive), can be considered as to why variations ought to be in writing:
                 </p>
                 <ul>
@@ -227,7 +227,7 @@
                     There is evidence referencing what was agreed and who is responsible for what.
                   </li>
                   <li> 
-                    It minimises the risk of unwanted surprises associated with “agreed changes”.30
+                    It minimises the risk of unwanted surprises associated with “agreed changes”.<sup id="30r"><a href="#30">30</a></sup>
                   </li>
                 </ul>
 
@@ -257,7 +257,7 @@
                   <ol>
                     <li>
                       The general rule that parties to a contract are a free to vary or discharge their contracts as they were to make it is subject to limitations. 
-                      The legislature in circumstances does prescribe certain formalities for the making of contracts of a certain type.31WAIVER
+                      The legislature in circumstances does prescribe certain formalities for the making of contracts of a certain type.<sup id="31r"><a href="#31">31</a></sup>
                     </li>
                   </ol>                   
                 </p>
@@ -272,7 +272,7 @@
                 <li class="h5">The Nature of Waiver</li>
                 <p>
                   In contractual contexts waiver is in essence a unilateral decision not to avail oneself of a right or a remedy, a privilege or power, an interest or 
-                  benefit arising from the agreement.32 In the case of Road Accident Fund v Mothupi [2003] 3 ALL SA 181 (A); 2000 (4) SA 38 (SCA) in para [15] Nienaber JA said:
+                  benefit arising from the agreement.<sup id="32r"><a href="#32">32</a></sup> In the case of Road Accident Fund v Mothupi [2003] 3 ALL SA 181 (A); 2000 (4) SA 38 (SCA) in para [15] Nienaber JA said:
                 </p>
                 <div>
                   “Waiver is, first and foremost, a matter of intention. Whether it is...in unilateral or bilateral form, the starting point invariably is the will of the party said to have waived it.”
@@ -282,7 +282,7 @@
                 </p>
                 <p>
                   The right or remedy, privilege or power, interest or benefit may, for example, be to have acceptance communicated; to complete an incomplete clause in a contract; or to cancel a contract.
-                  The ‘unilateral nature’ of waiver is apparent from what is said by Innes CJ in Mutual Life Insurance Co of New York v Ingle33, reaffirmed in Botha (now Griessel) and another v Finanscredit (Pty) Ltd34viz-
+                  The ‘unilateral nature’ of waiver is apparent from what is said by Innes CJ in Mutual Life Insurance Co of New York v Ingle<sup id="33r"><a href="#33">33</a></sup>, reaffirmed in Botha (now Griessel) and another v Finanscredit (Pty) Ltd<sup id="34r"><a href="#34">34</a></sup>viz-
                 </p>
                 <!-- Example box -->
                 <div class="example z-depth-2 bg2 p-3 m-4">
@@ -313,7 +313,7 @@
                 <p>
                   Having defined what a waiver is, our next stop is to look at the requisites of a waiver. Having gone through the trouble of acquiring contractual rights, it is generally unlikely to give them up. There is therefore a generally 
                   strong presumption against waiver. That means not only that the onus is upon the party asserting waiver to prove it, but that although, as in all civil cases, the onus may be discharged on a balance of probability, it is not 
-                  easily discharged.35 In Hepner v Rooderpoort –Maraisburg Town Council36) Steyn CJ stated that:
+                  easily discharged.<sup id="35r"><a href="#35">35</a></sup> In Hepner v Rooderpoort –Maraisburg Town Council<sup id="36r"><a href="#36">36</a></sup>) Steyn CJ stated that:
                 </p>
                 <!-- Example box -->
                 <div class="example z-depth-2 bg2 p-3 m-4">
@@ -333,12 +333,12 @@
                 <div>
                   <p>
                     One cannot waive someone else’s right. That is waiver only arises where that person or party has a right in law which can be waived either expressly or by conduct. In this regard, study the case of ABSA Insurance Brokers (Pty)
-                    Ltd v Lutting NO and another37.
+                    Ltd v Lutting NO and another<sup id="37r"><a href="#37">37</a></sup>.
                   </p>
                   <p>
                     Note further that there is a distinction between waiving a right created by a contract and waiving a benefit laid down by law. In the latter case, public policy may prevent waiver of a benefit, even though the parties agree that
                     it be waived. For instance, in a sale where there is a suspensive condition with a time limit attached, the part specifying the time limit is for the benefit of the seller, while the other part is for the benefit of the buyer. 
-                    See the case of Ming-Chien Shen v Meyer38 where this principle was enunciated. From this judgment you will learn that if the time limit has passed without waiver having taken place, there is no contract thereafter.
+                    See the case of Ming-Chien Shen v Meyer<sup id="38r"><a href="#38">38</a></sup> where this principle was enunciated. From this judgment you will learn that if the time limit has passed without waiver having taken place, there is no contract thereafter.
 
                   </p>
                 </div>
@@ -348,7 +348,7 @@
                   Waiver of a Condition for The Sole Benefit of One Party       
                 </li>
                 <p>
-                  Sometimes a party wishes to enforce a contract despite non-fulfilment of a condition. The question is whether he can waive the condition unilaterally (without the consent of the other party), so that the contract becomes unconditional.
+                  Sometimes a party wishes to enforce a contract despite non-fulfilment of a condition. The question is whether he can waive the condition unilaterally (without the consent of the other party), so that the contract becomes unconditional.<sup id="39r"><a href="#39">39</a></sup>
                 </p>
                 <!-- Example box -->
                 <div class="example z-depth-2 bg2 p-3 m-4">
@@ -363,7 +363,7 @@
                 </div>
                 <!-- /Example box -->
                 <p>
-                  In addition, the condition must be waived before the contract lapses. A case in point is that of Ming-Chieh Shen v Meyer40 wherein Meyer sold his membership in a close corporation to Ming. Meyer has previously stood surety for the 
+                  In addition, the condition must be waived before the contract lapses. A case in point is that of Ming-Chieh Shen v Meyer<sup id="40r"><a href="#40">40</a></sup> wherein Meyer sold his membership in a close corporation to Ming. Meyer has previously stood surety for the 
                   close corporation debts. He was only willing to sell his membership if the bank agreed to cancel the suretyship. The sale of the membership was therefore made subject to a suspensive condition that Meyer must be released from his 
                   liability as surety before 28th February 1991. However, the condition was not fulfilled by the due date. In a later dispute, Ming argued that the contract had lapsed due to non- fulfilment of the condition. However, Meyer argued 
                   that he had waived the condition, and that the contract had therefore become unconditional. According to Meyer, the contract was therefore still valid. The Court held as follows:
@@ -397,7 +397,7 @@
                 <div>
                   <p>
                     “It should be pointed out, as Innes CJ stated in Laws vs Rutherford (1924) AD 261, at page 263), that the onus of proving waiver is strictly on the party alleging it and he must show that the other party with full 
-                    knowledge of his right decided to abandon it, whether expressly or by conduct plainly inconsistent with an intention to enforce it.
+                    knowledge of his right decided to abandon it, whether expressly or by conduct plainly inconsistent with an intention to enforce it.<sup id="41r"><a href="#41">41</a></sup>
                   </p>
 
                 </div>
@@ -413,7 +413,7 @@
                 <p>
                   From the foregoing analysis, it appears that, in essence, waiver is a unilateral act and not a contractual act and can take place in the absence of a contract to that effect. 
                   It is, however, open to the parties if they so wish to make a special contract concerning a specified waiver, or if they are negotiating a contract of a different kind to note 
-                  therein that a waiver has taken place, or is taking place, or expected to take place, or to make their contract conditional upon a specified waiver taking place42.
+                  therein that a waiver has taken place, or is taking place, or expected to take place, or to make their contract conditional upon a specified waiver taking place<sup id="42r"><a href="#42">42</a></sup>.
                 </p>
 
               </div>
@@ -428,7 +428,7 @@
                 <p>
                   This brings us to the end of Unit 2, where we unpacked variations and waivers. In this unit we examined the nature and legal effect of variation of contract and waiver of contractual rights. We were introduced to these new concepts which are very familiar in the law of contract.
                   From the above annotation on variation, we note that parties are free to vary their contracts but, subject to certain conditions and/or limitations. We further understand that variation may be in writing or by implication or conduct. Whether there has been an implied variation 
-                  depends upon the circumstances of each case, but it must be remembered that in general, implied variation of important provisions is not lightly to be presumed.43 Variation is distinct from both rectification and waiver.
+                  depends upon the circumstances of each case, but it must be remembered that in general, implied variation of important provisions is not lightly to be presumed.<sup id="43r"><a href="#43">43</a></sup> Variation is distinct from both rectification and waiver.
                 </p>
                 <p>
                   In the discussion on warranties we highlighted the common law warranty which is similar to an implied term of a contract. We will now proceed to Unit 3 to discuss performance. Enjoy!
@@ -485,7 +485,30 @@
               </div>
               <!-- Self Assessment -->
 
+              <hr id="references">
+              <br>
 
+              <div class="Chapter">
+                  <h1 class="text-center chapter-topic secondary-heading text-primary h1">References</h1>
+                  <p id="26"><sup><a href="#26r">26</a></sup>  1988  V4 SA</p>
+                  <p id="27"><sup><a href="#27r">27</a></sup>  Ttp://www.out-law.com/en/--contracts/variations- to-contracts-and –changes –in – the law.</p>
+                  <p id="28"><sup><a href="#28r">28</a></sup>  RH Christie, “The Law of Contract in South Africa” 3rd Edition, p. 495-496</p>
+                  <p id="29"><sup><a href="#29r">29</a></sup>  1988 V4 SA</p>
+                  <p id="30"><sup><a href="#30r">30</a></sup>  Ttp://www.out-law.com/en/--contracts/variations- to-contracts-and –changes –in – the law.</p>
+                  <p id="31"><sup><a href="#31r">31</a></sup>  RH Christie, ”The Law of Contract in South Africa” 3rd edition,  at p. 495.</p>
+                  <p id="32"><sup><a href="#32r">32</a></sup>  AJ Kerr “The Principles of the Law of Contract”, 6th edition, p. 464.</p>
+                  <p id="33"><sup><a href="#33r">33</a></sup>  1910 TPD 540 at 550</p>
+                  <p id="34"><sup><a href="#34r">34</a></sup>  1989 (3) SA 773 (A) at 792B-D</p>
+                  <p id="35"><sup><a href="#35r">35</a></sup>  The Law of Contract in South Africa (3rd edition) RH Christie at page 488.</p>
+                  <p id="36"><sup><a href="#36r">36</a></sup>  1962 (4) SA 772 (A)</p>
+                  <p id="37"><sup><a href="#37r">37</a></sup>  [1997] 3 ALL SA 267 (A) </p>
+                  <p id="38"><sup><a href="#38r">38</a></sup>  1992 (3) SA 496 (W)</p>
+                  <p id="39"><sup><a href="#39r">39</a></sup>  Students Guide to the Law of Contract (3rd edition) , Deeksha  Bhana et al, at page 229.</p>
+                  <p id="40"><sup><a href="#40r">40</a></sup>  1992 (3) SA 496 (W)</p>
+                  <p id="41"><sup><a href="#41r">41</a></sup>  See also: Alfred McAlpine & Son (Pty) Ltd vs Transvaal Provincial Administration 1977 (4) SA 310 (T)</p>
+                  <p id="42"><sup><a href="#42r">42</a></sup>  AJ Kerr “The Principles of The Law of Contract”, 6th Ed. at page 493</p>
+                  <p id="43"><sup><a href="#43r">43</a></sup>  The Government v Thorne and Another NNO 1974 (2) SA 1 (A) at 8H; see also Alfred McAlpine and Son (Pty) Ltd v Transvaal Provincial Administration 1974 (3) SA 506 (A)</p>
+              </div>
             </div>
             <!-- /What Is A Variation --> 
 
