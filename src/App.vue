@@ -1,7 +1,10 @@
 <!--Template-->
 <template>
   <div id="app">
-   
+   <div class="NevBack">
+<br>
+<br>
+   </div>
      <mdb-navbar
         position="top"  
         color="primary"
@@ -90,6 +93,9 @@ export default {
 .nevBar{
   width:100%;
   align-self: flex-end;
+  .NevBack{
+    background: red;
+  }
 }
  }
 </style>

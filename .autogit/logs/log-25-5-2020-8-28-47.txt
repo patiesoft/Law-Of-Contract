@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jun 25 2020 08:28:47 GMT+0200 (South Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/views/Home.vue
+
+
+Created files:
+* .autogit/logs/log-25-5-2020-7-58-41.txt
+
+
+Deleted files:
+
+
+Renamed files:

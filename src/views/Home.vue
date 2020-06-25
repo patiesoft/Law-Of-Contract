@@ -8,7 +8,14 @@
         </div>
     </div>
     <div id="middle">
+      <br>
+     <h2>LAW OF CONTRACT</h2>
+     <h3>(IDE-LAW 204)</h3>
 
+     <br>
+     <br><br><br>
+     <br><br><br><br><br><br><br><br>
+     <h1>T.HLATSHWAYO</h1>
     </div>
     <div id="bottom">
 
@@ -36,7 +43,7 @@
   display: block;
 }
 #middle{
-background-image: url("../assets/landingmiddle.png") no-repeat;
+background-image: url("../assets/landingmiddle.png");
 width:100%;
 height: 500px;
 }
