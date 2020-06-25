@@ -2,7 +2,6 @@
 <!--Navbar-->
 <div class="container-fluid text-left">
     <mdb-navbar
-        position="top-fixed"
         transparent
         color="mdb"
         dark
@@ -26,8 +25,8 @@
                 </mdb-dropdown>
         <mdb-navbar-toggler>
             <mdb-navbar-nav>
-                <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-                <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item> 
+                <!--<mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
+                <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item> -->
             </mdb-navbar-nav>
         </mdb-navbar-toggler>
     </mdb-navbar>
@@ -43,12 +42,12 @@
     <!-- Body rom -->
     <div class="row  text-left "> 
         <!--Body col-->
-        <div class="col content text-justify"> 
+        <div class="col content text-justify scrollspy-example" data-target="#topics"   data-offset="0"> 
             <!--Chapter Introduction --> 
             <hr id="introduction">
             <br>
-            <div class="Chapter" >
-                <h1 class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
+            <div  class="Chapter" >
+                <h1  class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
                 <div>   
                     <p> 
                         The nature of the provisions of a contract will vary from case to case, 
@@ -489,11 +488,11 @@
             </div>
             <!--/Issues-->
             
-            <hr>
+            <hr id="unitSammary" >
             <br>
 
             <!--Summary-->
-            <div id="unitSammary" > 
+            <div > 
                 <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
                 <div >
                     <p>
@@ -520,11 +519,11 @@
             </div>
             <!--/Activity-->
 
-                <hr >
+                <hr id="activity2">
                 <br>
 
             <!--Activity 2-->
-            <div id="activity2" class="Chapter">
+            <div class="Chapter">
                 <h1  class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
                 <p>
                     A bought a car from B at a price of E15,000.00. A was to pay the total amount of E15,000.00 in cash before 
@@ -539,11 +538,11 @@
             </div>
             <!--/Activity-->
             
-            <hr  >
+            <hr id="selfAssessment">
             <br>
             
             <!--Self-Assessment--> 
-            <div id="selfAssessment" class="Chapter">
+            <div  class="Chapter">
                 <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i>Self-Assessment</strong></h1>
                 
                 <ol>
@@ -582,7 +581,6 @@
   import { mdbScrollSpy,
   mdbNavbar,
   mdbBtn,
-  mdbNavItem,
   mdbNavbarNav,
   mdbNavbarToggler,
   mdbDropdown, 
@@ -596,7 +594,6 @@
         components: {
             mdbNavbar,
             mdbBtn,
-            mdbNavItem,
             mdbNavbarNav,
             mdbNavbarToggler,
             mdbDropdown, 
@@ -621,17 +618,14 @@
       }
     }
   },
+    scrollToTop() {
+        window.scrollTo(0,0);
+                },
     mounted () {
     this.activePage = this.$route.name
 
-    this.activePage = this.$route.name
   },
-  beforeUpdate(){
-    var shiftWindow = function() { scrollBy(0, -50) };
-    if (location.hash) shiftWindow();
-        window.addEventListener("hashchange", shiftWindow);
-
-  },
+  
   updated () {
     this.activePage = this.$route.name
     }
@@ -672,5 +666,7 @@ overflow-y:inherit;
 .pad{
     padding-top: 70px;
 }
-
+#introduction, #facts, #issues, #held, #unitSammary, #activity1, #activity2, #selfAssessment {
+ padding-top: 50px;
+}
 </style>
