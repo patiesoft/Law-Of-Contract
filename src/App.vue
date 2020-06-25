@@ -14,18 +14,18 @@
         <mdb-navbar-toggler>
             <mdb-navbar-nav>
                 <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-                <mdb-nav-item href="#/Unit1" waves-fixed active>Overview</mdb-nav-item>
+                <mdb-nav-item href="#//Overview" waves-fixed active>Overview</mdb-nav-item>
                 <mdb-dropdown tag="li" class="nav-item">
                     <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">UNITS</mdb-dropdown-toggle>
                     <mdb-dropdown-menu color="red">
-                        <mdb-dropdown-item href="#introduction">Unit 1</mdb-dropdown-item>
-                        <mdb-dropdown-item href="#facts">Unit 2</mdb-dropdown-item>
-                        <mdb-dropdown-item href="#issues">Unit 3</mdb-dropdown-item>
-                        <mdb-dropdown-item href="#held">Unit 4</mdb-dropdown-item>
-                        <mdb-dropdown-item href="#unitSammary">Unit 5</mdb-dropdown-item>
-                        <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
-                        <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
-                        <mdb-dropdown-item href="#selfAssessment">Self-Assessment</mdb-dropdown-item>
+                        <mdb-dropdown-item href="#/Unit1">Unit 1</mdb-dropdown-item>
+                        <mdb-dropdown-item href="#/Unit2">Unit 2</mdb-dropdown-item>
+                        <mdb-dropdown-item href="#/Unit3">Unit 3</mdb-dropdown-item>
+                        <mdb-dropdown-item href="#/Unit4">Unit 4</mdb-dropdown-item>
+                        <mdb-dropdown-item href="#/Unit5">Unit 5</mdb-dropdown-item>
+                        <mdb-dropdown-item href="#/Unit6">Unit 6</mdb-dropdown-item>
+                        <mdb-dropdown-item href="#/Unit7">Unit 7</mdb-dropdown-item>
+                        <mdb-dropdown-item href="#/Unit8">Unit 8</mdb-dropdown-item>
                     </mdb-dropdown-menu>
                 </mdb-dropdown>
             </mdb-navbar-nav>
@@ -40,10 +40,33 @@
 <script>
 //import Footer from '@/components/Footer.vue'
 import Footer from '@/components/Footer2.vue'
+
+ import { 
+  mdbNavbar,
+  mdbNavItem,
+  mdbNavbarNav,
+  mdbNavbarToggler,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
+  mdbNavbarBrand, 
+  mdbIcon
+  } from "mdbvue";
+
 export default {
   components:{
     Footer, 
-  
+    mdbNavbar,
+    mdbNavItem,
+    mdbNavbarNav,
+    mdbNavbarToggler,
+    mdbDropdown, 
+    mdbDropdownItem, 
+    mdbDropdownMenu, 
+    mdbDropdownToggle, 
+    mdbNavbarBrand, 
+    mdbIcon
   }
   
 }

@@ -347,53 +347,13 @@
 </div>
 </template>
 <script>
-  import { 
-    mdbScrollSpy, 
-    mdbNavbar,
-    mdbNavItem,
-    mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
-    mdbNavbarBrand, 
-    mdbIcon
-  } from "mdbvue";
-  import { mapActions } from 'vuex';
+      import { mdbScrollSpy,mdbCollapse, mdbContainer} from "mdbvue";
   export default {
-    components: {
-      mdbNavbar,
-      mdbNavItem,
-      mdbNavbarNav,
-      mdbNavbarToggler,
-      mdbDropdown, 
-      mdbDropdownItem, 
-      mdbDropdownMenu, 
-      mdbDropdownToggle, 
-      mdbNavbarBrand, 
-      mdbIcon
-    },directives: {
-      mdbScrollSpy
-    } ,
-    data() {
-    return {};
-  },
-  methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
-
+    directives: {
+      mdbScrollSpy,
+      mdbCollapse,
+      mdbContainer
+    }  
   };
+
 </script>

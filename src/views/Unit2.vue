@@ -2,6 +2,7 @@
 <template>
    <!--Container --> 
   <div class="container-fluid text-left" >
+    <!--  
     <mdb-navbar
       position="top "
       transparent
@@ -30,7 +31,7 @@
         </mdb-navbar-nav>
       </mdb-navbar-toggler>
     </mdb-navbar>
-    
+      -->
     <!-- Header -->
     <div class="Head"> 
       <h1 class="h1 h1-responsive">UNIT 2</h1>
@@ -39,6 +40,25 @@
     <!--/Header --> 
 
     <div class="row text-left m-2"> 
+
+
+      <!-- Side Nav -->
+        <div id="topics" class="col-sm-3 col-lg-2 sideNev border border-info ">
+            <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
+                <li><a class="nav-link active"   href="#introduction">  Introduction</a></li>                
+                <li><a class="nav-link"          href="#facts">                 What is Varietion</a></li> 
+                <li><a class="nav-link"          href="#issues">         Conclusion</a></li> 
+                <li><a class="nav-link"          href="#unitSummary">          Unit Sammary</a></li> 
+                <li><a class="nav-link"          href="#activity1">     Activity 1</a></li> 
+                <li><a class="nav-link"          href="#activity2">     Activity 2</a></li> 
+                <li><a class="nav-link"          href="#selfAssessment">SELF-ASSESMENT</a></li> 
+            </ul>
+        </div>
+      <!-- Side Nav -->
+
+
+
+
       <article class="col text-justify">
         <hr id="introduction">
         <br> 
@@ -503,55 +523,15 @@
 </template>
 
 <script>
-  import { 
-    mdbScrollSpy, 
-    mdbNavbar,
-    mdbNavItem,
-    mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
-    mdbNavbarBrand, 
-    mdbIcon
-  } from "mdbvue";
-  import { mapActions } from 'vuex';
+     import { mdbScrollSpy,mdbCollapse, mdbContainer} from "mdbvue";
   export default {
-    components: {
-      mdbNavbar,
-      mdbNavItem,
-      mdbNavbarNav,
-      mdbNavbarToggler,
-      mdbDropdown, 
-      mdbDropdownItem, 
-      mdbDropdownMenu, 
-      mdbDropdownToggle, 
-      mdbNavbarBrand, 
-      mdbIcon
-    },directives: {
-      mdbScrollSpy
-    } ,
-    data() {
-    return {};
-  },
-  methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
-
+    directives: {
+      mdbScrollSpy,
+      mdbCollapse,
+      mdbContainer
+    }  
   };
+
 </script>
 <style>
 .nevigation{
