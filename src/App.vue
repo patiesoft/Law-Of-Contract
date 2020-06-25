@@ -9,7 +9,7 @@
         position="top"  
         color="primary"
         dark
-        scrolling
+      
         class="nevBar "
 
         
