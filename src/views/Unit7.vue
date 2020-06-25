@@ -40,8 +40,12 @@
   <div class="row text-left m-2" >
 
         <!-- Side Nav -->
-          <div id="topics" class="col-sm-3 col-lg-2 sideNev border border-info ">
-              <ul  v-mdb-scroll-spy="{container: 'custom-container'}" class="sticky-top">
+          <div id="topics" class="col-sm-3 col-lg-2 sideNev">
+            <div class="border border-info sticky-top spyscroll">
+              <h1 class="h1 text-center red-text h1-responsive">UNIT 7</h1>
+              <hr>
+                
+              <ul  v-mdb-scroll-spy="{container: 'custom-container'}">
                 <li><a class="nav-link active"   href="#intro">  Introduction</a></li>                
                   <li><a class="nav-link"          href="#def">         Defination of Cession</a></li> 
                   <li><a class="nav-link"          href="#nature">        The Legal Nature of Cession</a></li> 
@@ -51,6 +55,7 @@
                   <li><a class="nav-link"          href="#summary">     Unit summary</a></li> 
                   <li><a class="nav-link"          href="#activity">Activity</a></li> 
               </ul>
+            </div>
           </div>
         <!-- Side Nav -->
 

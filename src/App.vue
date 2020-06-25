@@ -3,12 +3,12 @@
   <div id="app">
    
      <mdb-navbar
-        position="top-fixed"
+        position="top"
         transparent
         color="mdb"
         dark
         scrolling
-        class="sticky-top nevBar "
+        class="nevBar "
 
         
         >
