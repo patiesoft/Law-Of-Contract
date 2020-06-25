@@ -42,7 +42,7 @@
                      <hr >
                 
                     <ul  v-mdb-scroll-spy="{container: 'custom-container'}" >
-                        <li><a class="nav-link active"   href="#introduction">  Introduction</a></li>                
+                        <li><a class="nav-link "   href="#introduction">  Introduction</a></li>                
                         <li><a class="nav-link"          href="#facts">         Facts</a></li> 
                         <li><a class="nav-link"          href="#issues">        Issues</a></li> 
                         <li><a class="nav-link"          href="#held">          Held</a></li> 

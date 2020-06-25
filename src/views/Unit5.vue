@@ -3,7 +3,7 @@
   <div class="container-fluid text-left ">
   <!--Container-->
  <!--DropDown Button  -->
-      <div class=" sticky-top col-sm-12 col-lg-0 cont"  color="">
+      <div class=" sticky-top col-sm-12 col-lg-0 cont"  >
         <mdb-dropdown  v-mdb-scroll-spy="{container: 'custom-container'}" class="dropChapter"  color="">
           <mdb-dropdown-toggle color="primary" slot="toggle" size="lg">Chapters</mdb-dropdown-toggle>
           <mdb-dropdown-menu>

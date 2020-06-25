@@ -44,7 +44,7 @@
                   <hr>
                 
                 <ul  v-mdb-scroll-spy="{container: 'custom-container'}">
-                     <a class="nav-link active"   href="#intro">  Introduction</a>               
+                     <a class="nav-link "   href="#intro">  Introduction</a>               
                       <li><a class="nav-link"          href="#parties">   Parties to Contract</a></li> 
                         <li><a class="nav-link"          href="#nature"> Nature of a Contract Heading</a></li> 
                         <li><a class="nav-link"          href="#recite"> Recitals and Preambles</a></li> 

@@ -36,7 +36,7 @@
               <hr>
                 
               <ul  v-mdb-scroll-spy="{container: 'custom-container'}">
-                <li><a class="nav-link active"   href="#intro">  Introduction</a></li>                
+                <li><a class="nav-link "   href="#intro">  Introduction</a></li>                
                   <li><a class="nav-link"          href="#def">         Defination of Cession</a></li> 
                   <li><a class="nav-link"          href="#nature">        The Legal Nature of Cession</a></li> 
                   <li><a class="nav-link"          href="#reqmnt">          Requirements of a Valid Cession</a></li> 

@@ -44,7 +44,7 @@
               <hr>
 
             <ul  v-mdb-scroll-spy="{container: 'custom-container'}" >
-              <li><a class="nav-link active"    href="#introduction">Introduction</a></li>
+              <li><a class="nav-link "    href="#introduction">Introduction</a></li>
               <li><a class="nav-link"           href="#specificPerfomance">Specific Perfomance</a></li>
               <li><a class="nav-link"           href="#prohibitoryInterdict">Prohibitory Interdict</a> </li>
               <li><a class="nav-link"           href="#declarationOfRights">Declaration of Rights</a> </li>
