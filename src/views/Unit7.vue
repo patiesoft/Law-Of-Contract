@@ -29,7 +29,7 @@
       <p class="h1-responsive red-text text-center main-topic">TRANSFER OF RIGHTS AND OBLIGATIONS (CESSION)</p>
     </div>
    
-  <div class="row text-left m-2" >
+  <div class="row text-left m-1" >
         <div class="col text-justify">
           <hr id="intro">
           <br>
