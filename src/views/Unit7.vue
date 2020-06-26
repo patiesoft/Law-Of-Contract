@@ -8,14 +8,10 @@
         scrolling
         class="sticky-top"
         >
-        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-        <mdb-navbar-toggler>
-          <mdb-navbar-nav>
-            <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-            <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-            <mdb-dropdown tag="li" class="nav-item">
-              <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
-              <mdb-dropdown-menu color="red">
+      <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
+          <mdb-dropdown tag="li" class="nav-item">
+            <mdb-dropdown-toggle slot="toggle" color="primary" class="btn" >Sections</mdb-dropdown-toggle>
+            <mdb-dropdown-menu color="red">
                 <mdb-dropdown-item href="#intro">Introduction</mdb-dropdown-item>
                 <mdb-dropdown-item href="#def">Defination of Cession</mdb-dropdown-item>
                 <mdb-dropdown-item href="#nature">The Legal Nature of Cession</mdb-dropdown-item>
@@ -26,8 +22,6 @@
                 <mdb-dropdown-item href="#activity">Activity</mdb-dropdown-item>
               </mdb-dropdown-menu>
             </mdb-dropdown>
-          </mdb-navbar-nav>
-        </mdb-navbar-toggler>
       </mdb-navbar>
 
     <div class="Head">
@@ -347,56 +341,76 @@
 </div>
 </template>
 <script>
-  import { 
-    mdbScrollSpy, 
-    mdbNavbar,
-    mdbNavItem,
-    mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
-    mdbNavbarBrand, 
-    mdbIcon
+  import { mdbScrollSpy,
+  mdbNavbar,
+  mdbBtn,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
   } from "mdbvue";
-  import { mapActions } from 'vuex';
-  export default {
-    components: {
-      mdbNavbar,
-      mdbNavItem,
-      mdbNavbarNav,
-      mdbNavbarToggler,
-      mdbDropdown, 
-      mdbDropdownItem, 
-      mdbDropdownMenu, 
-      mdbDropdownToggle, 
-      mdbNavbarBrand, 
-      mdbIcon
-    },directives: {
+  import { mapActions } from 'vuex'; 
+    export default {
+        components: {
+            mdbNavbar,
+            mdbBtn,
+            mdbDropdown, 
+            mdbDropdownItem, 
+            mdbDropdownMenu, 
+            mdbDropdownToggle, 
+
+      } , 
+    directives: {
       mdbScrollSpy
     } ,
     data() {
     return {};
   },
   methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-      scrollToTop() {
-        window.scrollTo(0,0);
-    },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
+
 
   };
 </script>
+
+<style>
+.row{
+    position: relative;
+}
+.scrollspy-example {
+height: 100%;
+overflow-y:inherit;
+}
+.main-topic{
+    font-weight:700;
+}
+
+#contentlist{
+    list-style-type:decimal;
+}
+
+.sideNev{
+  list-style: armenian
+   
+
+}
+.bg{
+    background-color: #e1f5fe;
+}
+.bg2{
+  background-color: #bbdefb;  
+}
+.navbar {
+  background: #1e88e5 ;
+}
+.pad{
+    padding-top: 70px;
+}
+
+
+
+#introduction, #whatIsVariation, #conclusion, #held, #unitSammary, #activity1, #activity2, #selfAssessment {
+
+
+ padding-top: 50px;
+}
+</style>

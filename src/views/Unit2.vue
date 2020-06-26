@@ -3,20 +3,15 @@
    <!--Container --> 
   <div class="container-fluid text-left" >
     <mdb-navbar
-      position="top "
       transparent
       color="mdb"
       dark
       scrolling
       class="sticky-top"
       >
-      <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-      <mdb-navbar-toggler>
-        <mdb-navbar-nav>
-          <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-          <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
+      <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
           <mdb-dropdown tag="li" class="nav-item">
-            <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
+            <mdb-dropdown-toggle slot="toggle" color="primary" class="btn" >Sections</mdb-dropdown-toggle>
             <mdb-dropdown-menu color="red">
               <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
               <mdb-dropdown-item href="#whatIsVariation">What is Varietion</mdb-dropdown-item>
@@ -27,8 +22,6 @@
               <mdb-dropdown-item href="#selfAssesment">Self-Assessment</mdb-dropdown-item>
             </mdb-dropdown-menu>
           </mdb-dropdown>
-        </mdb-navbar-nav>
-      </mdb-navbar-toggler>
     </mdb-navbar>
     
     <!-- Header -->
@@ -39,7 +32,7 @@
     <!--/Header --> 
 
     <div class="row text-left m-2"> 
-      <article class="col text-justify">
+      <div class="col text-justify">
         <hr id="introduction">
         <br> 
         <!--Introduction-->
@@ -494,7 +487,7 @@
         </div>
         <!--/Introduction--> 
 
-      </article>
+      </div>
       
     </div> 
 
@@ -503,62 +496,78 @@
 </template>
 
 <script>
-  import { 
-    mdbScrollSpy, 
-    mdbNavbar,
-    mdbNavItem,
-    mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
-    mdbNavbarBrand, 
-    mdbIcon
+  import { mdbScrollSpy,
+  mdbNavbar,
+  mdbBtn,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
+  mdbIcon
   } from "mdbvue";
-  import { mapActions } from 'vuex';
-  export default {
-    components: {
-      mdbNavbar,
-      mdbNavItem,
-      mdbNavbarNav,
-      mdbNavbarToggler,
-      mdbDropdown, 
-      mdbDropdownItem, 
-      mdbDropdownMenu, 
-      mdbDropdownToggle, 
-      mdbNavbarBrand, 
-      mdbIcon
-    },directives: {
+  import { mapActions } from 'vuex'; 
+    export default {
+        components: {
+            mdbNavbar,
+            mdbBtn,
+            mdbDropdown, 
+            mdbDropdownItem, 
+            mdbDropdownMenu, 
+            mdbDropdownToggle, 
+            mdbIcon
+
+      } , 
+    directives: {
       mdbScrollSpy
     } ,
     data() {
     return {};
   },
   methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },    scrollToTop() {
-        window.scrollTo(0,0);
-    },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
+
 
   };
 </script>
+
 <style>
-.nevigation{
- position: sticky;
+.row{
+    position: relative;
+}
+.scrollspy-example {
+height: 100%;
+overflow-y:inherit;
+}
+.main-topic{
+    font-weight:700;
+}
+
+#contentlist{
+    list-style-type:decimal;
+}
+
+.sideNev{
+  list-style: armenian
+   
+
+}
+.bg{
+    background-color: #e1f5fe;
+}
+.bg2{
+  background-color: #bbdefb;  
+}
+.navbar {
+  background: #1e88e5 ;
+}
+.pad{
+    padding-top: 70px;
+}
 
 
+
+#introduction, #whatIsVariation, #conclusion, #unitSummary,  #Activity1, #Activity2, #selfAssesment{
+
+
+ padding-top: 50px;
 }
 </style>

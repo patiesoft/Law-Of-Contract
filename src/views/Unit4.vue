@@ -9,14 +9,11 @@
     scrolling
     class="sticky-top"
     >
-    <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-    <mdb-navbar-toggler>
-      <mdb-navbar-nav>
-        <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-        <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-        <mdb-dropdown tag="li" class="nav-item">
-          <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
-          <mdb-dropdown-menu color="red">
+      <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
+          <mdb-dropdown tag="li" class="nav-item">
+            <mdb-dropdown-toggle slot="toggle" color="primary" class="btn" >Sections</mdb-dropdown-toggle>
+            <mdb-dropdown-menu color="red">
+            <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
             <mdb-dropdown-item href="#teminationOf">Termination of Contractual Obligation</mdb-dropdown-item>
             <mdb-dropdown-item href="#unitSummary">Unit Summary</mdb-dropdown-item>
             <mdb-dropdown-item href="#discussion">Discussion</mdb-dropdown-item>
@@ -24,8 +21,6 @@
             <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
           </mdb-dropdown-menu>
         </mdb-dropdown>
-      </mdb-navbar-nav>
-    </mdb-navbar-toggler>
   </mdb-navbar>
 
   <!-- Unit header -->
@@ -35,12 +30,14 @@
   </div>
   <!-- Unit header -->
 
-  <div class="row text-left" >
+  <div class="row text-left m-1" >
   <div  class="col text-justified">
+    <hr id="introduction">
+    <br>
 
   <!-- Introduction -->
   <div class="Chapter">
-    <h1 id="introduction"  class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
+    <h1   class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
     <div>
       <p class="text-left">
         This Unit deals with the termination of contracts. There is a number of ways through which a contract may be terminated. 
@@ -65,8 +62,8 @@
 
     <div class="Chapter">
       <h4 id="contents" class="text-left"><strong>Contents</strong></h4>
-      <p class="text-left">
-        In this Unit, we will cover the following aspects:
+      <h6 class="h6"><strong>In this Unit, we will cover the following aspects:</strong></h6> 
+      <p class="text-left"> 
       <ol style="list-style-type:decimal;">
         <li>The termination of contractual obligations</li>
         <li>Instances when termination is lawful</li>
@@ -95,6 +92,7 @@
 
       </div>
       <!--Outcomes-->
+      <br>
 
     </div>
   <!-- /Contents -->
@@ -130,18 +128,15 @@
 
   </div>
   <!--Case Study -->
-  <br>
 
   </div>
-  <!-- /Introduction -->
-
-  <!-- Termination Of Contractual Obligation -->        
-  <div class="Chapter">
-    <h1 class="text-center chapter-topic  secondary-heading text-primary">Termination Of Contractual Obligation</h1>
+  <hr id="introduction"> <br> <!-- /Introduction --> <!-- Termination Of Contractual Obligation -->        
+   <div class="Chapter">
+    <h1 class="text-center chapter-topic  secondary-heading text-primary"><strong>Termination Of Contractual Obligation</strong></h1>
 
     <h4  class="text-left chapter-topic secondary-heading text-primary"><strong>Introduction</strong></h4>
     <p>
-      A contract is terminated after being performed. Performance means that each party must perform its own obligations
+      A contract is terminated after being performed. Performance means the party must perform its own obligations
       as envisaged by the contract. Such performance should be made by the party upon whom the obligation is imposed and 
       that performance must be rendered to the person recognised by the law as being competent to receive the performance:
       See Hanornag SA (Pty) Ltd v Otto 1940 CPD 437.
@@ -175,20 +170,18 @@
       of the promissor: See the case of Peters Hammon vs Koksrud
     </p>
     <p>
-      Fourthly, the act of performance tendered where such is permissible must in the just instance be an equivalent to that mentioned in the 
-      contract or be of such a nature that it can make no material difference to the promise. What we must note finally when dealing with the 
-      termination of a contract and the considerations thereto, the court`s paramount obligation is to do justice between man and man. In doing this, 
-      the court is guided by the terms and circumstances in the contract under consideration.
+      Fourthly, the act of performance tendered where such is permissible must in the just instance be an equivalent to that mentioned in the contract or be of such a nature that it can make no material difference to the promise. What we must note finally when dealing with the termination of a contract and the considerations thereto, the court`s paramount obligation is to do justice between man and man. In doing this, 
+            the court is guided by the terms and circumstances in the contract under consideration.
     </p>
   </div>
   <!-- /Termination Of Contractual Obligation -->
-
+<hr id="teminationOf">
 <br>
-  <!-- When Is Termination Of Contracts Lawful -->
+<!-- When Is Termination Of Contracts Lawful -->
   <div class="Chapter">
-      <h3  class="text-center chapter-topic secondary-heading text-primary"><strong>When Is Termination Of Contracts Lawful</strong></h3>
+      <h1 class="text-center chapter-topic secondary-heading text-primary"><strong>When Is Termination Of Contracts Lawful</strong></h1>
       <p>There are ten ways in which a contract may be terminated:</p>
-      <ol style="a">
+      <ol id="contentlist" style="list-style-type:decimal">
         <li>Performance or payment</li>
         <li>Release</li>
         <li>Novation</li>
@@ -202,11 +195,12 @@
       </ol>
 
   <ol sytle="a">
-        <h4>
+        <h5 class="h5">
           <li>Performance or payment</li>
-          </h4>
+        </h5>
+          
         <p>
-          This is the most common way of ending contracts: each party 
+          Thi4 is the most common way of ending contracts: each party 
           simply does what he or she was meant to do. If the debt is a money debt, the creditor is entitled 
           to payment in legal tender, that is, bank notes and coins. Bank notes must be accepted for any amount; 
           silver coins up to R4,00; and bronze or copper coins up to 10cents. Payment by cheque (other than post-dated cheques) 
@@ -220,19 +214,19 @@
           (a form of enrichment action founded in Roman law).
         </p>
 
-        <h4>
+        <h5 class="h5">
           <li>Release </li>
-            </h4>
+        </h5> 
         <p>
-          This is known as waiver, or discharge by agreement. The parties may waive their rights and release each other from their respective 
+          This 4s known as waiver, or discharge by agreement. The parties may waive their rights and release each other from their respective 
           rights and obligations. In effect, this means that one or both parties abandon rights to the contract<sup>77</sup>.
         </p>
 
-        <h4>
+        <h5 class="h5">
           <li>Novation</li>
-          </h4>
+        </h5> 
         <p>
-          It is possible to substitute a new contract for the original one (novation). The settlement of a dispute, or an agreement to compromise, 
+          It 4s possible to substitute a new contract for the original one (novation). The settlement of a dispute, or an agreement to compromise, 
           both discharge the original obligation, and a new one may be substituted in its place<sup>78</sup>.
         </p>
         <p>
@@ -248,11 +242,12 @@
           </ul>
         </p>
 
-        <h4>
+        <h5 class="h5">
           <li>Merger<i>(confusio)</i>  </li>
-          </h4>
+        </h5>
+
         <p>
-          Merger occurs when the qualities of debtor and creditor coincide in the same person in respect of the same obligation, for example when a tenant 
+          Mer4er occurs when the qualities of debtor and creditor coincide in the same person in respect of the same obligation, for example when a tenant 
           purchase the same property that he or she has been renting<sup>80</sup>.
         </p>
 
@@ -267,9 +262,9 @@
         </div>
         <!-- /Case law -->
          <br>
-       <h4>
+       <h5 class="h5">
          <li>Impossibility of Performance</li>
-         </h4>
+         </h5>
         <p>
           A contract that is initially impossible to perform is void. Supervening impossibility of performance is voidable. The contract is discharged as  
           though it had been impossible from the very beginning<sup>82</sup>. All rights and duties between the parties fall away, and there is no breach or liability
@@ -320,9 +315,9 @@
         </div>
         <!-- /Case Law -->
 
-        <h4>
+        <h5 class="h5">
           <li> Set-off (Compensation)</li> 
-        </h4>
+        </h5>
         <p>
           If each party to a contract is indebted to the other party, the debts are balanced against each other. The lesser debt is discharged or both debts are discharged if they are equal90.
           In the case of <strong><i>Altech Data (Pty) Ltd v MB Technologies (Pty) Ltd)</i></strong><sup>91</sup>, for set off to operate, four (4) requirements must be met:
@@ -342,9 +337,9 @@
           The parties may agree to exclude any set-off operating<sup>92</sup>.
         </p>
 
-        <h4>
+        <h5 class="h5">
           <li>Prescription (Position in South Africa)</li>
-        </h4>
+        </h5 >
         <p>
           In terms of the South African Prescription Act <sup>93</sup>, it is possible to acquire rights, or be released from obligations, simply by the passing of time. In this way, prescription
           provides legal certainty<sup>94</sup>. The Institution of Legal Proceedings against certain Organs of State Act <sup>95</sup> relates to any cause of action where the state is liable for payment
@@ -480,7 +475,7 @@
         <br>
         <!-- Position in Eswatini -->
         <div>
-          <h5 id="positionInEswatini">Position in Eswatini</h5>
+          <h5 class="h5" id="positionInEswatini">Position in Eswatini</h5>
           <p>
             Unlike in the Republic of South Africa where there is law regulating prescription, we do not have such a statute in Eswatini. This submission was clearly unpacked 
             in the local case of Shell South African Energy (Pty) Ltd v Fannie Constantine Mthethwa <sup>102</sup> The plea of prescription raised by the Plaintiff is based upon 
@@ -509,9 +504,9 @@
         <!-- Position in Eswatini -->
          <br>
         <!--Insolvency and rehabilitation -->
-        <h4>
+        <h5 class="h5">
           <li>Insolvency and rehabilitation</li>
-        </h4>
+        </h5>
         <p>
           A person whose liabilities exceed his or her assets may be declared by the High Court to be insolvent. Certain contracts entered into by the
           insolvent prior to sequestration may be set aside by the court. The rehabilitation of the insolvent discharges all debts incurred prior to sequestration.
@@ -520,9 +515,9 @@
         <!--Insolvency and rehabilitation -->
 
         <!-- Death -->
-        <h4>
+        <h5 class="h5">
           <li>Death</li>
-        </h4>
+        </h5>
         <p>
           As a general rule, the executor of the estate of a deceased person is liable in his or her representative capacity for all contracts for which the deceased 
           would have been liable in his or her lifetime, to the extent of the assets in the deceased estate. Similarly, the executor may claim from others the fulfilment 
@@ -548,9 +543,9 @@
         <!-- Death -->
 
         <!-- Breach of contract -->
-        <h4>
+        <h5 class="h5">
           <li>Breach of contract</li> 
-        </h4>
+        </h5>
         <p>
           When the party refuses or fails to perform as he or she agreed to, the contract has been breached104. We refer to the person who is owed performance as the creditor, and the 
           person who must perform as the debtor. Normally a creditor will be the party suing the debtor for performance. Sometimes, however, the debtor might then respond by alleging 
@@ -572,29 +567,35 @@
 
   </div>
   <!-- /When Is Termination Of Contracts Lawful -->
+  <hr id="unitSummary">
+  <br>
 
   <!-- Unit summary -->
   <div class="Chapter">
-    <h1 id="unitSummary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i>Unit Summary</strong></h1>
+    <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i>Unit Summary</strong></h1>
       From the above discussion, it is clear that termination of a contract occurs in various forms. The determination factor in all the various forms is that no rights and obligations ensue from the parties upon the termination of the contract. 
       This is further evident in that once there is termination, neither of the parties is bound to the other and none of them can have a claim against the other once termination is established. Of further critical importance which the court 
       establishes in as far as termination is concerned is factoring on the intention of the parties taking into account the surrounding circumstances and everything which gives right or due to the intention to terminate a contract. We will now 
       proceed to discuss breach of contract in the next unit. Enjoy!
   </div>
   <!-- /Unit summary -->
+  <hr id="discussion">
+  <br>
 
   <!-- Discussion -->
   <div class="Chapter">
-    <h1 id="discussion"  class="text-center chapter-topic secondary-heading text-primary"><strong>Discussion</strong></h1>
+    <h1   class="text-center chapter-topic secondary-heading text-primary"><strong>Discussion</strong></h1>
     <p>
       Termination of a contract takes place in various forms, discuss with decided cases.Termination of a contract takes place in various forms, discuss with decided cases.
     </p>
   </div>
   <!-- Discussion -->
+  <hr id="activity1">
+  <br>
 
   <!-- Activity 1 -->
   <div class="Chapter">
-    <h1 id="activity1" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
+    <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
     <p>
       Sipho enters into a contract with Vusi for the sale of a Honda Fit motor vehicle. The agreement is that Vusi will pay a deposit of 
       E20,000.00 and the balance of E20,000.00 will be paid in instalments of E5,000.00. The contract is not reduced into writing. Vusi 
@@ -603,10 +604,12 @@
     </p>
   </div>
   <!-- /Activity 1 -->
+  <hr id="activity2">
+  <br>
 
   <!-- Activity 2 -->
   <div class="Chapter">
-    <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>
+    <h1  class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>
     <p>
       Company A hires Sihle on a limited duration contract. The contract is to run from January 
       2019 to December 2019. In August Sihle decides to buy shares from Company A. Will the purchase
@@ -625,56 +628,33 @@
 </template>
 
 <script>
-  import { 
-    mdbScrollSpy, 
-    mdbNavbar,
-    mdbNavItem,
-    mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
-    mdbNavbarBrand, 
-    mdbIcon
+  import { mdbScrollSpy,
+  mdbNavbar,
+  mdbBtn,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
   } from "mdbvue";
-  import { mapActions } from 'vuex';
-  export default {
-    components: {
-      mdbNavbar,
-      mdbNavItem,
-      mdbNavbarNav,
-      mdbNavbarToggler,
-      mdbDropdown, 
-      mdbDropdownItem, 
-      mdbDropdownMenu, 
-      mdbDropdownToggle, 
-      mdbNavbarBrand, 
-      mdbIcon
-    },directives: {
+  import { mapActions } from 'vuex'; 
+    export default {
+        components: {
+            mdbNavbar,
+            mdbBtn,
+            mdbDropdown, 
+            mdbDropdownItem, 
+            mdbDropdownMenu, 
+            mdbDropdownToggle, 
+
+      } , 
+    directives: {
       mdbScrollSpy
     } ,
     data() {
     return {};
   },
   methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-      scrollToTop() {
-        window.scrollTo(0,0);
-    },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
+
 
   };
 </script>
@@ -708,5 +688,16 @@ overflow-y:inherit;
 }
 .navbar {
   background: #1e88e5 ;
+}
+.pad{
+    padding-top: 70px;
+}
+
+
+
+#introduction, #teminationOf, #discussion,  #unitSummary, #activity1, #activity2 {
+
+
+ padding-top: 50px;
 }
 </style>

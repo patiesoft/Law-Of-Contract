@@ -21,6 +21,10 @@ export default new Router({
       component: Home 
     },
     {
+      path: '*',
+      redirect: '/'
+    },
+    {
       path: '/About',
       name: 'About',
       component: About 

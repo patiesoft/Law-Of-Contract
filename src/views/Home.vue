@@ -1,21 +1,18 @@
 <template>
   <div class="container-fluid">
-     <mdb-navbar
-    position="top "
-    transparent
-    color="mdb"
-    dark
-    scrolling
-    class="sticky-top"
-    >
-    <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-    <mdb-navbar-toggler>
-      <mdb-navbar-nav>
-        <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-      </mdb-navbar-nav>
-    </mdb-navbar-toggler>
-  </mdb-navbar>
+    <mdb-container fluid>
+      <mdb-navbar
+      position="top "
+      transparent
+      color="mdb"
+      dark
+      scrolling
+      class="sticky-top"
+      >
+      <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
+    </mdb-navbar>
       <img src="../assets/lending.png" alt="Loading" class="rounded mx-auto d-block img-fluid">
+    </mdb-container>
   </div>
 </template>
 
@@ -24,22 +21,16 @@
 
 import {
      mdbNavbar, 
-    mdbNavItem, 
-    mdbNavbarNav, 
-    mdbNavbarToggler, 
-    mdbNavbarBrand, 
-    mdbIcon
+     mdbBtn,
+     mdbContainer
 } from 'mdbvue'; 
 import{ mapActions} from 'vuex'; 
 export default {
   name: 'Home',
   components: { 
     mdbNavbar, 
-    mdbNavItem, 
-    mdbNavbarNav, 
-    mdbNavbarToggler, 
-    mdbNavbarBrand, 
-    mdbIcon
+    mdbBtn,
+    mdbContainer
   }, 
    data() {
     return {};

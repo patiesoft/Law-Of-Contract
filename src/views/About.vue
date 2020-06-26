@@ -9,12 +9,7 @@
       scrolling
       class="sticky-top"
       >
-      <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-      <mdb-navbar-toggler>
-        <mdb-navbar-nav>
-          <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-        </mdb-navbar-nav>
-      </mdb-navbar-toggler>
+      <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
     </mdb-navbar>
       <div class="text-justify p-4 mx-2">
         <hr class="new5"/>
@@ -103,11 +98,7 @@
 import {
     mdbContainer, 
     mdbNavbar, 
-    mdbNavbarNav, 
-    mdbNavbarToggler, 
-    mdbNavbarBrand, 
-    mdbNavItem, 
-    mdbIcon
+    mdbBtn
   
 } from "mdbvue";
 import { mapActions } from 'vuex';
@@ -116,11 +107,7 @@ export default {
   components: {
     mdbContainer, 
     mdbNavbar, 
-    mdbNavbarNav, 
-    mdbNavbarToggler, 
-    mdbNavbarBrand, 
-    mdbNavItem, 
-    mdbIcon
+    mdbBtn
   },
   data() {
     return {};

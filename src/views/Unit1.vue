@@ -11,7 +11,7 @@
         >
         <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
                 <mdb-dropdown tag="li" class="nav-item">
-                    <mdb-dropdown-toggle slot="toggle" color="primary" >Sections</mdb-dropdown-toggle>
+                    <mdb-dropdown-toggle slot="toggle" color="primary">Sections</mdb-dropdown-toggle>
                     <mdb-dropdown-menu color="red">
                         <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
                         <mdb-dropdown-item href="#facts">Facts</mdb-dropdown-item>
@@ -23,14 +23,8 @@
                         <mdb-dropdown-item href="#selfAssessment">Self-Assessment</mdb-dropdown-item>
                     </mdb-dropdown-menu>
                 </mdb-dropdown>
-        <mdb-navbar-toggler>
-            <mdb-navbar-nav>
-                <!--<mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-                <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item> -->
-            </mdb-navbar-nav>
-        </mdb-navbar-toggler>
-    </mdb-navbar>
-    <!--Navbar-->
+        </mdb-navbar>
+        <!--Navbar-->
        
     <!-- Header -->
     <div class="Head"> 
@@ -40,7 +34,7 @@
     <!--/Header -->        
 
     <!-- Body rom -->
-    <div class="row  text-left "> 
+    <div class="row  text-left m-1"> 
         <!--Body col-->
         <div class="col content text-justify scrollspy-example" data-target="#topics"   data-offset="0"> 
             <!--Chapter Introduction --> 
@@ -56,7 +50,8 @@
                         in agreements where electronic devices are sold, there is normally
                         an indication of a warranty period- in some cases, the warranty may even be sold separately as a commodity. 
                         A prudent lawyer ought to know the meaning and legal implications of conditions and warranties in contracts.
-                    </p>       
+                    </p>    
+                    <br>   
 
                     <!--Contents -->   
                     <h4 class="text-left"><strong>Contents</strong></h4>
@@ -69,6 +64,7 @@
                         </ol>
                     </p>
                     <!--/Contents -->
+                    <br>
 
                     <!--Outcomes -->
                     <div class="">
@@ -82,6 +78,7 @@
 
                     </div>
                     <!--/Outcomes -->
+                    <br>
 
                     <!--Terminology -->
                     <div class="text-left">
@@ -369,7 +366,7 @@
                                             In Gowan v Bowern Wessels JA stated that:
                                         </p>
                                         <p>
-                                            “The Court must hold that if a contract is made subject to a casual condition then if the person in whose interest it is that it should not be 
+                                            “The Court must hld that if a contract is made subject to a casual condition then if the person in whose interest it is that it should not be 
                                             fulfilled deliberately does some act by which he hinders the accomplishment of the condition, he is liable as if the condition had been fulfilled.
                                             But a party cannot be said to frustrate a condition unless he actively does something by which he hinders its performance. There must be an intention
                                             on his part to prevent his obligation coming into force”.
@@ -581,8 +578,6 @@
   import { mdbScrollSpy,
   mdbNavbar,
   mdbBtn,
-  mdbNavbarNav,
-  mdbNavbarToggler,
   mdbDropdown, 
   mdbDropdownItem, 
   mdbDropdownMenu, 
@@ -594,8 +589,6 @@
         components: {
             mdbNavbar,
             mdbBtn,
-            mdbNavbarNav,
-            mdbNavbarToggler,
             mdbDropdown, 
             mdbDropdownItem, 
             mdbDropdownMenu, 

@@ -10,13 +10,9 @@
         scrolling
         class="sticky-top"
         >
-        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-        <mdb-navbar-toggler>
-          <mdb-navbar-nav>
-            <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-            <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
+          <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn> 
             <mdb-dropdown tag="li" class="nav-item">
-              <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
+               <mdb-dropdown-toggle slot="toggle" color="primary" class="btn" >Sections</mdb-dropdown-toggle>
               <mdb-dropdown-menu color="red">
                 <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
                 <mdb-dropdown-item href="#classificalOfBreach">Classifical Of Breach</mdb-dropdown-item>
@@ -27,8 +23,6 @@
                 <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
               </mdb-dropdown-menu>
             </mdb-dropdown>
-          </mdb-navbar-nav>
-        </mdb-navbar-toggler>
       </mdb-navbar>
 
 
@@ -40,12 +34,14 @@
     <!-- Header -->
 
     <!--Row-->
-    <div class="row text-left" >
+    <div class="row text-left m-1" >
 
       <div class="col text-justify">
+        <hr id="introduction">
+        <br>
         <!--Introduction-->
           <div class="Chapter">
-             <h1 id="introduction" class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
+             <h1  class="text-center chapter-topic  secondary-heading text-primary"> <strong>Introduction</strong></h1> 
               <p class="text-left">
                 In the previous Unit, we discussed breach as means of 
                 terminating a contract. In this unit, we will unpack the 
@@ -110,12 +106,12 @@
             <!--New Concepts-->
           </div>
         <!--Introduction-->
-            <hr>
+            <hr id="classificalOfBreach">
             <br>
 
           <!--Chapter/Section-->
             <div class="Chapter">
-              <h1 id="classificalOfBreach" class="text-center chapter-topic secondary-heading text-primary"><strong>Classification Of Breach</strong></h1>
+              <h1  class="text-center chapter-topic secondary-heading text-primary"><strong>Classification Of Breach</strong></h1>
               <ol type="i">
                 <br>
                 <em><li>Ordinary Breach</li></em>
@@ -206,11 +202,11 @@
               </ol> 
             </div>
           <!--Chapter/Section end-->
-              <hr>
+              <hr id="formsOfBreach" >
               <br>
           <!--Chapter/Section-->
             <div class="Chapter">
-              <h1 id="formsOfBreach" class="text-center chapter-topic  secondary-heading text-primary"><strong>Forms Of Breach</strong></h1>
+              <h1 class="text-center chapter-topic  secondary-heading text-primary"><strong>Forms Of Breach</strong></h1>
               <ol type="i">
                 <p>
                   In modern law, the generic concept of breach has been fractured into a number of distinct types or forms of breach, creating the 
@@ -570,12 +566,12 @@
               </ol>
             </div>
           <!--Chapter/Section end-->
-            <hr>
+            <hr id="unitSummary" >
             <br>
           
           <!--Unit Summary-->
             <div class="Chapter">
-              <h1 id="unitSammary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
+              <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
               <p class="text-left">
                 In this unit, we have understood that failure to honour a contract 
                 amounts to vreach of contract. Although our law recognizes a general
@@ -587,13 +583,13 @@
 
             </div>
           <!--Unit Summary-->
-            <hr>
+            <hr id="discussion">
             <br> 
             
             <!--Discussion-->
               <div >
                
-                <h4 id="discussion" class="text-left"><i class="fas fa-comments"></i> Discussion</h4>
+                <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-comments"></i> Discussion</strong></h1>
                 <p class="text-left">
                   With the aid of decided cases, discuss the five(5) different forrms of
                   breach as covered in this unit. 
@@ -601,11 +597,12 @@
 
               </div>
             <!--Discussion-->
+            <hr id="activity1"> 
             <br> 
           
             <!--Activity 1-->
               <div class="Chapter">
-              <h1 id="activity1" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
+              <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
                 <p class="text-left">
                   Unpack the differences between <em>mora debitoris</em> and <em>mora creditoris,</em> 
                   highlighting the remedies applicable to each.
@@ -613,12 +610,12 @@
 
               </div>
             <!--Activity 1-->
-            <hr>
+            <hr id="activity2">
             <br> 
           
             <!--Activity 2-->
               <div class="Chapter">
-               <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
+               <h1  class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
                  <p class="text-left">
                   Nomcebo enters into a contract with Dlamini a qualified plumber for 
                   the maintenance of her sewer lines in her private property. The 
@@ -681,61 +678,41 @@
 </template>
 <!--Template-->
 <script>
-  import { 
-    mdbScrollSpy, 
-    mdbNavbar,
-    mdbNavItem,
-    mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
-    mdbNavbarBrand, 
-    mdbIcon
+  import { mdbScrollSpy,
+  mdbNavbar,
+  mdbBtn,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
   } from "mdbvue";
-  import { mapActions } from 'vuex';
-  export default {
-    components: {
-      mdbNavbar,
-      mdbNavItem,
-      mdbNavbarNav,
-      mdbNavbarToggler,
-      mdbDropdown, 
-      mdbDropdownItem, 
-      mdbDropdownMenu, 
-      mdbDropdownToggle, 
-      mdbNavbarBrand, 
-      mdbIcon
-    },directives: {
+  import { mapActions } from 'vuex'; 
+    export default {
+        components: {
+            mdbNavbar,
+            mdbBtn,
+            mdbDropdown, 
+            mdbDropdownItem, 
+            mdbDropdownMenu, 
+            mdbDropdownToggle, 
+
+      } , 
+    directives: {
       mdbScrollSpy
     } ,
     data() {
     return {};
   },
   methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-      scrollToTop() {
-        window.scrollTo(0,0);
-    },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
+
 
   };
 </script>
 
 <style>
+.row{
+    position: relative;
+}
 .scrollspy-example {
 height: 100%;
 overflow-y:inherit;
@@ -747,19 +724,31 @@ overflow-y:inherit;
 #contentlist{
     list-style-type:decimal;
 }
-#dotted_underline{
-  border-bottom: 1px dotted #000;
-  text-decoration: none;
+
+.sideNev{
+  list-style: armenian
+   
 
 }
 .bg{
-  background-color: #e1f5fe;
+    background-color: #e1f5fe;
 }
 .bg2{
   background-color: #bbdefb;  
 }
-.navbar{
-  color: blue; 
+.navbar {
+  background: #1e88e5 ;
+}
+.pad{
+    padding-top: 70px;
 }
 
+
+
+#introduction, #classificalOfBreach, #formsOfBreach, #discussion , #activity1, #activity2, #unitSummary {
+
+
+
+ padding-top: 50px;
+}
 </style>

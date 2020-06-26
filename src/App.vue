@@ -3,14 +3,17 @@
   <div id="app">
     <SideNav/>
     <router-view/>
+      <div class="container-fluid text-left">
+    <mdb-container fluid>
     <Footer/>
+    </mdb-container>
+      </div>
   </div>
 </template>
 
 <script>
-//import Footer from '@/components/Footer.vue'
-import Footer from '@/components/Footer2.vue'
-import SideNav from '@/components/SideNav2.vue'
+import Footer from '@/components/Footer.vue'
+import SideNav from '@/components/SideNav.vue'
 export default {
   components:{
     Footer, 

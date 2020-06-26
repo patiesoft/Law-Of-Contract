@@ -9,25 +9,19 @@
             scrolling
             class="sticky-top"
             >
-            <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-            <mdb-navbar-toggler>
-              <mdb-navbar-nav>
-                <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-                <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-                <mdb-dropdown tag="li" class="nav-item">
-                  <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
-                  <mdb-dropdown-menu color="red">
+      <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
+          <mdb-dropdown tag="li" class="nav-item">
+            <mdb-dropdown-toggle slot="toggle" color="primary" class="btn" >Sections</mdb-dropdown-toggle>
+            <mdb-dropdown-menu color="red">
                     <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
                     <mdb-dropdown-item href="#specific-perfomance">Specific Performance</mdb-dropdown-item>
                     <mdb-dropdown-item href="#reciprocityOfObligations">Reciprocity Of Obligations</mdb-dropdown-item>
-                    <mdb-dropdown-item href="#summary">Summary</mdb-dropdown-item>
+                    <mdb-dropdown-item href="#UnitSummary">Summary</mdb-dropdown-item>
                     <mdb-dropdown-item href="#discussion">Discussion</mdb-dropdown-item>
                     <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
                     <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
                   </mdb-dropdown-menu>
                 </mdb-dropdown>
-              </mdb-navbar-nav>
-            </mdb-navbar-toggler>
           </mdb-navbar>
     <!-- Unit header -->
       <div>      
@@ -37,14 +31,17 @@
 
     <!-- Unit header -->
     <div class="row text-left m-2">
-      <div class="col content text-justified">
+      <div class="col content text-justifiedscrollspy-example" data-target="#topics"   data-offset="0">
+        <hr id="introduction">
+        <br>
 
 
   <!-- Content --> 
 
         <!--Chapter Introduction -->
         <div class="Chapter">
-              <h1 id="introduction" class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
+              <h1  class="text-center secondary-heading text-primary"><strong>Introduction</strong></h1>
+              <br>
              
               <p>
                 As mentioned in LAW203, one of the essential requirements of valid contracts is that, the intended
@@ -54,12 +51,12 @@
                 right and as a remedy. We will also briefly discuss the legal effect of ‘incomplete performance’ and
                 ‘defective performance’ in comparison with complete performance. 
               </p>
-             
+            <br> 
               <!--Contents-->
 
               <h4 class="text-left"><strong>Contents</strong></h4>
-              <p class="text-left">
-                 In this Unit, we will cover the following aspects:
+              <h6 class="h6"><strong>In this Unit, we will cover the following aspects:</strong></h6> 
+              <p class="text-left"> 
                 <ol id="contentlist" style="list-style-type:decimal;">
                   <li>Specific Perfomance</li>
                   <li>Reciprocity of Obligations</li>
@@ -69,7 +66,7 @@
               </p>
               <!--/Contents-->
         
-
+<br>
               <!-- Outcomes -->        
                 <div class="">
                   <h4 ><i class="fas fa-graduation-cap">Outcomes</i></h4>
@@ -85,7 +82,7 @@
                   </ul>
                 </div>
               <!-- /Outcomes -->
-
+<br>
               <!--Time-->
                 <div class="text-left"> 
                   <h4 class="h4"><i class="far fa-clock"></i>Time</h4>
@@ -93,7 +90,7 @@
                 </div>
               <!-- /Time -->
               <br>
-
+<br>
               <!-- Study Skills -->
                 <div class="text-letf">
                   <h4 class="h4"><mdb-icon icon="book-open"/>Study Skils</h4>
@@ -159,28 +156,19 @@
                       Courts do not issue the order for specific performance willy nilly, there are ceratin guidelines that need to be followed. We will now proceed to discuss the scope for specific performance as well as discretion exercised by the courts when dealing with specific performance. It is also worth mention that before the court issues any order, there are certain requirements that must be met, similarly with the order for specific performance. These requirements will also be covered in this section. 
                     </p>   
                   
-                      <hr align="left" width="50%" color="black"> 
-                      <p>
-                        <sup>44</sup>This is a Latin term which connotes the principle that “contracts must be kept”. In its common sense, the principle refers private contracts, stressing that contained clauses are law between the parties and implies that nonfulfillment of respective obligations is a breach of the pact. 
-                        <br>
-                        <sup>45</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 333
-                        <br>
-                        <sup>46</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 333
-                        <br>
-                        <sup>47</sup>1990 (1) SA 575 (T)
-                      </p>
+
          
  
 
-            
+           <br>
               <!-- /Reading -->
           <!--Scope For Specific Perfomance-->
             <div>
 
           
-                    <h4 class="h4">
+                    <h5 class="h5">
                       Scope for Specific Perfomance
-                    </h4>
+                    </h5>
 
                     <p>
                       As alluded to above, every court order issued must be within certain parameters, according to Hutchison<sup>48</sup>  a claim for specific performance may take any one of (but is not limited to)  the following three forms:
@@ -195,20 +183,17 @@
                       Starting with the first one, a claim for payment due under the contract is in reality a claim for specific performance, With regard to the enforcement of a negative contractual obligation, it takes the form of an interdict and it is most frequently encountered in cases involving the enforcement agreements on restraint of trade. With regard to the  the performance of a positive act, a simple example could  be the delivery of goods in a sale agreement.
                     </p>
 
-                    <hr align="left" width="50%" color="black"> 
-                    <p>
-                      <sup>48</sup>Dale Hutchison “ The Law of Contract in South Africa”, 3rd Ed, Oxford, p. 334
-                    </p>
+>
             </div>
           <!--/Scope For Specific Perfomance-->
                
-
+<br>
           <!-- Discretion of the Courts in Specific Performance-->
               <div>
                     
-                  <h4 class="h4">
+                  <h5 class="h5">
                   Discretion of the Courts in Specific Performance
-                  </h4>
+                  </h5>
                     <p>
                       Note that in Roman-Dutch law, the right to specific performance was almost absolute. Due to the influence of English law, however, our courts later came to accept that the remedy of specific performance is a discretionary one
                       which can be refused on the grounds of equity or public policy - see in this regard the case of<i> Heynes v Kingwilliamsontown Municipality</i><sup>49</sup> .
@@ -265,25 +250,15 @@
                         </p>
                           <!--/ Discretion of the Courts in Specific Performance-->
 
-                    <hr align="left" width="50%" color="black"> 
 
-                      <p>
-                        <sup>49</sup>Haynes v King Williamstown Municipality 1951 (2) SA 575 (T)
-                        <sup>50</sup>1926 AD 99
-                        <sup>51</sup>1986 (1) SA 776 (A)
-                        <sup>52</sup>Civil Appeal Case No. 58/09
-                        <sup>53</sup>1951(2) SA 31 (AD) 371 at 378H. 
-                        <sup>54</sup>1986(1) SA 776 (AD) at 783 C-D,
-                        <sup>55</sup>51/10) [2011] SZSC 16 (31 May 2011)
-                        <sup>56</sup>AJ Kerr, “The Principles of The Law of Contract” 6th Ed, Lexis Nexis, Butterworths, p. 682
-                      </p>
+
               
         
       <!--Requirements For Specific Perfomance-->
-           
-            <h4 class="h4">
+<br>           
+            <h5 class="h5">
                     Requirements for Specific Perfomance
-            </h4>
+            </h5>
             <p>
               In order for a party to be sucessful in a claim for specific performance, two basic requirements as stated in <strong><i>Farmers’ Co-operative Society v Berry <sup>57</sup></i></strong>, must be met:
               </p>
@@ -294,17 +269,12 @@
             <p>
                 A third requirement to be added to the above which was not stated in the case is that the order for specific performance must not be against public policy. This additional requirement was introduced in <strong><i>Benson v SA Mutual Life Assurance Society <sup>58</sup></i></strong>where the court stated that <i>“the remedy of specific performance should always be granted or withheld in accordance with legal and public policy.”</i>
               </p>
-            <hr align="left" width="50%" color="black"> 
-              <p>
-                <sup>57</sup>1912 AD 343 at 350-1
-                
-                <sup>58</sup>1986 (1) SA 776 at 783 D-E
-                
-              </p>
+
             </div>
             </div>
         <!--/Requirements For Specific Perfomance-->
-
+        <hr id=reciprocityOfObligations>
+        <br>
        <!-- Execution of Orders for Specific Performance -->
    <div class="Chapter">
             <h1 class="text-center chapter-topic secondary-heading text-primary"><strong>Reciprocity Of Obligations </strong></h1>
@@ -330,20 +300,13 @@
             </i>
           </p>
           </div>
-            <hr align="left" width="50%" color="black"> 
-              <p>
-                <sup>60</sup> ((1331/04)) [2004] SZHC 83 (21 June 2004)
-                <br>
-                <sup>61</sup>In his work entitled "The Law of Contract", 3rd Edition, Butterworths, 1996, at page 467
-                <br>
-                <sup>62</sup>1973 (2) SA 805 (CPD) © at 808 - 9
-                <br>
-              </p>
+      <hr id="IncompleteOrDefectivePerformance">
+      <br>
       
         <!--Incomplete Or Defective Perfomance-->
 
       <div  align="left">
-        <h1 id="incomplete or defective performance"  class="secondary-heading text-primary " align="center">Incomplete Or Defective Performance </h1>
+        <h1  class="secondary-heading text-primary " align="center">Incomplete Or Defective Performance </h1>
           <p>
             According to Kerr, the term “incomplete performance” is used to refer to performance which, whether it is unfinished or defective, is not in all respects as required by the contract.  A defendant can rely on the <i>exceptio non adimpleti contractus <sup>63</sup></i> not only where the other party has failed to perform at all (<i>mora debitoris<sup>64</sup></i> ), but also in cases where the other party has failed to perform properly, or in full. The defective or incomplete performance need not be so serious as to justify cancellation of the contract; the innocent party is permitted to withhold his or her performance and raise the exception even where the defect or shortfall in the performance is relatively minor;
             provided that it is not so trivial as to fall within the principle of de <i>minimis lex non curat<sup>65</sup></i> .
@@ -367,15 +330,15 @@
       <br>
 
       <!--3.	Incomplete Or Defective Performance -->
-         <h4 class="h4">1. Where Neither Party is at Faulty
-         </h4>
+         <h5 class="h5">1. Where Neither Party is at Faulty
+         </h5>
             <p>
               The legal position concerning circumstances where <i>vis majorie</i> rather than the fault of either party was dealt with in LAW203. 
             </p>
 
         <!--(ii)	Performance Incomplete owing to the Fault of the Party -->
-            <h4 class="h4">2. Performance Incomplete owing to the Fault of the Party to Whom Performance is Due (prevention of performance)
-            </h4>
+            <h5 class="h5">2. Performance Incomplete owing to the Fault of the Party to Whom Performance is Due (prevention of performance)
+            </h5>
             <p>
                 It may happen that the party to whom performance is due (for example an owner for whom a house is being built) prevents 
                 the other party from completing the performance (for example the owner refuses the building contractor access to the
@@ -388,8 +351,8 @@
 
         <!--(iii)	Performance Incomplete Owing to the Fault of the Party Obliged to Perform-->
               
-           <h4 class="h4">3. Performance Incomplete Owing to the Fault of the Party Obliged to Perform 
-            </h4>
+           <h5 class="h5">3. Performance Incomplete Owing to the Fault of the Party Obliged to Perform 
+            </h5>
               <p>
                 If a party to a contract owing to his fault, no longer has it in his power to perform
                 his obligation in full but is in a position to give incomplete performance, the other
@@ -399,20 +362,13 @@
                 See the case of <strong><i>Wireohms SA (Pty) Ltd v Greenblatt and another<sup>67</sup></i></strong>  
               </p>
 
-              <hr align="left" width="50%" color="black"> 
-                <p>
-                  <sup>66</sup>Uncontrollable accident by act of God. 
-                  <br>
-                  <sup>67</sup>1959 3 SA 909 (C) 
-                  <br>
-                  
-                </p>
          
             <!--(iii)	Performance Incomplete Owing to the Fault of the Party Obliged to Perform-->
-          
+   <hr>
+   <br>       
       <!--(iv)	Complete Performance Desired -->
-      <h4 class="h4">4. Complete Performance Desired  
-      </h4>
+      <h5 class="h5">4. Complete Performance Desired  
+      </h5>
             <p>
               If a party to whom performance is due is not himself at fault, and desires nothing less 
               that complete performance may do the following: 
@@ -423,52 +379,43 @@
               <li>He may accept the incomplete performance and claim damages in respect of the unfulfilled part of the obligation, see the case of <strong><i>Ariefdien v Soeker<sup>70</sup></i></strong> .</li>
               <li>He may claim cancellation and damages in the place of performance, see the case of <strong><i>SA Wood Turning Mills (Pty) Ltd v Price Brothers (Pty) Ltd<sup>71</sup></i></strong> . It must be remembered that cancellation can only be done if the breach of the contract is a major one. If the breach is minor, both parties remain bound by the contract. </li> 
             </ol>
-              <hr align="left" width="50%" color="black"> 
-              <p>
-                <sup>68</sup> 1907 EDC 57
-                <br>
-                <sup>69</sup>1914 AD 312 at 317 
-                <br>
-                <sup>70</sup> 1982 2 SA 570 ( C) 
-                <br>
-                <sup>71</sup>1962 4 SA 263 (T)  
-              </p>
             </div>
       <!--(iv)	Complete Performance Desired -->
+            <hr id="UnitSummary"> 
             <br>
       <!--Unit Summary-->
         <div > 
-          <h1 id="unitSammary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
+          <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
           <div >
-          <p>     
-            Summary	This brings us to the end of a very interesting and important unit under the law of contract. 
-            In this unit, we discussed the various types of performance and remedies available to same. We further 
-            looked into a very fundamental and common remedy of specific performance and the requirements to be 
-            fulfilled before a court of law can issue an order for specific performance. One critical aspect we 
-            interrogated in this discussion is the fact that courts do not have absolute powers in granting the 
-            relief of specific performance. In the next unit, we will discuss the various forms of terminating a contract. 
-            Enjoy!
-      </p>
+            <p>     
+              Summary	This brings us to the end of a very interesting and important unit under the law of contract. 
+              In this unit, we discussed the various types of performance and remedies available to same. We further 
+              looked into a very fundamental and common remedy of specific performance and the requirements to be 
+              fulfilled before a court of law can issue an order for specific performance. One critical aspect we 
+              interrogated in this discussion is the fact that courts do not have absolute powers in granting the 
+              relief of specific performance. In the next unit, we will discuss the various forms of terminating a contract. 
+              Enjoy!
+            </p>
           </div>
         </div>
-  
+        <hr id="discussion"> 
           <br>
 
         <!--Discussion-->
           <div class="Chapter">
-            <h1 id="discussion"  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Discussion</strong></h1>
+            <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Discussion</strong></h1>
           <p>
             Discuss the important principle illustrated in the case of Heynes v King Williamstown
             Municipality 1951(2) SA 31 (AD) 371 at 378H.  
           </p>
           </div>
         <!--Discussion-->
-          <hr>
+          <hr id="activity1" >
           <br>
 
         <!--Activity 1-->
           <div class="Chapter">
-            <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 1</strong></h1>     
+            <h1 class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 1</strong></h1>     
             <p>
             A runs a brothel in Manzini at Ngwane Park, Sipho goes to the brothel to seek personal pleasure services.
               Sipho pays A on arrival for the 2 nights. Sipho is given a room and a beautiful young lady called Patricia
@@ -478,11 +425,11 @@
             </p>
           </div>
         <!--/Activity 1-->
-
+<hr id="activity2"> 
             <br>
         <!-- Activity 2  -->
           <div >
-             <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
+             <h1 class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
               <p> 
               Activity	Briefly unpack and discuss the various forms of performance covered in this Unit. 
             </p>
@@ -504,60 +451,40 @@
 </template>
 
 <script>
-  import { 
-    mdbScrollSpy, 
-    mdbNavbar,
-    mdbNavItem,
-    mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
-    mdbNavbarBrand, 
-    mdbIcon
+  import { mdbScrollSpy,
+  mdbNavbar,
+  mdbBtn,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
+  mdbIcon
   } from "mdbvue";
-  import { mapActions } from 'vuex';
-  export default {
-    components: {
-      mdbNavbar,
-      mdbNavItem,
-      mdbNavbarNav,
-      mdbNavbarToggler,
-      mdbDropdown, 
-      mdbDropdownItem, 
-      mdbDropdownMenu, 
-      mdbDropdownToggle, 
-      mdbNavbarBrand, 
-      mdbIcon
-    },directives: {
+  import { mapActions } from 'vuex'; 
+    export default {
+        components: {
+            mdbNavbar,
+            mdbBtn,
+            mdbDropdown, 
+            mdbDropdownItem, 
+            mdbDropdownMenu, 
+            mdbDropdownToggle, 
+            mdbIcon
+
+      } , 
+    directives: {
       mdbScrollSpy
     } ,
     data() {
     return {};
   },
   methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
-  },
-      scrollToTop() {
-        window.scrollTo(0,0);
-    },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  } 
+
+
   };
 </script>
 
-<style >
+<style>
 .row{
     position: relative;
 }
@@ -587,5 +514,15 @@ overflow-y:inherit;
 .navbar {
   background: #1e88e5 ;
 }
+.pad{
+    padding-top: 70px;
+}
 
+
+
+#introduction, #specific-perfomance, #reciprocityOfObligations, #UnitSummary, #discussion, #activity1, #activity2 {
+
+
+ padding-top: 50px;
+}
 </style>

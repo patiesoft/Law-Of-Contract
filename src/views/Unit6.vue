@@ -12,14 +12,10 @@
         scrolling
         class="sticky-top"
         >
-        <mdb-navbar-brand @click.native="toggleSideNav" class="button-collapse"><mdb-icon icon="bars"/></mdb-navbar-brand>
-        <mdb-navbar-toggler>
-          <mdb-navbar-nav>
-            <mdb-nav-item href="#/" waves-fixed active>Home</mdb-nav-item>
-            <mdb-nav-item href="#/About" waves-fixed active>Overview</mdb-nav-item>
-            <mdb-dropdown tag="li" class="nav-item">
-              <mdb-dropdown-toggle slot="toggle"  waves-fixe  tag="li" outline="none" class="btn-red">Sections</mdb-dropdown-toggle>
-              <mdb-dropdown-menu color="red">
+      <mdb-btn color="primary" @click.native="toggleSideNav">UNITS</mdb-btn>
+          <mdb-dropdown tag="li" class="nav-item">
+            <mdb-dropdown-toggle slot="toggle" color="primary" class="btn" >Sections</mdb-dropdown-toggle>
+            <mdb-dropdown-menu color="red">
                 <mdb-dropdown-item href="#introduction">Introduction</mdb-dropdown-item>
                 <mdb-dropdown-item href="#specificPerfomance">Specific Perfomance</mdb-dropdown-item>
                 <mdb-dropdown-item href="#prohibitoryInterdict">Prohibitory Interdict</mdb-dropdown-item>
@@ -30,11 +26,8 @@
                 <mdb-dropdown-item href="#discussion">Discussion</mdb-dropdown-item>
                 <mdb-dropdown-item href="#activity1">Activity 1</mdb-dropdown-item>
                 <mdb-dropdown-item href="#activity2">Activity 2</mdb-dropdown-item>
-                <mdb-dropdown-item href="#selfAssessment">Self-Assessment</mdb-dropdown-item>
               </mdb-dropdown-menu>
             </mdb-dropdown>
-          </mdb-navbar-nav>
-        </mdb-navbar-toggler>
       </mdb-navbar>
     <!--Nevigation  -->
     
@@ -48,19 +41,21 @@
 
   
     <!--Row-->
-    <div class="row text-left" > 
+    <div class="row text-left m-1" > 
 
       <div class="col text-justify">
-         
+        <hr id="introduction">
+        <br> 
           <!--Introduction-->
             <div class="Chapter">
-              <h1 id="introduction" class="text-center chapter-topic secondary-heading text-primary"><strong> Introduction</strong></h1>
+              <h1  class="text-center chapter-topic secondary-heading text-primary"><strong> Introduction</strong></h1>
               <p class="text-left">
                 As a legal practitioner, you may find yourself seized of a matter in which your client has failed to honour his/her contractual 
                 obligation(s), or where your client wishes to enforce a contractual right, or where one or both parties is/are in breach of the 
                 agreement. You may therefore have to determine the proper course of action or legal advice to offer your client so as to secure 
                 them some legal remedies or just redress. 
               </p>
+              <div>
               
               <p class="text-left">
                 There are basically five (5) remedies available to an aggrieved party for breach of contract, and these are the following: 
@@ -126,13 +121,13 @@
               </ul>
             </div>
           <!--Case law--> 
-
+          <hr id="specificPerfomance">
           <br> 
 
           <!--Chapter Specific Perfomance-->
             <div class="Chapter">
               <ol type="1"> 
-                <h1 id="specificPerfomance" class="text-center chapter-topic  secondary-heading text-primary"><strong> Specific Perfomance</strong></h1>
+                <h1  class="text-center chapter-topic  secondary-heading text-primary"><strong> Specific Perfomance</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   In Roman Dutch Law an order for specific performance is the primary remedy for breach of contract. The classic statement of this rule was 
@@ -254,13 +249,13 @@
               </ol>
             </div>
           <!--Chapter Specific Perfomance-->
-          <hr>
+          <hr id="prohibitoryInterdict">
           <br>
           
           <!--Chapter/Section-->
             <div class="Chapter">
               <ol type="1"> 
-                <h1 id="prohibitoryInterdict" class="text-center chapter-topic secondary-heading text-primary"><strong> A Prohibitory Interdict</strong></h1>
+                <h1  class="text-center chapter-topic secondary-heading text-primary"><strong> A Prohibitory Interdict</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   An interdict is the appropriate remedy to prevent a breach or threatened breach of contract. It is an order of court prohibiting the defendant 
@@ -358,13 +353,13 @@
             </div>
           <!--Chapter/Section end-->
 
-          <hr>
+          <hr id="declarationOfRights">
           <br>
          
           <!--Chapter/Section-->
             <div class="Chapter">
               <ol type="1"> 
-                <h1 id="declarationOfRights" class="text-center chapter-topic secondary-heading text-primary"><strong>A Declaration Of Rights</strong></h1>
+                <h1  class="text-center chapter-topic secondary-heading text-primary"><strong>A Declaration Of Rights</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   It is worth mention that a declaratory order normally does not form part of the discourse on remedies for breach of contract. 
@@ -416,12 +411,12 @@
               </ol>
             </div>
           <!--Chapter/Section end-->
-          <hr>
+          <hr id="cancellation">
           <br>
           <!--Chapter Cancellation-->
             <div class="Chapter">
               <ol type="1"> 
-                <h1 id="cancellation" class="text-center chapter-topic secondary-heading text-primary"><strong>Cancellation</strong></h1>
+                <h1  class="text-center chapter-topic secondary-heading text-primary"><strong>Cancellation</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   The general purpose of the law of contract is to achieve fulfilment of the contract. If such fulfilment is not achieved, the remedy of cancellation is aimed at the 
@@ -774,13 +769,13 @@
               </ol>
             </div>
           <!--Chapter Cancellation end-->
-          <hr>
+          <hr id="damages">
           <br>
           <!--Chapter Damages-->
             <div class="Chapter">
               
               <ol type="1"> 
-                <h1 id="damages" class="text-center chapter-topic  secondary-heading text-primary"><strong>Damages</strong></h1>
+                <h1  class="text-center chapter-topic  secondary-heading text-primary"><strong>Damages</strong></h1>
                 <!--Paragraph 1 -->
                 <p>
                   Damages may be rewarded to an aggrieved party who shows that he has suffered loss; that the breach of contract is the significant factor 
@@ -1064,12 +1059,12 @@
               </ol>
             </div>
           <!--Chapter Damages end-->
-          <hr>
+          <hr id="unitSammary">
           <br>
          
           <!--Unit Summary-->
             <div class="Chapter">
-                <h1 id="unitSammary" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
+                <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-book-reader"></i> Summary</strong></h1>
               <p class="text-left">
                 In summary, it is evident that there are five (5) remedies available for breach or threatened breach of contract. These are generally, specific performance, interdict, declaration of rights, 
                 cancellation and damages. The first three (3) may be regarded as methods of enforcements and the last two methods of claiming compensation for non- performance. As was demonstrated in our discussion 
@@ -1080,25 +1075,24 @@
 
             </div>
           <!--Unit Summary-->
-          <hr>
+          <hr id="discussion">
           <br> 
         
           <!--Discussion-->
-            <div>
-              <i class="fas fa-comments"></i>
-              <h5 id="discussion" class="text-left">Discussion</h5>
+            <div class="Chapter">
+                <h1  class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-comments"></i>Discussion</strong></h1>
               <p class="text-left">
                 With reference to case law discuss the five (5) remedies covered in this unit for breach or threated breach.  
               </p>
 
             </div>
           <!--Discussion-->
-          <hr>
+          <hr id="activity1" >
           <br> 
          
           <!--Activity 1-->
             <div class="Chapter">
-              <h1 id="activity1" class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
+              <h1 class="text-center chapter-topic secondary-heading text-primary"><strong><i class="fas fa-tools"></i>Activity 1</strong></h1>
               <p class="text-left">
                 A enters into a contract with B for the installation an alarm system at B’s private property. B pays a deposit of E3,000.00 with a balance of E2,000.00. Upon payment of the deposit, A disappears. 
                 B looks for A and locates his whereabouts after 2 weeks. A is given another opportunity to install the system but he says he has other ongoing projects which are a priority. B comes to you for advice
@@ -1106,12 +1100,12 @@
 
             </div>
           <!--Activity 1-->
-          <hr>
+          <hr id="activity2">
           <br> 
           
           <!--Activity 2-->
             <div class="Chapter">
-               <h1 id="activity2" class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
+               <h1  class="text-center chapter-topic  secondary-heading text-primary"><strong><i class="fas fa-tools"></i> Activity 2</strong></h1>     
               <p class="text-left">
                 Discuss the legal principles of cancellation as a remedy for breach of contract, referring to case law. 
               </p> 
@@ -1160,7 +1154,7 @@
               <li> <a id="177r" href="#177">177</a>1939 AD 372-388</li>
             </div>
 
-          <!--Refferences  -->
+            </div>  <!--Refferences  -->
 
 
       </div>
@@ -1170,67 +1164,81 @@
     <!--Row-->
 
   </div> 
-<!--Container-->
+  <!--Container-->
 
 </template>
 <!--Template-->
 <script>
-  import { 
-    mdbScrollSpy, 
-    mdbNavbar,
-    mdbNavItem,
-    mdbNavbarNav,
-    mdbNavbarToggler,
-    mdbDropdown, 
-    mdbDropdownItem, 
-    mdbDropdownMenu, 
-    mdbDropdownToggle, 
-    mdbNavbarBrand, 
-    mdbIcon
+  import { mdbScrollSpy,
+  mdbNavbar,
+  mdbBtn,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
   } from "mdbvue";
-  import { mapActions } from 'vuex';
-  export default {
-    components: {
-      mdbNavbar,
-      mdbNavItem,
-      mdbNavbarNav,
-      mdbNavbarToggler,
-      mdbDropdown, 
-      mdbDropdownItem, 
-      mdbDropdownMenu, 
-      mdbDropdownToggle, 
-      mdbNavbarBrand, 
-      mdbIcon
-    },directives: {
+  import { mapActions } from 'vuex'; 
+    export default {
+        components: {
+            mdbNavbar,
+            mdbBtn,
+            mdbDropdown, 
+            mdbDropdownItem, 
+            mdbDropdownMenu, 
+            mdbDropdownToggle, 
+
+      } , 
+    directives: {
       mdbScrollSpy
     } ,
     data() {
     return {};
   },
   methods: mapActions(['toggleSideNav']),
-  computed: {
-    computedPage () {
-      return {
-        activePage: this.page,
-        toggle: false
-      }
-    }
+
+
+  };
+</script>
+
+<script>
+  import { mdbScrollSpy,
+  mdbNavbar,
+  mdbBtn,
+  mdbDropdown, 
+  mdbDropdownItem, 
+  mdbDropdownMenu, 
+  mdbDropdownToggle, 
+  mdbIcon
+  } from "mdbvue";
+  import { mapActions } from 'vuex'; 
+    export default {
+        components: {
+            mdbNavbar,
+            mdbBtn,
+            mdbDropdown, 
+            mdbDropdownItem, 
+            mdbDropdownMenu, 
+            mdbDropdownToggle, 
+            mdbIcon
+
+      } , 
+    directives: {
+      mdbScrollSpy
+    } ,
+    data() {
+    return {};
   },
-      scrollToTop() {
-        window.scrollTo(0,0);
-    },
-    mounted () {
-    this.activePage = this.$route.name
-  },
-  updated () {
-    this.activePage = this.$route.name
-  }
+  methods: mapActions(['toggleSideNav']),
+
 
   };
 </script>
 
 <style>
- .scrollspy-example {
+.row{
+    position: relative;
+}
+.scrollspy-example {
 height: 100%;
 overflow-y:inherit;
 }
@@ -1241,16 +1249,25 @@ overflow-y:inherit;
 #contentlist{
     list-style-type:decimal;
 }
-#dotted_underline{
-  border-bottom: 1px dotted #000;
-  text-decoration: none;
+
+.sideNev{
+  list-style: armenian
+   
 
 }
 .bg{
-  background-color: #e1f5fe;
+    background-color: #e1f5fe;
 }
 .bg2{
   background-color: #bbdefb;  
 }
-
+.navbar {
+  background: #1e88e5 ;
+}
+.pad{
+    padding-top: 70px;
+}
+#introduction, #specificPerfomance, #prohibitoryInterdict, #declarationOfRights,#cancellation, #damages, #discussion, #unitSammary, #activity1, #activity2{
+ padding-top: 50px;
+}
 </style>
